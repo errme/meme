@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .wrap {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        margin: 0 auto;
+      }
+      #submit {
+        display: block;
+        margin: 0 auto;
+      }
+      .pink {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        background-color: blue;
+      }
+    </style>
+    <script>
+      window.onload = function() {
+        var submit = document.getElementById("submit");
+        var mouse = document.getElementsByClassName("wrap")[0];
+        //   submit.onclick = function() {
+        //     document.getElementsByClassName("wrap")[0].className = "pink";
+        //   };
+        submit.onmouseover = function() {
+          // document.getElementsByClassName("wrap")[0].className = "pink";
+          mouse.className = "pink";
+        };
+        submit.onmouseout = function() {
+          // document.getElementsByClassName("wrap")[0].className = "wrap";
+          mouse.className = "wrap";
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <div class="wrap"></div>
+    <button id="submit">确认</button>
+    <!-- <script>
+      var submit = document.getElementById("submit");
+      var mouse = document.getElementsByClassName("wrap")[0];
+      //   submit.onclick = function() {
+      //     document.getElementsByClassName("wrap")[0].className = "pink";
+      //   };
+      submit.onmouseover = function() {
+        // document.getElementsByClassName("wrap")[0].className = "pink";
+        mouse.className = "pink";
+      };
+      submit.onmouseout = function() {
+        // document.getElementsByClassName("wrap")[0].className = "wrap";
+        mouse.className = "wrap";
+      };
+    </script> -->
+  </body>
+</html>

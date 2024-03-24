@@ -1,0 +1,39 @@
+#div0 {
+	width: 720px;
+	height: 620px;
+	border: 1px solid #0099FF;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 38px;
+	color: red;
+}
+
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6 {
+	margin: 12px;
+	border: 1px groove #9999CC;
+	color: #9999CC;
+	display: inline-block;
+	width: 186px;
+	height: 204px;
+}
+
+div a img {
+	border: 10px;
+	border-style: groove;
+	color: #9999CC;
+}
+
+div a:hover img {
+	border: 10px;
+	border-style: dashed;
+	color: #9999CC;
+}

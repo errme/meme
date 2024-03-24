@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#adv {
+    margin: 90px auto;
+    width: 1000px;
+    position: relative;
+}
+
+#adv li {
+    /* display: none; */
+    /* opacity: 0; */
+    display: none;
+}
+
+/* #adv .show {
+    display: block;
+} */
+
+#prev,
+#next {
+    position: absolute;
+    top: 49%;
+    cursor: pointer;
+    transform: all .5s;
+    opacity: .7;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+
+#prev:hover,
+#next:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}

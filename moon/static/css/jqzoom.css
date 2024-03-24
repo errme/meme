@@ -1,0 +1,69 @@
+.jqzoom{
+float:left;
+width:428px;
+text-align:center;
+position:relative;
+padding:0px;
+cursor:crosshair;
+}
+
+.jqzoom{
+float:left;
+}
+
+
+div.zoomdiv {
+z-index: 100;
+position: absolute;
+top:0px;
+left:0px;
+width: 200px;
+height: 200px;
+background: #ffffff;
+border:1px solid #CCCCCC;
+display:none;
+text-align: center;
+overflow: hidden;
+
+
+}
+
+div.jqZoomPup {
+z-index: 10;
+visibility: hidden;
+position: absolute;
+top:0px;
+left:0px;
+/*width                   : 50px;
+
+height                  : 50px;
+*/
+border: 1px solid #aaa;
+background: #ffffff url(https://web.archive.org/web/20170606224155im_/http://www.58yiji.com/resources/images/zoomlens.gif) 50% top  no-repeat;
+opacity: 0.3;
+-moz-opacity: 0.3;
+-khtml-opacity: 0.3;
+filter: alpha(Opacity=30);
+}
+
+/*
+     FILE ARCHIVED ON 22:41:55 Jun 06, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:15:35 Feb 18, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 199.49
+  exclusion.robots: 0.332
+  exclusion.robots.policy: 0.317
+  RedisCDXSource: 2.82
+  esindex: 0.035
+  LoadShardBlock: 172.579 (3)
+  PetaboxLoader3.resolve: 132.566 (3)
+  PetaboxLoader3.datanode: 592.294 (4)
+  CDXLines.iter: 20.63 (3)
+  load_resource: 602.875
+*/

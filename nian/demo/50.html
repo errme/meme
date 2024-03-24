@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="50.css">
+    <script>
+        window.onload = function () {
+            var next = document.getElementById("next");
+            var lilist = document.getElementById("adv").getElementsByTagName("li");
+            var n = 0;
+
+            //初始化
+            for (var i = 0; i < lilist.length; i++) {
+                lilist[i].style.opacity = 0;
+            }
+            lilist[0].style.opacity = 1;
+
+            function img(n) {
+                lilist[n].style.display = "block";
+                var t = setInterval(function () {
+                    var o = Number(lilist[n].style.opacity); //获取行内样式
+                    lilist[n].style.opacity = o + 0.01;
+                    if (o >= 1) {
+                        lilist[n].style.opacity = 1;
+                        clearInterval(t);
+                    }
+                }, 40)
+            }
+
+            next.onclick = function () {
+                for (var i = 0; i < lilist.length; i++) {
+                    // lilist[i].className = ""; //隐藏图片
+                    lilist[n].style.display = "none";
+                    lilist[n].style.opacity = 0;
+                }
+                if (n == lilist.length - 1) {
+                    n = 0;
+                }
+                else {
+                    n++
+                }
+                // lilist[n].className = "show";
+                // lilist[n].style.display = "block";
+                // lilist[n].style.opacity = 1;
+                // var t = setInterval(function () {
+                //     var o = Number(lilist[n].style.opacity); //获取行内样式
+                //     // o += 0.01;
+                //     lilist[n].style.opacity = o + 0.01;
+                //     if (o >= 1) {
+                //         clearInterval(t);
+                //     }
+                // }, 50)
+                img(n);
+            }
+
+            prev.onclick = function () {
+                for (var i = 0; i < lilist.length; i++) {
+                    lilist[n].style.display = "none";
+                    lilist[n].style.opacity = 0;
+                }
+                if (n == 0) {
+                    n = lilist.length - 1;
+                }
+                else {
+                    n--
+                }
+                // lilist[n].className = "show";
+                // lilist[n].style.display = "block";
+                // lilist[n].style.opacity = 1;
+                img(n);
+            }
+            //自动
+            setInterval(function () {
+                next.onclick();
+            }, 3000)
+        }
+    </script>
+</head>
+
+<body>
+    <ul id="adv">
+        <!-- <li style="opacity: 1;display: block;"><img src="../images/0.jpg" alt="" width="1000px" height="600px"></li> -->
+        <li style="display: block;"><img src="../images/0.jpg" alt="" width="1000px" height="600px"></li>
+        <li><img src="../images/bg.jpg" alt="" width="1000px" height="600px"></li>
+        <li><img src="../images/qyqx.png" alt="" width="1000px" height="600px"></li>
+        <img src="../images/gy.png" alt="" id="prev" width="30px">
+        <img src="../images/gy.png" alt="" id="next" width="30px">
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>福彩投注站投注彩票助手</title>
+    <style type="text/css">
+        div {
+            background: url("实训12-资源/fc_logo.jpg") right top no-repeat;
+            width: 550px;
+            height: 320px;
+            margin: 0 auto;
+            border: 2px solid #0077BB;
+        }
+        
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            padding: 10px auto;
+        }
+        
+        select {
+            width: 330px;
+            height: 145px;
+        }
+        
+        input {
+            width: 80px;
+            height: 40px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function selectNumber(n) {
+            var number = new Array();
+            var objsel = $("number8");
+            var selnum = objsel.options.length;
+            for (var j = 0; j < n; j++) {
+                var list = "";
+                for (var i = 0; i <= 7; i++) {
+                    var tmp = Math.floor(Math.random() * 30 + 1);
+                    if (tmp < 10) {
+                        tmp = "0" + tmp;
+                    }
+                    for (var k = 0; k <= number.length - 1; k++) {
+                        if (tmp == number[k]) {
+                            tmp = Math.floor(Math.random() * 30 + 1);
+                            if (tmp < 10) {
+                                tmp = "0" + tmp;
+                            }
+                            k = 0;
+                        }
+                    }
+                    number[i] = tmp;
+                }
+                list = number.join(" ");
+                var opt = document.createElement("option");
+                var opt_text = document.createTextNode(list);
+                opt.value = j;
+                opt.appendChild(opt_text);
+                objsel.appendChild(opt);
+            }
+            objsel.selectedIndex = selnum;
+        }
+
+        function delSelect() {
+            var objSelect = $("number8");
+            var strIndex = objSelect.selectedIndex;
+            if (strIndex != -1) {
+                objSelect.options.remove(strIndex);
+            } else {
+                alert("请先选择列表项后再删除!!!");
+            }
+        }
+
+        function delSelectAll() {
+            var objSelect = $("number8");
+            var strIndex = objSelect.options.length;
+            if (strIndex > 0) {
+                for (var i = 0; i <= strIndex - 1; i++) {
+                    objSelect.options.remove(0);
+                }
+            } else {
+                alert("请先选择列表项后再删除!!!");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="" class="">
+        <img src="实训12-资源/ico_7l.gif" width="76" height="72" border="0">
+        <form method="post" action="">
+            <h2>福彩投注站投注彩票助手</h2>
+            <table>
+                <tr>
+                    <td><input type="button" value="机选一注" onclick="selectNumber(1)"></td>
+                    <td rowspan="3">
+                        <select id="number8" name="number8" size="5">
+						</select></td>
+                    <td><input type="button" value="删除" onclick="delSelect()"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="机选五注" onclick="selectNumber(5)"></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="机选十注" onclick="selectNumber(10)"></td>
+                    <td><input type="button" value="全部删除" onclick="delSelectAll()"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

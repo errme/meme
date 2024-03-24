@@ -1,0 +1,28 @@
+body {
+	background: #BBDCFF;
+	margin: 20px;
+}
+
+.bt1 {
+	font-size: 35px;
+	line-height: 100px;
+	font-family: 隶书;
+	color: #0033FF;
+	text-align: center;
+}
+
+.p1 {
+	text-indent: 2em;
+	font-size: 16px;
+	font-weight: bold;
+	color: #3366FF;
+}
+
+.td1 {
+	font-size: 18px;
+	color: #3300CC;
+}
+
+.div1 {
+	text-align: center;
+}

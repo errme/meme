@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>检查学号合法性检查</title>
+		<style type="text/css">
+			body {
+				margin: 100px auto;
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript">
+			function $(id) {
+				return document.getElementById(id);
+			}
+
+			function checkNo() {
+				var stucno = $("cno").value;
+
+				if (stucno.length != 10) {
+					alert("学号长度不足十位，请重输入！");
+				} else {
+					if (stucno.match(/^[1-9]\d*$/)) {
+						return true;
+					} else {
+						alert("学号必须为数字字符，请重输入！");
+					}
+				}
+				if (stucno.length == 10 && stucno.match(/^[1-9]\d*$/)) {
+					alert("学号输入正确!");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<h3>检查学号合法性检查</h3>
+		<form name="myform" method="post" action="">
+			输入学号:<input type="text" name="cno" id="cno" size="10" maxlength="10" />
+			<input type="button" value="合法性检查" onclick="checkNo();" />
+		</form>
+	</body>
+</html>

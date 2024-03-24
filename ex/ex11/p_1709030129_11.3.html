@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <style type="text/css">
+        form {
+            text-align: center;
+            width: 400px;
+            margin: 100px auto;
+        }
+    </style>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function displayName() {
+            var zhme = myform.name.value;
+            alert("用户名:" + zhme);
+        }
+
+        function displayAll() {
+            var mimame = myform.mima.value;
+            var yhlx = [$("js"), $("xs"), $("gly")];
+            for (var i = 0; i < yhlx.length; i++) {
+                if (yhlx[i].checked == true) {
+                    alert("用户名:" + $("name").value + "\n" + "密码:" + $("mima").value + "\n" + "用户类型:" + yhlx[i].value);
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form name="myform" method="post">
+        <fieldset>
+            <legend align="center">用户注册</legend>
+            账号：<input type="text" name="name" id="name" onblur="displayName()" /><br /> 密码：
+            <input type="password" name="mima" id="mima" /><br /> 用户类型：
+            <input name="js" type="radio" value="教师" id="js" />教师
+            <input name="xs" type="radio" value="学生" id="xs" />学生
+            <input name="gly" type="radio" value="管理员" id="gly" />管理员<br />
+            <input type="button" value="提交" id="button" onclick="displayAll()" />
+            <input type="reset" value="重置" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #div {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+
+        #div:hover {
+            cursor: move;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var obj = document.getElementById("div");
+            obj.onmousedown = function (event) {
+                var x = event.clientX;
+                var y = event.clientY;
+                var ml = parseInt(obj.style.marginLeft);
+                var mt = parseInt(obj.style.marginTop);
+                obj.onmousemove = function (event) {
+                    var X = event.clientX;
+                    var Y = event.clientY;
+                    div.style.marginLeft = ml + X - x + "px";
+                    div.style.marginTop = mt + Y - y + "px";
+                    // console.log(event.clientX);
+                    // console.log(event.clientY);
+                }
+                obj.onmouseup = function () {
+                    obj.onmousemove = null;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="div" style="margin-left: 0;margin-top: 0;"></div>
+
+</body>
+
+</html>

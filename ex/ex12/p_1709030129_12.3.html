@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>列表框图像浏览器</title>
+    <style type="text/css">
+        div {
+            margin: 10px auto;
+            border: 1px solid #66ff66;
+            width: 300px;
+            height: 280px;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function showImg(oSel) {
+            var str = oSel.value;
+            if (str != "") {
+                $("pic").src = "实训12-资源/" + str + ".jpg"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id="" class="">
+        <img src="实训12-资源/img1.jpg" width="200" height="200" id="pic" /><br><br>
+        <b>列表框图像浏览器</b>
+        <form method="post" action="">
+            <select name="" id="del" onchange="showImg(this)">
+				<option value="" selected>选择图像</option>
+				<option value="img1">都市树木1</option>
+				<option value="img2">卡通图片1</option>
+				<option value="img3">卡通图片2</option>
+			</select>
+        </form>
+    </div>
+</body>
+
+</html>

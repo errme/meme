@@ -1,0 +1,78 @@
+.dt_postwall_grid_3 {
+	width: 22.9%;
+}
+
+.dt_postwall_grid_4 {
+	width: 31.1%;
+}
+
+.dt_postwall_grid_6 {
+	width: 47.9%;
+}
+
+.dt_postwall_grid_3, .dt_postwall_grid_4, .dt_postwall_grid_6 {
+	margin: 0 1% 2% 1% !important;
+	float: left;
+	display: block;
+}
+
+.alpha {
+	margin-left: 0 !important;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+* html .clearfix,*:first-child+html .clearfix {
+	zoom: 1;
+}
+
+/* Mobile */
+@media screen and (max-width : 480px) {
+
+	.dt_postwall_grid_1, .dt_postwall_grid_2, .dt_postwall_grid_3, .dt_postwall_grid_4, .dt_postwall_grid_5, .dt_postwall_grid_6, .dt_postwall_grid_7, .dt_postwall_grid_8, .dt_postwall_grid_9, .dt_postwall_grid_10, .dt_postwall_grid_11, .dt_postwall_grid_12 {
+		width: 100%;
+	};
+}
+/*
+     FILE ARCHIVED ON 02:28:54 Feb 02, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:15:20 Feb 18, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.318
+  captures_list: 151.316
+  LoadShardBlock: 121.617 (3)
+  RedisCDXSource: 0.713
+  PetaboxLoader3.datanode: 167.69 (5)
+  esindex: 0.016
+  PetaboxLoader3.resolve: 125.455 (2)
+  exclusion.robots.policy: 0.299
+  CDXLines.iter: 24.016 (3)
+  load_resource: 310.954 (2)
+*/

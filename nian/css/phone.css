@@ -1,0 +1,393 @@
+/* https://xgan.me */
+
+
+/* by 苍耳 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    /* margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; */
+    text-align: center;
+    /* margin: 0 auto; */
+    color: #999;
+    /* background: url(https://xgan.me/images/bj3.jpg) no-repeat; */
+    /* overflow: hidden; //取消滚动条 */
+    overflow-x: hidden;
+    overflow: -Scroll;
+    overflow-y: hidden；
+}
+
+/* @font-face {
+    font-family: myCatF;
+    src: url("https://xgan.me/include/templates/ttf/字魂32号-汪子义星座体.ttf");
+} */
+
+#background {
+    position: relative;
+    height: 620px;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center 30%; */
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 9;
+}
+
+#introduction {
+    width: 70%;
+    height: 260px;
+    background: rgba(230, 244, 249, .5);
+    position: absolute;
+    top: 460px;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 9;
+    justify-content: center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#subject {
+    background: rgba(230, 244, 249, .9);
+    width: 100%;
+    height: 2700px;
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+}
+
+.art {
+    position: relative;
+    top: 120px;
+    margin: 40px auto;
+    background: white;
+    width: 780px;
+    height: 660px;
+    z-index: 7;
+    display: inline-block;
+}
+
+.title {
+    font-size: 24px;
+    color: black;
+    line-height: 0;
+    margin: 60px 0 40px 0;
+}
+
+.titlemin {
+    font-size: 15px;
+    /* position: relative; */
+    right: -70px;
+    margin: 0 0 30px 0;
+}
+
+#year2017 {
+    color: #0000FF;
+    margin: 0 20px 0;
+    font-size: 15px;
+}
+
+#introductionart {
+    /* font-family: 宋体; */
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    /* position: relative; */
+    margin: 0 83px 30px;
+    line-height: 22px;
+}
+
+#read {
+    position: absolute;
+    top: 550px;
+    /* left: 40%; */
+    left: 340px;
+    line-height: 30px;
+    color: white;
+}
+
+#ready {
+    /* position: relative; */
+    top: 4px;
+    width: 110px;
+    height: 30px;
+    font-size: 14px;
+    margin: 40px 0 0 0;
+    border: 1px solid;
+    border-radius: 3px;
+    background-image: linear-gradient(#03A9F4, #03A9F4);
+    color: white;
+}
+
+#ready a {
+    color: white;
+}
+
+#ready:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+
+#yszm {
+    font-size: 19px;
+    font-weight: 550;
+    margin: 17px 0 0 0;
+}
+
+#title a:after {
+    position: absolute;
+    bottom: -0.0625rem;
+    left: 100%;
+    width: 0;
+    /* border-bottom: 0.0625rem solid #1abc9c; */
+    border-bottom: 0.0625rem solid black;
+    content: "";
+    -webkit-transition: width 350ms, left 350ms;
+    -moz-transition: width 350ms, left 350ms;
+    -ms-transition: width 350ms, left 350ms;
+    -o-transition: width 350ms, left 350ms;
+    transition: width 350ms, left 350ms
+}
+
+#title a:hover:after {
+    left: 0;
+    width: 100%;
+    -webkit-transition: width 350ms;
+    -moz-transition: width 350ms;
+    -ms-transition: width 350ms;
+    -o-transition: width 350ms;
+    transition: width 350ms
+}
+
+#title a {
+    /* color: #1abc9c; */
+    color: black;
+    text-decoration: none;
+    position: relative;
+    white-space: normal
+}
+
+#introduction img {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#introduction img:hover {
+    transform: scale(1.2);
+}
+
+/* #introduction #yszm span a:nth-child(1) {
+    color: #03A9F4 !important
+}
+
+#introduction #yszm span a:nth-child(2) {
+    color: #1abc9c !important
+} */
+#intone {
+    color: rgb(150, 61, 179);
+}
+
+#inttwo {
+    color: rgb(254, 75, 131);
+}
+
+/* rgb(110,64,170)", "rgb(150,61,179)", "rgb(191,60,175)", "rgb(228,65,157)", "rgb(254,75,131)", "rgb(255,94,99)", "rgb(255,120,71)", "rgb(251,150,51)", "rgb(226,183,47)", "rgb(198,214,60)", "rgb(175,240,91)", "rgb(127,246,88)", "rgb(82,246,103)", "rgb(48,239,130)", "rgb(29,223,163)", "rgb(26,199,194)", "rgb(35,171,216)", "rgb(54,140,225)", "rgb(76,110,219)", "rgb(96,84,200) */
+#music {
+    z-index: 9;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+#share a:hover img {
+    transform: scale(1.2);
+    opacity: 0.07;
+}
+
+.cd-top {
+    z-index: 6;
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 16px;
+    background-color: #F5F5F5;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 6px #0000FF;  */
+    background-color: #F5F5F5;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: rgba(230, 244, 249, .5);
+    border-radius: 7px 7px 7px 7px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    clear: both;
+    width: 100%;
+    color: #ccc;
+    background: #ffffff;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: Consolas, Menlo, Monaco, "lucida console", "Liberation Mono", "Courier New", "andale mono", monospaceX, monospace, sans-serif;
+    padding: 1.25rem 0;
+    background-color: #2c2a2a;
+    -webkit-transition: 0.5s ease all;
+    -moz-transition: 0.5s ease all;
+    -ms-transition: 0.5s ease all;
+    -o-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+}
+
+#footer a {
+    position: relative;
+    white-space: normal
+}
+
+#footer a:after {
+    position: absolute;
+    bottom: -0.0625rem;
+    left: 100%;
+    width: 0;
+    border-bottom: 0.0625rem solid #1abc9c;
+    content: "";
+    -webkit-transition: width 350ms, left 350ms;
+    -moz-transition: width 350ms, left 350ms;
+    -ms-transition: width 350ms, left 350ms;
+    -o-transition: width 350ms, left 350ms;
+    transition: width 350ms, left 350ms
+}
+
+body.edge #footer a:after {
+    transition: none
+}
+
+#footer a:hover:after {
+    left: 0;
+    width: 100%;
+    -webkit-transition: width 350ms;
+    -moz-transition: width 350ms;
+    -ms-transition: width 350ms;
+    -o-transition: width 350ms;
+    transition: width 350ms
+}
+
+@media screen and (min-width: 1000px) {
+
+    #wrap.display-menu-tree,
+    #wrap.display-menu-tree+#footer {
+        width: -webkit-calc(100% - 17.5rem);
+        width: calc(100% - 17.5rem)
+    }
+}
+
+body.theme-white #footer {
+    background-color: #fafafa;
+    color: #777;
+    z-index: 999;
+}
+
+body.theme-white.theme-sunset #footer {
+    background-color: #F8F1E4
+}
+
+#footer a {
+    color: #1abc9c;
+    text-decoration: none
+}
+
+#footer .containerfooter {
+    margin-top: 0.3125rem
+}
+
+#footer h1,
+#footer h2,
+#footer p {
+    text-shadow: 0.0625rem 0.0625rem 0 rgba(0, 0, 0, 0.75)
+}
+
+body.theme-white #footer h1,
+body.theme-white #footer h2,
+body.theme-white #footer p {
+    text-shadow: none
+}
+
+@media print {
+    #footer {
+        display: none
+    }
+
+    #post article {
+        margin-top: 0
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .blog-title {
+    color: white;
+    font-size: 36px;
+    margin: 0 0 2em 0;
+    padding: 5em 0 1rem 0;
+} */
+
+.blog-description {
+    color: white;
+    font-size: 26px;
+    padding: 10em 0 0;
+}
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 100;
+    background-image: -webkit-linear-gradient(left, #F16F5C 0%, #F16F5C 12.5%, #5B56DD 12.5%, #5B56DD 25%, #E15CED 25%, #E15CED 37.5%, #27E559 37.5%, #27E559 50%, #18C8C9 50%, #18C8C9 62.5%, #DC8987 62.5%, #DC8987 75%, #BB83D6 75%, #BB83D6 87.5%, #E774BD 87.5%, #E774BD 100%);
+    background-image: -moz-linear-gradient(left, #F16F5C 0%, #F16F5C 12.5%, #5B56DD 12.5%, #5B56DD 25%, #E15CED 25%, #E15CED 37.5%, #27E559 37.5%, #27E559 50%, #18C8C9 50%, #18C8C9 62.5%, #DC8987 62.5%, #DC8987 75%, #BB83D6 75%, #BB83D6 87.5%, #E774BD 87.5%, #E774BD 100%);
+}

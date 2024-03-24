@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>计算累加和</title>
+    <style type="text/css">
+        h3 {
+            color: #0000cc;
+            padding: 10px;
+        }
+        
+        td {
+            border: 0px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        #div0 {
+            width: 300px;
+            height: 200px;
+            border: 8px groove #009900;
+            margin: 50px auto;
+            line-height: 2em;
+        }
+        
+        .button1 {
+            width: 80px;
+            height: 20px;
+            text-align: center;
+        }
+        
+        .button2 {
+            width: 40px;
+            height: 20px;
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function computer_sum(n) {
+            var sum = 0;
+            var x;
+            for (var i = 1; i <= n; i++) {
+                x = 1 / (2 * i - 1)
+                sum += x
+            }
+            return sum;
+        }
+
+        function computer() {
+            var n = parseFloat($("Number").value);
+            $("Sum").value = computer_sum(n);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="div0">
+        <form>
+            <table width="300px" height="200px">
+                <tr>
+                    <td colspan="2">
+                        <h3>计算累加和</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>输入整数N：</td>
+                    <td><input type="text" name="" id="Number" size="20"></td>
+                </tr>
+                <tr>
+                    <td>累加和：</td>
+                    <td><input type="text" name="" id="Sum" size="20" readonly></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="计算累加和" onclick="computer()" class="button1"></td>
+                    <td><input type="reset" value="重置" class="button2"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+/* 5.1 */
+
+#pagebody {
+    width: 900px;
+    margin: 0px auto;
+}
+
+#logo {
+    height: 70px;
+    background: #CCFFCC;
+    border-bottom: 8px solid white;
+}
+
+#nav {
+    height: 40PX;
+    background: #CCFFCC;
+    border-bottom: 8px solid white;
+}
+
+#main {
+    height: 300px;
+}
+
+#mainleft {
+    float: left;
+    width: 664px;
+    height: 400px;
+    background: #FFFF99;
+    border-right: 6px solid white;
+}
+
+#mainright {
+    float: right;
+    width: 228px;
+    height: 400px;
+    background: #FFCC99;
+    border-bottom: 6px solid white;
+}
+
+#footer {
+    clear: both;
+    height: 70px;
+    background: #CCFFCC;
+    border-top: 8px solid white;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>登录</title>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function checkKey() {
+            var me = $("meme").value;
+            if (me.length < 8) {
+                alert("密码长度必须大于或等于8!");
+            } else {
+                if (me.match(/\d/) && me.match(/[a-zA-Z]/)) {
+                    return true;
+                } else {
+                    alert("密码至少含有一个字母！");
+                    return false;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h3>简易密码验证</h3>
+    <form action="" method="">
+        用户名：<input type="text" name="yhm" /><br /><br /> 密码：
+        <input type="password" name="mima" id="meme" /><br /><br />
+        <input type="button" value="验证" name="yz" onclick="checkKey()" />
+        <input type="reset" name="cz" />
+    </form>
+</body>
+
+</html>

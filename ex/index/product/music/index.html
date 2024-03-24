@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <title>jQuery音乐播放器插件</title> -->
+    <title>music</title>
+    <link type="text/css" rel="stylesheet" href="css/player.css">
+</head>
+
+<body>
+    <div id="QPlayer">
+        <div id="pContent">
+            <div id="player">
+                <span class="cover"></span>
+                <div class="ctrl">
+                    <div class="musicTag marquee">
+                        <strong>歌名</strong>
+                        <span> - </span>
+                        <span class="artist">歌手</span>
+                    </div>
+                    <div class="progress">
+                        <div class="timer left">0:00</div>
+                        <div class="contr">
+                            <div class="rewind icon"></div>
+                            <div class="playback icon"></div>
+                            <div class="fastforward icon"></div>
+                        </div>
+                        <div class="right">
+                            <div class="liebiao icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ssBtn">
+                <div class="adf"></div>
+            </div>
+        </div>
+        <ol id="playlist"></ol>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+    <script>
+        var playlist = [{
+                title: "夏祭り",
+                artist: "東山奈央",
+                mp3: "music/夏祭り - 東山奈央.mp3",
+                cover: "images/yszm.jpg",
+            },
+
+            {
+                title: "Euterpe",
+                artist: "EGOIST",
+                mp3: "music/Euterpe.mp3",
+                cover: "images/zewg.jpg",
+            },
+            // 				{
+            // 					title: "スパイス",
+            // 					artist: "東京カランコロン",
+            // 					mp3: "https://xgan.me/product/music/music/スパイス - 東京カランコロン.mp3",
+            // 					cover: "https://xgan.me/product/music/images/スパイス.jpg",
+            // 				},
+            // 				{
+            // 					title: "ポケット",
+            // 					artist: "whiteeen",
+            // 					mp3: "https://xgan.me/product/music/music/ポケット - whiteeen.mp3",
+            // 					cover: "https://xgan.me/product/music/images/whiteeen.jpg",
+            // 				},
+
+            // 				{
+            // 					title: "One more time/chance",
+            // 					artist: "山崎まさよし",
+            // 					mp3: "https://xgan.me/product/music/music/One more time One more chance  - 山崎まさよし.mp3",
+            // 					cover: "https://xgan.me/product/music/images/秒五.jpg",
+            // 				},
+            {
+                title: "secret base",
+                artist: "茅野愛衣",
+                mp3: "music/secret base ~君がくれたもの.mp3",
+                cover: "images/wwhm.jpg",
+            }, {
+                title: "一期一会",
+                artist: "周深",
+                mp3: "music/一期一会 - 周深.mp3",
+                cover: "images/yqyh.jpg",
+            }, {
+                title: "莉莉安",
+                artist: "徐佳莹",
+                mp3: "music/莉莉安 - 徐佳莹.mp3",
+                cover: "images/lla.jpg",
+            },
+            // 				{
+            // 					title: "让我留在你身边",
+            // 					artist: "陈奕迅",
+            // 					mp3: "https://xgan.me/product/music/music/让我留在你身边 - 陈奕迅.mp3",
+            // 					cover: "https://xgan.me/product/music/images/让我留在你身边.jpg",
+            // 				},
+
+            // 				{
+            // 					title: "山鬼",
+            // 					artist: " Winky诗",
+            // 					mp3: "https://xgan.me/product/music/music/山鬼 - Winky诗.mp3",
+            // 					cover: "https://xgan.me/product/music/images/山鬼.jpg",
+            // 				},
+            // 				{
+            // 					title: "历历万乡",
+            // 					artist: "孟大宝",
+            // 					mp3: "https://xgan.me/product/music/music/历历万乡 - 孟大宝.mp3",
+            // 					cover: "https://xgan.me/product/music/images/历历万乡.jpg",
+            // 				},
+            // 				{
+            // 					title: "至此流年各天涯",
+            // 					artist: "我不李志",
+            // 					mp3: "https://xgan.me/product/music/music/至此流年各天涯 - 我不李志.mp3",
+            // 					cover: "https://xgan.me/product/music/images/至此.jpg",
+            // 				},
+            // 				{
+            // 					title: "岁月神偷",
+            // 					artist: "金玟岐",
+            // 					mp3: "https://xgan.me/product/music/music/岁月神偷 - 金玟岐.mp3",
+            // 					cover: "https://xgan.meproduct/music/images/岁月神偷.jpg",
+            // 				},
+        ];
+        var isRotate = true;
+        var autoplay = false;
+    </script>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script>
+        function bgChange() {
+            var lis = $('.lib');
+            for (var i = 0; i < lis.length; i += 2)
+                lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+        }
+        window.onload = bgChange;
+    </script>
+</body>
+
+</html>

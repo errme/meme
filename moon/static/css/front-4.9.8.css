@@ -1,0 +1,90 @@
+.ws_alipay_widget_wrap{
+	width:auto;
+	margin:0 auto;
+	padding:0;
+	border:none;
+	text-align:center;
+	position:relative;
+	font-family: Microsoft YaHei
+}
+.ws_alipay_widget_form, .ws_alipay_widget_show{
+	position:absolute;
+	left:0;
+	top:0;
+	margin:0 auto;
+	padding:0;
+	border:none;
+	text-align:center;
+	background:#F90
+}
+.ws_alipay_widget_form{
+	opacity:0.85
+}
+.ws_alipay_widget_show{
+	display:block;
+	background:none
+}
+.ws_alipay_widget_hide{
+	display:none;
+	background:none
+}
+
+.ws_alipay_widget_form_wrap{
+	margin:5px
+}
+.ws_alipay_widget_form_wrap p{
+	display:block;
+	margin:0;
+	padding:0
+}
+.ws_alipay_widget_form_wrap p label{
+	display:block;
+	line-height:2em;
+	margin:2px auto;
+}
+.ws_alipay_widget_form_wrap p input{
+	display:block;
+	line-height:2em;
+	margin:2px auto;
+	opacity:1
+}
+.ws_alipay_widget_form_wrap p input.ws_alipay_widget_btn{
+	display:inline
+}
+
+.ws_alipay_widget_size{
+	font-size:24px;
+	font-weight:bold;
+	color:#B02B5C;
+	margin:0;
+	margin-top:13px
+}
+.ws_alipay_widget_char{
+	font-size:18px;
+	margin:0;
+	margin-top:8px;
+	color:#333;
+}
+
+
+/*
+     FILE ARCHIVED ON 16:59:16 Sep 16, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:15:59 Feb 18, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1332.21
+  exclusion.robots: 0.181
+  exclusion.robots.policy: 0.174
+  RedisCDXSource: 2.015
+  esindex: 0.006
+  LoadShardBlock: 1312.909 (3)
+  PetaboxLoader3.datanode: 1320.163 (4)
+  CDXLines.iter: 15.39 (3)
+  load_resource: 115.028
+  PetaboxLoader3.resolve: 34.95
+*/

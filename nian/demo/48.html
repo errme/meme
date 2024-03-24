@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    // setTimeout(function () {
+    //     alert(1);
+    // }, 2000)
+    // setInterval(function () {
+    //     console.log(1)
+    // }, 2000)
+    window.onload = function () {
+        var start = document.getElementById("start");
+        var stop = document.getElementById("stop");
+        var h1 = document.getElementById("text");
+        var n = 0;
+        start.onclick = function () {
+            tid = setInterval(function () {
+                h1.innerHTML = n++;
+            }, 1000)
+        }
+        stop.onclick = function () {
+            clearInterval(tid);
+        }
+    }
+</script>
+
+<body>
+    <h1 id="text"></h1>
+    <button id="start">开始</button>
+    <button id="stop">停止</button>
+</body>
+
+</html>

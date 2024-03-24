@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>报告</title>
+    <style type="text/css">
+        /* 6.1.css */
+
+        #register {
+            background: #BBDCFF;
+            width: 620px;
+            height: 600px;
+            margin: 100px auto;
+        }
+
+        table {
+            width: 450px;
+            height: 440px;
+        }
+
+        h3 {
+
+            font-size: 22px;
+            color: blue;
+            padding: 40px 0 2px;
+            text-align: center;
+        }
+
+        th,
+        td {
+            font-size: 14px;
+            color: black;
+            background-color: white;
+            text-align: left;
+            padding: 0 10px;
+        }
+
+        #ban {
+            color: red;
+        }
+        #tj{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="jieguo19.jsp" id="register">
+        <table align="center" bordercolor="CACACA" frame="border" rules="all">
+            <div>
+                <h3>新冠肺炎疫情防控信息填写</h3>
+            </div>
+            <tr>
+                <td>姓名&nbsp;:&nbsp;<input type="text" name="username"></td>
+
+            </tr>
+            <tr>
+                <td>年龄&nbsp;:&nbsp;<input type="text" name="userage"></td>
+
+            </tr>
+            <tr>
+                <td>地址&nbsp;:&nbsp;<input type="text" name="area"></td>
+
+            </tr>
+            <tr>
+                <td>体温&nbsp;:&nbsp;<input type="text" name="temp"></td>
+            </tr>
+            <tr>
+                <td>性别&nbsp;:&nbsp;
+                    <input type="radio" name="gender" value="男" />男
+                    <input type="radio" name="gender" value="女" />女
+                </td>
+
+            </tr>
+            <tr>
+                <td>14天内是否发烧&nbsp;:&nbsp;
+                    <input type="radio" name="fever" value="是" />是
+                    <input type="radio" name="fever" value="否" />否
+                </td>
+            </tr>
+            <tr>
+                <td>14天内是否干咳&nbsp;:&nbsp;
+                    <input type="radio" name="cough" value="是" />是
+                    <input type="radio" name="cough" value="否" />否
+                </td>
+            </tr>
+            <tr>
+                <td>14天内是否接触新冠肺炎患者&nbsp;:&nbsp;
+                    <input type="radio" name="cough" value="是" />是
+                    <input type="radio" name="cough" value="否" />否
+                </td>
+            </tr>
+            <tr>
+                <td>14天内是否接触新冠肺炎疑似患者&nbsp;:&nbsp;
+                    <input type="radio" name="cough" value="是" />是
+                    <input type="radio" name="cough" value="否" />否
+                </td>
+            </tr>
+            <tr>
+                <td>30天内是否到达湖北等疫情高发地区&nbsp;:&nbsp;
+                    <input type="radio" name="cough" value="是" />是
+                    <input type="radio" name="cough" value="否" />否
+                </td>
+            </tr>
+            <tr>
+                <td>最近外出时间&nbsp;:&nbsp;<select name="area">
+                        <option value=""></option>
+                        <option value="一天">最近一天</option>
+                        <option value="三天">最近三天</option>
+                        <option value="一周">最近一周</option>
+                        <option value="两周">最近两周</option>
+                        <option value="一月">最近一月</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+
+                <td id="tj">
+                    <input type="submit" value="提交">&nbsp;&nbsp;
+                    <input type="reset" value="重置">
+                </td>
+            </tr>
+            <tr>
+                <td id="ban"><b>*为了你和大家的健康，请如实填报新冠肺炎疫情防控信息</b></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

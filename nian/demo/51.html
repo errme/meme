@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="51.css">
+    <script>
+        window.onload = function () {
+            var next = document.getElementById("next");
+            var ul = document.getElementById("adv");
+            var lilist = document.getElementById("adv").getElementsByTagName("li");
+            var n = 0;
+
+            next.onclick = function () {
+                if (n == lilist.length - 1) {
+                    n = 0;
+                    var t = setInterval(function () {
+                        var ml = parseInt(ul.style.marginLeft);
+                        if (ml == 0) {
+                            clearInterval(t)
+                        }
+                        else (
+                            ul.style.marginLeft = ml + 100 + "px"
+                        )
+                    }, 20)
+                }
+                else {
+                    n++;
+                    var t = setInterval(function () {
+                        var ml = parseInt(ul.style.marginLeft);
+                        // ul.style.marginLeft = ml - 10 + "px";
+                        if (ml == -(n * 1000)) {
+                            clearInterval(t)
+                        }
+                        else (
+                            ul.style.marginLeft = ml - 20 + "px"
+                        )
+                    }, 20)
+                }
+
+                // ul.style.marginLeft = -(n * 1000) + "px";
+
+                // parseInt(ul.style.marginLeft);
+            }
+
+            prev.onclick = function () {
+                if (n == 0) {
+                    n = lilist.length - 1;
+                    var t = setInterval(function () {
+                        var ml = parseInt(ul.style.marginLeft);
+                        if (ml == -((lilist.length - 1) * 1000)) {
+                            clearInterval(t)
+                        }
+                        else (
+                            ul.style.marginLeft = ml - 100 + "px"
+                        )
+                    }, 20)
+                }
+                else {
+                    n--;
+                    var t = setInterval(function () {
+                        var ml = parseInt(ul.style.marginLeft);
+                        if (ml == -(n * 1000)) {
+                            clearInterval(t)
+                        }
+                        else (
+                            ul.style.marginLeft = ml + 20 + "px"
+                        )
+                    }, 20)
+                }
+                // ul.style.marginLeft = -(n * 1000) + "px";
+            }
+            setInterval(function () {
+                next.onclick();
+            }, 3000)
+        }
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <ul id="adv" style="margin-left: 0;">
+            <li><img src="../images/0.jpg" alt="" width="1000px" height="600px"></li>
+            <li><img src="../images/bg.jpg" alt="" width="1000px" height="600px"></li>
+            <li><img src="../images/qyqx.png" alt="" width="1000px" height="600px"></li>
+            <img src="../images/gy.png" alt="" id="prev" width="30px">
+            <img src="../images/gy.png" alt="" id="next" width="30px">
+        </ul>
+    </div>
+</body>
+
+</html>

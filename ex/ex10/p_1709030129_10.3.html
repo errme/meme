@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        div {
+            background: #000099;
+            color: white;
+            width: 700px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        
+        h4 {
+            text-align: center;
+        }
+        
+        b {
+            color: red;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h3>Javascript常用函数的应用</h3>
+        <b>1.计算表达式的结果函数eval("字符串")</b>
+        <script type="text/javascript">
+            document.write("<br>&nbsp;&nbsp;1000+3/5=" + eval("1000+3/5"));
+            document.write("&nbsp;&nbsp;x=10,y=20,x*y=" + eval("10*20"));
+            var x = 10;
+            document.write("<br>&nbsp;&nbsp;2+2=" + eval("2+2"));
+            document.write("&nbsp;&nbsp;x=10;x+17=" + eval("x+17"));
+            document.write("<br>")
+        </script>
+        <b>2.编码函数escape("字符串")</b>
+        <script type="text/javascript">
+            document.write("<br>escape('&')=" + escape("&") + "<br>");
+            document.write("escape('my name is 张敬国')=" + escape("my name is 张敬国") + "<br>");
+        </script>
+        <b>3.解码函数unescpe(string)</b>
+        <script type="text/javascript">
+            document.write("%26=" + unescape("%26") + "<br>");
+            document.write("my%20name%20is%20%u5F20%u656C%u56FD)=" + unescape("my%20name%20is%20%u5F20%u656C%u56FD") + "<br>");
+        </script>
+        <b>4.字符型转换成浮点数函数parseFloat(string)</b>
+        <script type="text/javascript">
+            document.write("<br>parseFloat('3.14')=" + parseFloat("3.14"));
+            document.write("&nbsp;&nbsp;parseFloat('314e-2')=" + parseFloat("314e-2") + "<br>");
+            document.write("parseFloat('3.14ab')=" + parseFloat("3.14ab"));
+            document.write("&nbsp;&nbsp;parseFloat('FF2')=" + parseFloat("FF2") + "<br>");
+            document.write("parseFloat('345.25FF2')=" + parseFloat("345.25FF2") + "<br>");
+        </script>
+        <b>5.字符型转化成整数函数parseInt(numberstring,radix)</b>
+        <script type="text/javascript">
+            document.write("32:" + parseInt("32") + "<br>");
+            document.write("032:" + parseInt("032") + "<br>");
+            document.write("0x32:" + parseInt("0x32") + "<br>");
+            document.write("parseInt('15*3',10)=" + parseInt("15*3") + "<br>");
+        </script>
+        <b>6.判断是否是NaN函数isNaN()</b>
+        <script type="text/javascript">
+            document.write("<br>isNaN(5454g)=" + isNaN("5454g") + "<br>");
+            document.write("isNaN(789)=" + isNaN("789") + "<br>");
+        </script>
+        <b>7.保留固定小数点位数的函数toFixed(n)</b>
+        <script type="text/javascript">
+            document.write("356.25678.toFixed(2)=" + 356.25678.toFixed(2));
+            document.write("&nbsp;&nbsp;356.25.toFixed(3)=" + 356.25.toFixed(3) + "<br>");
+        </script>
+        <b>8.将数值转化为不同进制的字符串函数toString(radix)</b>
+        <script type="text/javascript">
+            var b = 64;
+            document.write("<br>64.toString()=" + b.toString(10));
+            document.write("&nbsp;&nbsp;64.toString(2)=" + b.toString(2));
+            document.write("&nbsp;&nbsp;64.toString(8)=" + b.toString(8) + "<br>");
+        </script>
+        <b>9.单个字符提取函数charAt(n)</b>
+        <script type="text/javascript">
+            var a = "ABCEDFG";
+            document.write("ABCEDFG.charAt(1)=" + a.charAt(1));
+            document.write("&nbsp;&nbsp;ABCEDFG.charAt(5)=" + a.charAt(5));
+            document.write("&nbsp;&nbsp;ABCEDFG.charAt(10)是空串" + a.charAt(10) + "<br>");
+        </script>
+    </div>
+</body>
+
+</html>

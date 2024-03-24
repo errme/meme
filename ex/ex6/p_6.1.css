@@ -1,0 +1,45 @@
+/* 6.1.css */
+
+#div0 {
+    background: #eaeaea url(实训6-资源/images61-4.png) no-repeat;
+    width: 720px;
+    height: 450px;
+    margin: 0px auto;
+}
+
+h3 {
+    background: url(实训6-资源/images61-4.png) no-repeat;
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+}
+
+#p {
+    color: red;
+    float: left;
+    font-size: 16px;
+}
+
+#div1 {
+    width: 710px;
+    height: 60px;
+}
+
+th,
+td {
+    text-align: center;
+    font-size: 12px;
+}
+
+#td0 {
+    text-align: left;
+}
+
+a {
+    background: url(实训6-资源/images61-3.png) repeat-x;
+    width: 120px;
+    height: 18px;
+    text-align: center;
+    float: right;
+    /* display: inline; */
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nian{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="nian" class="ehco"></div>
+    <div class="ehco"></div>
+    <div class="ehco"></div>
+    <div class="ehco"></div>
+    <div class="ehco"></div>
+    <ul id="list">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <script>
+        document.getElementById("nian").innerHTML = "Canger"; //设置开始标签和结束标签之间的内容
+        document.getElementById("nian").className = "ni"; //设置class
+        var lilist =  document.getElementsByTagName("li");
+        for (let i = 0; i < lilist.length; i++) {
+            console.log(lilist[i]);
+            lilist[i].innerHTML = "ehco";
+            
+        }
+    </script>
+</body>
+</html>

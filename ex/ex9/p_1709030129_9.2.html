@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>累加和</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+        
+        #div0 {
+            margin: 0 auto;
+            border: 12px inset black;
+            height: 340px;
+            width: 600px;
+            line-height: 1.5em;
+        }
+        
+        form {
+            margin: 0 auto;
+            padding: 5px;
+        }
+        
+        #input {
+            padding: 0px 0px 100px 20px;
+        }
+    </style>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function sum(n1, n2) {
+            for (var i = n1, sum1 = 0; i <= n2; i++) {
+                sum1 = sum1 + i;
+            }
+            return sum1;
+        }
+
+        function show() {
+            var n11 = parseFloat($("start_num").value);
+            var n22 = parseFloat($("end_num").value);
+            if (n11 > 0 && n22 > 0) {
+                if (n11 > n22) {
+                    alert("起始数必须小于终止数，是否交换！");
+                    var t;
+                    t = $("start_num").value;
+                    $("start_num").value = $("end_num").value;
+                    $("end_num").value = t;
+                    n11 = parseFloat($("start_num").value);
+                    n22 = parseFloat($("end_num").value);
+                    $("sum").value = sum(n11, n22);
+                } else {
+                    $("sum").value = sum(n11, n22);
+                }
+                if (n11 > n22) {
+                    $("sum").value = sum(n22, n11);
+                } else {
+                    $("sum").value = sum(n11, n22);
+                }
+
+            } else {
+                alert("请输入数据！");
+                $("start_num").focus();
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <div id="div0">
+        <h3>计算任意区间内连续自然数的累加和</h3>
+        <form method="post" action="">
+            <h3>定义区间</h3><br> 起始数：
+            <input type="text" name="start_num" id="start_num"><br><br> 终止数：
+            <input type="text" name="end_num" id="end_num"><br><br> 累加和：
+            <input type="text" name="sum" id="sum" readonly="readonly"><br><br>
+            <div id="input">
+                <label style="padding-right: 30px;"><input type="button" onclick="show();" value="计算"></label>
+                <input type="reset" value="清空">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

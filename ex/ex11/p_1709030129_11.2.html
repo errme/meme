@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>鼠标动作捕获与响应</title>
+    <style type="text/css">
+        div {
+            width: 500px;
+            height: 400px;
+            margin: 0 auto;
+            border: 1px solid red;
+        }
+        
+        body {
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function mouseover() {
+            $("my_img").src = "实训11/image22.jpg";
+            $("mybody").style.background = "#0000ff";
+        }
+
+        function mouseout() {
+            $("my_img").src = "实训11/image23.jpg";
+            $("mybody").style.background = "#00ff33";
+        }
+
+        function mclick() {
+            $("my_img").src = "实训11/image24.jpg";
+            $("my_text").value = "单击鼠标";
+            $("mybody").style.background = "#66cc66";
+        }
+
+        function mdclick() {
+            $("my_img").src = "实训11/image21.jpg";
+            $("my_text").value = "双击鼠标";
+            $("mybody").style.background = "#ff66ff";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="mybody" class="" onmouseover="mouseover();" onmouseout="mouseout();" onclick="mclick();" ondblClick="mdclick();">
+        <h2>鼠标动作捕获与响应</h2>
+        <hr>
+        <form method="post" action="">
+            <input type="text" name="" id="my_text">
+        </form>
+        <p><img src="实训11/image21.jpg" id="my_img"></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body {
+            overflow: hidden;
+        }
+        
+        #header {
+            background: #000000 url(实训8-资源/prj_8_2_logo.png) no-repeat left top;
+            width: 100%;
+            height: 60px;
+            padding: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            text-align: center;
+            background: #D0C0B0;
+        }
+        
+        li {
+            margin: 20px 10px;
+            display: inline;
+            font-size: 28px;
+        }
+        
+        section img,
+        aside img {
+            width: 225px;
+            height: 300px;
+            margin: 5px 10px;
+        }
+        
+        article section {
+            width: 250px;
+            height: 350px;
+            text-align: center;
+            margin: 20px;
+            float: left;
+            border: 1px dashed #006600;
+        }
+        
+        #aside {
+            width: 25%;
+            height: 350px;
+            background: #9F9F9A;
+            text-align: center;
+            float: right;
+            vertical-align: bottom;
+        }
+        
+        #footer {
+            width: 100%;
+            height: 80px;
+            background: #EAEADA;
+            text-align: center;
+            padding: 20px auto;
+            clear: both;
+        }
+        
+        p {
+            font-size: 20px;
+            height: 26px;
+            padding-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header id="header"></header>
+        <nav id="nav">
+            <ul>
+                <li>首页</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>DOM</li>
+                <li>BOM</li>
+            </ul>
+        </nav>
+        <article>
+            <section><img src="实训8-资源/prj_8_2_html5.png" /></section>
+            <section><img src="实训8-资源/prj_8_2_css3_logo.png" /></section>
+            <section><img src="实训8-资源/prj_8_2_javascript_logo.png" /></section>
+        </article>
+        <aside id="aside">
+            <figure>
+                <figcaption>
+                    <img src="实训8-资源/prj_8_2_html5.png" />HTML5结构元素侧面aside
+                </figcaption>
+            </figure>
+        </aside>
+        <footer id="footer">
+            <p>Copyright&copy;2017-2020Web前端开发工作室-业务开发部-网站建设</p>
+        </footer>
+    </div>
+</body>
+
+</html>

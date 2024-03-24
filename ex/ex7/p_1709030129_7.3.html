@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>拓展7.1</title>
+    <style type="text/css">
+        #div0 {
+            width: 600px;
+            margin: 0 auto;
+        }
+        
+        caption {
+            font-weight: bold;
+        }
+        
+        .td1 {
+            margin: 0 1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div0">
+        <form>
+            <table border="1">
+                <caption>参会注册表</caption>
+                <tr>
+                    <td>姓名:<input type="text" value="" size="17" /></td>
+                    <td>单位：<input type="text" size="30"></td>
+                </tr>
+                <tr>
+                    <td>性别:
+                        <input type="radio" name="r1" />男
+                        <input type="radio" name="r1" />女
+                    </td>
+                    <td>手机：<input type="text" size="17"></td>
+                </tr>
+                <tr>
+                    <td>酒店：
+                        <input type="radio" name="r2" />天山大酒店
+                        <input type="radio" name="r2" />昆仑饭店
+                    </td>
+                    <td>预订房间数：<input type="text" size="4" />套</td>
+                </tr>
+                <tr>
+                    <td colspan="2">房间类型：
+                        <input type="radio" name="r3" />单人间(320元)
+                        <input type="radio" name="r3" />标准双人间(380元)
+                        <input type="radio" name="r3" />家庭套间(450元)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="提交" class="td1">
+                        <input type="reset" value="重置" class="td1">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

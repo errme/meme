@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>music</title>
+
+    <link type="text/css" rel="stylesheet" href="css/player.css">
+
+</head>
+
+<body>
+
+    <div id="QPlayer">
+
+        <div id="pContent">
+
+            <div id="player">
+
+                <span class="cover"></span>
+
+                <div class="ctrl">
+
+                    <div class="musicTag marquee">
+
+                        <strong>歌名</strong>
+
+                        <span> - </span>
+
+                        <span class="artist">歌手</span>
+
+                    </div>
+
+                    <div class="progress">
+
+                        <div class="timer left">0:00</div>
+
+                        <div class="contr">
+
+                            <div class="rewind icon"></div>
+
+                            <div class="playback icon"></div>
+
+                            <div class="fastforward icon"></div>
+
+                        </div>
+
+                        <div class="right">
+
+                            <div class="liebiao icon"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="ssBtn">
+
+                <div class="adf"></div>
+
+            </div>
+
+        </div>
+
+        <ol id="playlist"></ol>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.marquee.min.js"></script>
+
+    <script>
+        var playlist = [{
+            title: "夏祭り",
+            artist: "東山奈央",
+            mp3: "https://xgan.me/nian/include/music/music/夏祭り.mp3",
+            cover: "https://xgan.me/nian/include/music/images/yszm.jpg",
+        },
+
+        {
+            title: "Euterpe",
+            artist: "EGOIST",
+            mp3: "https://xgan.me/nian/include/music/music/Euterpe.mp3",
+            cover: "https://xgan.me/nian/include/music/images/zewg.jpg",
+        },
+        // {
+        //     title: "スパイス",
+        //     artist: "東京カランコロン",
+        //     mp3: "music/スパイス.mp3",
+        //     cover: "images/スパイス.jpg",
+        // },
+        // {
+        //     title: "ポケット",
+        //     artist: "whiteeen",
+        //     mp3: "music/ポケット.mp3",
+        //     cover: "images/whiteeen.jpg",
+        // },
+        // {
+        //     title: "One more time/chance",
+        //     artist: "山崎まさよし",
+        //     mp3: "music/OnemoretimeOnemorechance.mp3",
+        //     cover: "images/mw.jpg",
+        // },
+        {
+            title: "secret base",
+            artist: "茅野愛衣",
+            mp3: "https://xgan.me/nian/include/music/music/secretbase~君がくれたもの.mp3",
+            cover: "https://xgan.me/nian/include/music/images/wwhm.jpg",
+        },
+
+        {
+            title: "夕暮れ",
+            artist: "THE ROLLING GIRLS",
+            mp3: "https://xgan.me/nian/include/music/music/夕暮れ.mp3",
+            cover: "https://xgan.me/nian/include/music/images/xm.jpg",
+        },
+
+        {
+            title: "Ring of Fortune",
+            artist: "佐々木恵梨",
+            mp3: "https://xgan.me/nian/include/music/music/RingofFortune.mp3",
+            cover: "https://xgan.me/nian/include/music/images/remember.jpg",
+        },
+
+        {
+            title: "山鬼",
+            artist: " Winky诗",
+            mp3: "https://xgan.me/nian/include/music/music/山鬼.mp3",
+            cover: "https://xgan.me/nian/include/music/images/sg.jpg",
+        },
+
+        {
+            title: "莉莉安",
+            artist: "徐佳莹",
+            mp3: "https://xgan.me/nian/include/music/music/莉莉安.mp3",
+            cover: "https://xgan.me/nian/include/music/images/lla.jpg",
+        },
+
+        {
+            title: "一期一会",
+            artist: "周深",
+            mp3: "https://xgan.me/nian/include/music/music/一期一会.mp3",
+            cover: "https://xgan.me/nian/include/music/images/yqyh.jpg",
+        },
+
+        {
+            title: "亲爱的旅人啊",
+            artist: "周深",
+            mp3: "https://xgan.me/nian/include/music/music/亲爱的旅人啊.mp3",
+            cover: "https://xgan.me/nian/include/music/images/qyqx.jpg",
+        },
+
+        {
+            title: "让我留在你身边",
+            artist: "陈奕迅",
+            mp3: "https://xgan.me/nian/include/music/music/让我留在你身边.mp3",
+            cover: "https://xgan.me/nian/include/music/images/rw.jpg",
+        },
+
+        {
+            title: "至此流年各天涯",
+            artist: "我不李志",
+            mp3: "https://xgan.me/nian/include/music/music/至此流年各天涯.mp3",
+            cover: "https://xgan.me/nian/include/music/images/zc.jpg",
+        },
+        ];
+        var isRotate = true;
+        var autoplay = false;
+    </script>
+
+    <script type="text/javascript" src="js/player.js"></script>
+
+    <script>
+        function bgChange() {
+            var lis = $('.lib');
+            for (var i = 0; i < lis.length; i += 2)
+                lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+        }
+        window.onload = bgChange;
+    </script>
+
+</body>
+
+</html>

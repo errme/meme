@@ -1,0 +1,432 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video,details,summary {
+	margin: 0;
+	padding: 0
+}
+
+section,article,aside,header,footer,nav,dialog,figure {
+	display: block
+}
+
+html {
+	font-size: 12px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+
+body {
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff
+}
+
+a {
+	text-decoration: none;
+	color: #08c
+}
+
+a:active,a:hover,a:focus {
+	outline: 0
+}
+
+ol,ul {
+	list-style: none
+}
+
+img,iframe,fieldset {
+	border: 0
+}
+
+img {
+	vertical-align: top
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+button,input,select,textarea {
+	font-family: inherit;
+	font-size: 100%
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+	content: ''
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: 500
+}
+
+#page .hidden,.hidden {
+	display: none
+}
+
+#page .shown,.shown {
+	display: block
+}
+
+.invisible {
+	visibility: hidden
+}
+
+.visible {
+	visibility: visible
+}
+
+.inline-block {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.fl,#page .fl {
+	float: left
+}
+
+.fr,#page .fr {
+	float: right
+}
+
+.fn,#page .fn {
+	float: none
+}
+
+.fix,.clearfix,#content {
+	display: inline-block
+}
+
+.fix,.clearfix,#content {
+	display: block
+}
+
+.clear,.fix:after,.clearfix:after,#content:after {
+	display: block;
+	visibility: hidden;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+	content: ""
+}
+
+.text-left {
+	text-align: left
+}
+
+.text-center {
+	text-align: center
+}
+
+.text-right {
+	text-align: right
+}
+
+.text-hidden {
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap
+}
+
+.text-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.text-break {
+	word-wrap: break-word;
+	word-break: break-all
+}
+
+.scripts {
+	display: none
+}
+
+.pro-user {
+	position: fixed;
+	_position: absolute;
+	background: #fafafa;
+	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	border-radius: 4px;
+	color: #3c3c3c;
+	font: 12px/1.2em SimSun;
+	overflow: hidden;
+	z-index: 10000;
+	top: 50%;
+	left: 50%
+}
+
+.pro-user a {
+	color: #2d77c1
+}
+
+.pro-user-login {
+	margin: -137px 0 0 -250px;
+	width: 500px;
+	height: 274px
+}
+
+.pro-user-register {
+	margin: -203px 0 0 -250px;
+	width: 500px;
+	height: 406px
+}
+
+.pro-user-mask {
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	z-index: 9999
+}
+
+.pro-user-header {
+	font-size: 16px;
+	border-bottom: 1px solid #c8c8c8;
+	margin: 5px 10px;
+	text-align: left;
+	padding: 5px 0;
+	display: block;
+	line-height: 24px;
+	font-weight: 700
+}
+
+.pro-user-close,.pro-user-qq,.pro-user-sina {
+	background-image: url(https://web.archive.org/web/20190615070317im_/http://lib.ttdtweb.com/pro-login/1.0.0/icon.png);
+	background-repeat: no-repeat
+}
+
+.pro-user-close {
+	background-color: #fff;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: -999px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-position: -36px 0
+}
+
+.pro-user-close:hover {
+	background-position: -18px 0
+}
+
+.pro-user-close:active {
+	background-position: 0 0
+}
+
+.pro-user-content {
+	padding: 15px 0 0 20px
+}
+
+.pro-user-field {
+	margin-bottom: 15px;
+	height: 35px
+}
+
+.pro-user-forget {
+	text-decoration: underline
+}
+
+.pro-user-tip {
+	float: left;
+	height: 34px;
+	margin-left: 10px;
+	line-height: 34px;
+	color: #bbb
+}
+
+.pro-user-input {
+	box-shadow: 0 1px 4px rgba(0,0,0,.1) inset;
+	font: 12px/1.5em"宋体";
+	width: 200px;
+	padding: 8px;
+	height: 18px;
+	float: left;
+	color: #656565;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+.pro-user-input:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+.pro-user-error,.pro-user-error .pro-user-tip {
+	color: red
+}
+
+.pro-user-error .pro-user-input {
+	border-color: red
+}
+
+.pro-user-btn {
+	background: #76b2f0;
+	color: #fff;
+	border: 1px solid #3c86d1;
+	padding: 7px;
+	font-size: 14px;
+	width: 60px;
+	border-radius: 3px;
+	cursor: pointer;
+	vertical-align: middle
+}
+
+.pro-user-btn-disabled {
+	cursor: not-allowed;
+	background: #ccc;
+	border-color: #ccc
+}
+
+.pro-user-qq,.pro-user-sina {
+	padding-left: 22px;
+	margin-right: 8px;
+	line-height: 20px;
+	display: inline-block;
+	zoom: 1
+}
+
+.pro-user-qq {
+	background-position: 0 -50px
+}
+
+.pro-user-sina {
+	background-position: 0 -100px
+}
+
+.pro-user-third {
+	padding: 5px 0 10px;
+	border-bottom: 1px dashed #d2d2d2
+}
+
+.pro-user-bar {
+	padding-top: 10px
+}
+
+.pro-user-checkbox {
+	display: block;
+	clear: both;
+	color: #969696
+}
+
+.pro-user-checkbox input {
+	float: left;
+	margin: 1px 3px 0 0
+}
+
+.pro-user-checkbox a {
+	text-decoration: underline
+}
+
+.pro-user-actions {
+	margin-top: 20px
+}
+
+.pro-user-login .pro-user-errorTip {
+	color: red;
+	margin-top: -5px;
+	padding-bottom: 5px
+}
+
+.pro-user-login-l {
+	float: left;
+	width: 242px;
+	height: 200px;
+	border-right: 1px solid #dcdcdc
+}
+
+.pro-user-login-r {
+	float: left;
+	width: 215px;
+	height: 200px;
+	padding-left: 10px;
+	color: #666
+}
+
+.pro-user-login .pro-user-show {
+	width: 212px;
+	height: 108px;
+	background: url(https://web.archive.org/web/20190615070317im_/http://lib.ttdtweb.com/pro-login/1.0.0/default.jpg) no-repeat center
+}
+
+.pro-user-regtip {
+	line-height: 28px
+}
+
+.pro-user-login .pro-user-field {
+	height: 60px;
+	margin-bottom: 0
+}
+
+.pro-user-login .pro-user-tip {
+	width: 218px;
+	clear: both;
+	margin-left: 0;
+	height: 24px;
+	line-height: 24px
+}
+
+.pro-user-login .pro-user-checkbox {
+	position: relative
+}
+
+.pro-user-login .pro-user-safe {
+	position: absolute;
+	visibility: hidden;
+	background-color: #FEFEC1;
+	border: 1px solid #D9CCB4;
+	color: #666;
+	line-height: 24px;
+	height: 24px;
+	padding-left: 5px;
+	width: 210px
+}
+
+.pro-user-register .pro-user-third {
+	padding-left: 20px;
+	padding: 8px 8px 8px 20px;
+	border-top: 1px solid #eee;
+	margin-top: 10px
+}
+
+.pro-user-register .pro-user-bar {
+	padding: 8px 15px
+}
+
+.pro-user-register .pro-user-tip {
+	line-height: 36px
+}
+/*
+     FILE ARCHIVED ON 07:03:17 Jun 15, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:14:30 Feb 18, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 561.123
+  exclusion.robots: 0.277
+  exclusion.robots.policy: 0.259
+  RedisCDXSource: 2.272
+  esindex: 0.01
+  LoadShardBlock: 526.318 (3)
+  PetaboxLoader3.datanode: 127.857 (4)
+  CDXLines.iter: 28.746 (3)
+  PetaboxLoader3.resolve: 405.774 (2)
+  load_resource: 169.712
+*/

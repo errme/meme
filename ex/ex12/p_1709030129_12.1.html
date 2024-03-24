@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>简易彩票投注程序</title>
+    <style type="text/css">
+        div {
+            margin: 0px auto;
+            background: url("实训12-资源/ico_7l.gif") left top no-repeat;
+            width: 450px;
+            height: 260px;
+            border: 2px solid #ff3300;
+        }
+        
+        td {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        h2 {
+            font-size: 28px;
+            text-align: center;
+        }
+        
+        #rest {
+            height: 120px;
+        }
+    </style>
+    <script type="text/javascript">
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function selectnumber(num) {
+            var number = new Array();
+            for (var i = 0; i <= 7; i++) {
+                var tmp = Math.ceil(Math.random() * 30);
+                if (tmp < 10) {
+                    tmp = "0" + tmp;
+                }
+                for (var j = 0; j <= number.length - 1; j++) {
+                    if (tmp == number[j]) {
+                        tmp = Math.floor(Math.random() * 30 + 1);
+                        if (tmp < 10) {
+                            tmp = "0" + tmp;
+                        }
+                        j = 0;
+                    }
+                }
+                number[i] = tmp;
+            }
+            $(num).value = number.sort().join(" ");
+        }
+        //-->
+    </script>
+</head>
+
+<body>
+    <div id="" class="">
+        <form method="post" action="" name="myform">
+            <h2>简易彩票投注程序</h2>
+            <table>
+                <tr>
+                    <td>彩票号码</td>
+                    <td><input type="text" name="" id="number1" size="28" readonly></td>
+                    <td><input type="button" value="投注" onclick="selectnumber('number1')"></td>
+                    <td rowspan="3"><input type="reset" value="清空" id="rest"></td>
+                </tr>
+                <tr>
+                    <td>彩票号码</td>
+                    <td><input type="text" name="" id="number2" size="28" readonly></td>
+                    <td><input type="button" value="投注" onclick="selectnumber('number2')"></td>
+                </tr>
+                <tr>
+                    <td>彩票号码</td>
+                    <td><input type="text" name="" id="number3" size="28" readonly></td>
+                    <td><input type="button" value="投注" onclick="selectnumber('number3')"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

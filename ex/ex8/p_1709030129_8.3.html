@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .nav-bar {
+            width: 100%;
+            height: 50px;
+            background: url(实训8-资源/newh3clogo.png) no-repeat left top #404143;
+        }
+        
+        .nav ul {
+            width: 100%;
+            list-style-type: none;
+            padding-left: 200px;
+        }
+        
+        .nav ul li {
+            width: 13%;
+            text-align: center;
+            float: left;
+        }
+        
+        .nav ul li a {
+            display: inline-block;
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .nav ul li a:hover {
+            background-color: red;
+        }
+        
+        .h3c_header {
+            text-align: center;
+            margin-top: 70px;
+        }
+        
+        .industry {
+            margin-top: 60px;
+            overflow: hidden;
+        }
+        
+        .industry ul {
+            list-style-type: none;
+            width: 100%;
+            margin-left: 50px;
+        }
+        
+        .industry ul li {
+            float: left;
+            width: 30%;
+        }
+        
+        .industry ul li:hover .xih3c_3-10 {
+            display: block;
+        }
+        
+        div {
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        .bottom_h3c {
+            width: 101px;
+            height: 25px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 23px;
+            display: block;
+            font-size: 12px;
+            color: #fff;
+            margin: 30px auto;
+            text-decoration: none;
+        }
+        
+        .bottom_h3c:hover {
+            background-color: #e60012;
+            color: #fff;
+        }
+        
+        img {
+            transition: all 0.3s;
+        }
+        
+        .tran_scale {
+            display: block;
+            overflow: hidden;
+        }
+        
+        .tran_scale:hover img {
+            transform: scale(1.1);
+        }
+        
+        .col-xs-12 {
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+        }
+        
+        .col-sm-4 {
+            width: 30.333%;
+            position: relative;
+            margin: 0 0.3%;
+        }
+        
+        .fnt_18 {
+            font-size: 18px;
+        }
+        
+        .xih3c_3-10 {
+            background: url(实训8-资源/head-b1g.png);
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .xih3c_3-10 h1 {
+            color: #fff;
+            text-align: center;
+            margin-top: 10%;
+        }
+        
+        .xih3c_3-10 p {
+            color: #fff;
+            margin-top: 20px;
+            padding: 0 10%;
+            height: 4.6em;
+            overflow: hidden;
+        }
+        
+        .h3c_m_img_1 {
+            position: relative;
+        }
+        
+        .h3c_m_img_1 img {
+            width: 100%;
+        }
+        
+        .h3c_m_img_1 h5 {
+            position: absolute;
+            background: url(实训8-资源/image/head-b1g.png);
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            line-height: 45px;
+            color: #fff;
+            padding: 0 5%;
+        }
+        
+        .h3c_m_img_1:hover h5 {
+            display: none;
+        }
+        
+        .ratio-img {
+            height: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav-bar">
+        <nav class="nav">
+            <ul>
+                <li><a href="#">产品技术</a></li>
+                <li><a href="#">解决方案</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">新华三大学</a></li>
+                <li><a href="#">合作伙伴</a></li>
+                <li><a href="#">关于我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="h3c_header">
+        <section>
+            <h2>行业</h2>
+            <p>VCF架构是华三“云网融合”解决方案的核心支撑，将云计算，智慧网络、IT安全、移动化等解决方案融合拉通"</p>
+            <p>并通过软件定义与资源编排，实现IT基础设施资源自动化调度、弹性扩展、应需而动</p>
+        </section>
+    </div>
+    <div class="industry">
+        <article>
+            <ul>
+                <li class="col-xs-12 col-sm-4">
+                    <div class="h3c_m_img_1 h3chover tran_scale">
+                        <a href=""><img src="实训8-资源/prj_8_3_1_pudong.jpg" / class="ratio-img"></a>
+                        <h5>服务浦东政务</h5>
+                        <div class="xih3c_3-10">
+                            <h1 class="fnt_18">服务浦东政务</h1>
+                            <p>H3C连续多年保持政务信息化建设领域市场份额第一,在中央部委的应用份额超过了70%,凭借对政务的理解和先进的云计算技术成为政务云最佳实践者</p>
+                            <a href="" class="bottom_h3c">查看更多</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-xs-12 col-sm-4">
+                    <div class="h3c_m_img_1 h3chover tran_scale">
+                        <a href=""><img src="实训8-资源/prj_8_3_2_tianjin.jpg" / class="ratio-img"></a>
+                        <h5>服务天津地铁</h5>
+                        <div class="xih3c_3-10">
+                            <h1 class="fnt_18">服务天津地铁</h1>
+                            <p>H3C作为一家本土化、专注在交通信息化的解决方案供应商，将紧跟中国交通信息化步伐，利用研发创新与交通贴身服务，为交通信息化带来更多与众不同的价值。</p>
+                            <a href="" class="bottom_h3c">查看更多</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-xs-12 col-sm-4">
+                    <div class="h3c_m_img_1 h3chover tran_scale">
+                        <a href=""><img src="实训8-资源/prj_8_3_3_shanghai.jpg" class="ratio-img"></a>
+                        <h5>服务上海财经大学</h5>
+                        <div class="xih3c_3-10">
+                            <h1 class="fnt_18">服务上海财经大学</h1>
+                            <p>新华三集团近日成功中标“上海财经大学SDN下一代校园网”项目，将对上海财经大学三个校区的原有核心网络进行面向SDN的下一代校园网升级改造，为两万多名在校师生提供智能化的校园网络服务。
+                            </p>
+                            <a href="" class="bottom_h3c">查看更多</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </article>
+    </div>
+</body>
+
+</html>

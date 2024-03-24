@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    function opemwid() {
+        window.open("https://xgan.me", "1");
+        window.open("https://xgan.me/phone.html", "2");
+        window.open("https://xgan.me", "3");
+        window.open("https://xgan.me", "4");
+    }
+</script>
+<script>
+    // document.getElementById("233").innerHTML = window.opener.document.getElementById("title").innerHTML;
+    window.onload = function () {
+        var e = document.createEvent("MouseEvents");
+        e.initEvent("click", true, true);
+        document.getElementById("ee").dispatchEvent(e);
+    }
+</script>
+
+<body>
+    <a href="javascript:opemwid()">233</a>
+    <a href="https://xgan.me" id="ee"></a>
+</body>
+
+</html>

@@ -1,0 +1,1947 @@
+
+/* CSS Document */
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0; font-weight:normal; color:#666;}
+body,button,input,select,textarea{font:12px/1.5 寰蒋闆呴粦,'微软雅黑',arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif; color:#666;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp{font-family:courier new,courier,monospace}
+small{font-size:12px}
+ol,ul,dl,dt{list-style:none}
+a{text-decoration:none; color:#666;}
+a:hover{text-decoration:none;}
+fieldset,img{border:0}
+i{font-style:normal;}
+button,input,select,textarea{font-size:100%; }
+table{border-collapse:collapse;border-spacing:0}
+#content,#footer,#header,#page{margin-left:auto;margin-right:auto}
+.color{color:#f04848;}
+.fl{float:left;}
+.fr{float:right;}
+.w1100{width:1100px; margin:0 auto; overflow:hidden;}
+input{border-width:0;border-color:white;border-style:none;background:none;}
+.input{cursor:pointer;}
+input:focus{outline:none;}
+textarea:focus{outline:none;}
+.pt20{padding-top:20px;}
+.pb20{padding-bottom:20px;}
+.mb20{margin-bottom:20px;}
+.mt20{margin-top:20px;}
+.bgcolor{background:#f0f0f0;}
+.pr10{padding-right:10px;}
+.pt10{padding-top:10px;}
+.bgcolors{background:#f7f7f7;}
+.centers{text-align:center;}
+.scroll_top{position:fixed;_position:absolute;right:10px;bottom:40px;_bottom:auto;display:none;width:40px;height:40px;text-align:center;vertical-align:middle;line-height:40px;border:1px solid #d5d5d5;border-radius:4px;z-index:9999;background:#fff;box-shadow:0 0 0px #F5F5F5;cursor:pointer}
+/*澶撮儴*/
+.header_conl a:hover{color:#f04848;}
+.header_conl .phonecode span{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/p_03.png) no-repeat 5px center; margin-left:10px; width:95px; padding-left:20px; display:inline-block; }
+.header_conl .phonecode{display:inline-block; position:relative; margin-left:15px; border-right:1px solid #f5f5f5; border-left:1px solid #f5f5f5;}
+.phonecode div{position:absolute; top:35px; left:-1px; background:#fff; display:none; border:1px solid #ccc; border-top:none; width:135px; height:134px; z-index:99;  text-align:center;}
+.header_conl .phonecode:hover{background:#fff; color:#f04848; border-right:1px solid #ccc; border-left:1px solid #ccc;}
+.header_conl .phonecode:hover span{color:#f04848;}
+.header_conl .phonecode:hover div{display:block;}
+
+.header,.header{width: 100%;position: fixed;border-bottom: 1px solid #e0e0e0;background: #f5f5f5;color: #666;top: 0;right: 0;z-index: 9999;left: 0;}
+.header_con{width:1100px; margin:0 auto; height:35px; line-height:35px;}
+.header_conl{float:left;}
+.header_conl span{padding:0 10px; color:#666;}
+.header_conl a{color:#666;}
+.header_conr{float:right; width:185px; height:35px;}
+.header_conr ul li{float:left;}
+.tures a{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/tures.png) no-repeat left center;}
+.tures a:hover{color:#f04848;}
+.menu-hd a{width:80px; text-align:center;display:inline-block;}
+.menu-bd{position:relative; background:#fff; z-index:999;}
+.menu-bd a{color:#999;}
+.menu-bd-panel{position:absolute; border:1px solid #e0e0e0; border-top:none; right:-2px; background:#fff;}
+
+.service .menu-bd-panel a{display:block; text-align:center; width:92px;}
+.service{width:92px; text-align:center;}
+.service .menu-hd a.active{color:#f04848; background:#fff; height:36px; width:92px; border:1px solid #e0e0e0; border-top:none; border-bottom:none;}
+.taomenu .menu-hd a.active{color:#f04848; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot1.png) no-repeat 64px 15px #fff; width:78px; height:36px; border:1px solid #e0e0e0; border-top:none; border-bottom:none}
+.menu-bd{display:none;}
+.taomenu .menu-hd a{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot1.png) no-repeat 65px 15px;}
+
+.cooperation{float:right; width:140px; height:35px; position:relative;}
+.cooperations{width:120px; height:35px; position:relative; overflow:hidden;}
+.cooperations li{width:90px; float:left; line-height:35px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/man.png) no-repeat 5px center; padding-left:21px; height:35px;}
+.cooperations li a:hover{color:#f04848;}
+
+/*logo*/
+.site-header{width:1100px; margin:36px auto 0; height:140px; z-index:1;  _padding-top:35px; *padding-top:35px;}
+input{border:none;}
+.logo{width:314px; padding-top:35px; display:inline-block; height:105px; float:left;}
+.sousu{padding-top:39px; width:786px; display:inline-block; height:100px; float:left; position:relative;}
+.sousu .sousus{border:2px solid #f04848; border-right:none; width:336px; height:44px; line-height:44px; padding-left:24px; float:left;}
+.magnifier{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/magnifier.png) no-repeat center center #f04848; cursor:pointer; width:56px; height:48px; border:none; float:left; margin-right:10px;}
+
+.hotsousu{clear:both;  position: absolute; bottom: 19px;left: 0;}
+.hotsousu a{line-height:30px; padding-right:10px; color:#6C6C6C}
+.hotsousu a:hover{color:#f04848;}
+.hotsousu a.on{color:#f04848;}
+
+
+.icon5{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/icon5.png) no-repeat left center #f7f7f7; padding-left:25px; line-height:22px; display:inline-block; margin-top:12px;}
+.icon6{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/icon6.png) no-repeat left center #f7f7f7; padding-left:25px; line-height:22px; display:inline-block; margin-top:12px;}
+.nav b{height:46px; border:1px solid #e0e0e0; display:inline-block; background:#f7f7f7; width:145px; text-align:center; line-height:46px;}
+.nav b a{width:100px; font-size:14px; padding:0; margin:0; height:46px; line-height:46px; margin:0 auto;}
+.nav b:hover{background:#f04848; cursor:pointer;}
+.nav b:hover .icon5{color:#fff;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/icon55.png) no-repeat left center;}
+.nav b:hover .icon6{color:#fff;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/icon66.png) no-repeat left center;}
+
+/*nav*/
+.Nav{border-bottom:2px solid #f04848; width:100%;}
+.nav{height:50px; width:1100px; margin:0 auto; position:relative;}
+.nav .fr{ position: absolute;right: 0;top: 0;}
+.nav_right{position:absolute; right:19px; top:38px; height:50px; width:182px; background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/phone.png) no-repeat left center;}
+.nav_right p{text-align:right;}
+.nav_right h4{font-size:18px; text-align:right; font-weight:normal;}
+.nav span{width:254px; text-align:center; display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/bottom.png) no-repeat 200px center #f04848; height:50px; color:#fff; font-size:20px; line-height:50px; float:left;}
+.nav span.active{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/top.png) no-repeat 200px center #f04848;}
+.Nav .navs em{width:254px; text-align:center; display:inline-block; background:#f04848; height:50px; color:#fff; font-size:20px; line-height:50px; float:left;}
+.nav strong{display:inline-block; }
+.nav a{display:inline-block; width:140px; position:relative; height:50px; line-height:50px; text-align:left; font-size:20px; font-weight:normal;vertical-align:top}
+#bgt{height: 360px;position: relative;overflow: hidden;width:100%;position:relative;}
+#bgt ul{width:100%;}
+#bgt li{float:left;}
+.bgt_hd{position:absolute;overflow:hidden;left:50%;top:0;width:1100px;margin-left:-550px;}
+#bgTime{position: absolute;width: 197px;text-align: justify;bottom: 10px;left: 449px;overflow:hidden}
+#bgTime span{font-size: 34px;color: #fff;display: inline-block;width: 45px;text-align: center;line-height: 53px;}
+#bgTime #day{margin-left: 0;}
+
+.nav strong #dh_2shou{width:250px;background:url(../image/ding.gif)}
+.nav strong i{position:absolute; right:253px; top:5px; font-size:12px; color:#fff; display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/ding.png) no-repeat; width:53px; height:18px; line-height:18px; text-align:center;}
+.nav a:hover{color:#f04848;}
+.nav a.on{color:#f04848;}
+/*banner婊氬姩*/
+#navWrap{width:1100px; margin:0 auto; position:relative; z-index:99;}
+.bannerimg{min-height:410px; position:relative; width:100%; overflow:hidden;}
+.bannerhd{width:1920px; overflow:hidden; min-height:410px; position:absolute; top:0; left:50%; margin-left:-960px;}
+.bannerhd ul{width:100%; overflow:hidden; min-height:410px;}
+.bannerhd li{cursor:pointer;}
+.bannerhd ul li{float:left;}
+.imgs{float:left; width:100%;}
+.bannerbd,.bgt_bd{position:absolute; left:50%; margin-left:-100px; bottom:20px; z-index:96; width:200px; overflow:hidden;}
+.bannerbd ul,.bgt_bd ul{width:200px; margin:0 auto; overflow:hidden;}
+.bannerbd li,.bgt_bd li{width:24px; height:6px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_0111.png) no-repeat; margin-right:10px; float:left; cursor:pointer; color:#fff;}
+.bannerbd ul li.on,.bgt_bd li.on{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_011.png) no-repeat;}
+.nav_left{width:254px; background:#2b2b2b; float:left; z-index:100; height:410px; position:absolute; left:0; top:0;overflow: hidden;}
+.nav_left div{height:44px; line-height:44px;}
+.nav_left div a:first-child{padding-left:19px;}
+.nav_left div a{width:75px; display:inline-block; font-size:14px; color:#fff;}
+.nav_left div.active a{color:#f04848;}
+.nav_left div.active{background:#fff;}
+.nav_list_box a:hover{color:#f04848;}
+.nav_list{width:490px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/index/bg.png) repeat; height:388px; padding:10px 0 10px 20px; float:left; z-index:9; position:absolute; right:334px; border:1px solid #cac9c9; border-left:none;}
+.line{border-bottom:1px solid #383838; border-top:1px solid #1c1c1c; height:0; margin:0 auto; width:244px; display:block;}
+.nav_list_box ul{width:490px; overflow:hidden;}
+.nav_list_box li{float:left; width:447px; margin-right:40px;}
+.nav_list_box h3{font-size:14px; font-weight:bold; width:470px; position:relative; line-height:45px; border-bottom:1px solid #2b2b2b;}
+.nav_list_box h3 img{float:left; margin-top:12px; margin-right:10px;}
+.nav_list_box h3 a{position:absolute; right:0; color:#f04848; font-size:14px;}
+.nav_list_box div{padding-top:20px; width:490px; overflow:hidden;}
+.nav_list_box div a{display:inline-block; width:150px; margin-right:10px;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.nav_list_box div{padding-top:20px;}
+.liucheng img{width:1100px; margin:0 auto;}
+.liucheng{border-bottom:1px solid #e8e8e8;  margin-bottom: 15px; border-top:1px solid #e8e8e8; margin-top:-4px; text-align:center; background:#fff; height:67px;}
+
+
+/*main*/
+.main{width:100%; /*background:#f0f0f0; padding-top:43px;*/ overflow:hidden;}
+.mains{width:100%;  padding-top:10px; overflow:hidden;}
+.main_con{width:1100px; margin:0px auto 10px; overflow:hidden;}
+.main_left{width:840px; padding-right:20px; float:left;}
+.iconh3{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/icon7.jpg) no-repeat left center; position:relative; clear:both; padding-left:27px; font-size:18px; color:#666; font-weight:normal; margin-bottom:15px;}
+.iconh3 a{position:absolute; right:0; top:0; display:inline-block; font-size:12px; width:70px; text-align:center; background:#ff4900; color:#fff; height:23px; line-height:23px;}
+.main .hotul{min-height:281px; background:#fff;  margin-bottom:15px;overflow:hidden;}
+.hotul li{margin-right:10px; width:194px; border:2px solid #e0e0e0; cursor:pointer; min-height:296px; float:left;}
+.hotul li a{display:block; position:relative;}
+.hotul li div.biao{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/biao.png) no-repeat; padding:0; width:46px; height:46px; position:absolute; top:0; left:5px; text-align:center; line-height:46px; font-size:14px; color:#fff;}
+.hotul li:hover{border:2px solid #f04848; width:194px; min-height:296px;}
+.hotul li p{text-align:center; padding:10px 0 15px 0;}
+.hotul li div{height:36px; padding: 0 10px}
+.hotul .model{color:#999; height:30px; line-height:30px;}
+.hotul h4{position:relative; font-size:14px;text-align: center; line-height:40px; height:40px; padding-left:10px; color:#f04848; font-weight:normal; background:#f4f4f4}
+.hotul h4 span{clear:both;}
+.hotul h4 a{ color:#000; font-weight: bold; font-size:14px; *line-height:15px; padding-right:10px;}
+
+.main_right{width:240px; float:left;}
+.business{width:212px; border:4px solid #e0e0e0; padding:10px 10px 0 10px; background:#fff; margin-bottom:6px; position:relative;}
+.business .businessul dl{width:212px; overflow:hidden; min-height:90px;  padding-top: 10px;}
+.business dd,.business dt{float:left;}
+.business dd{width:140px; padding-right:20px;}
+.business dd div{position:relative; color:#999;}
+.business dd span{position:absolute; right:0;}
+.business li{padding:2px 0; cursor:pointer;border-bottom:1px solid #e0e0e0;}
+.business h5{color:#999; font-weight:normal;}
+.positions{position:relative;}
+.positions strong{position:absolute; right:0; font-weight:normal;}
+.business div span{color:#ffbb00;}
+.business .appraiseul li{width:212px; overflow:hidden; height:66px; border-bottom:1px solid #e0e0e0;}
+.businessul{height:319px; *height:344px; width:212px; overflow:hidden; position:relative;}
+.appraiseul{width:212px; height:280px; overflow:hidden;}
+
+/*medium*/
+.logos li a{color:#fff;}
+.medium{width:1100px; margin:0 auto; overflow:hidden; margin-bottom:15px;}
+.medium_left{width:400px; float:left;}
+.logos ul{background:#fff; width:400px; overflow:hidden;}
+.logos li{display:inline-block; float:left; margin-right:10px; cursor: pointer; border:1px solid #e0e0e0; position:relative; margin-bottom:10px; width:120px; height:66px; background:#fff;}
+.logos li div{width:120px; height:66px; background:#fff; position:relative;}
+.logos li div a{position:absolute; left:10%; top:25%;}
+.logos li p{position:absolute;width:120px; height:66px; top:0; left:0; background:#fa5716; color:#fff; text-align:center; line-height:66px; font-size:14px; display:none;}
+.logos li:hover p{display:block;}
+
+.medium_right{width:350px; float:left;}
+.quality{width:330px; padding:0 10px 10px 10px; background:#fff; position:relative;}
+.qualityspic{width:320px; overflow:hidden; position:relative;}
+.qualityspic ul{width:100%;}
+.qualityspic li{float:left; cursor: pointer; width:320px; margin-right:10px;overflow:hidden}
+.qualityspic li div{width:320px;  height:224px; float:left; position:relative;}
+.qualityspic li div:last-child{margin-right:0;}
+.qualityspic li p{position:absolute; bottom:0; left:0; color:#fff; width:320px; background:url(../image/bg1.png) repeat; text-align:center; line-height:30px;}
+.lefticon{position:absolute; left:0; cursor: pointer; top:100px; display:inline-block; width:30px; height:60px;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/left.png) no-repeat; z-index:99;}
+.lefticon:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/left_01.png) no-repeat;}
+.righticon{position:absolute; cursor: pointer; right:0; top:100px; display:inline-block; width:30px; height:60px;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/right.png) no-repeat; z-index:99;}
+.righticon:hover{background:url(../image/right_01.png) no-repeat;}
+
+.newstxt{width:342px; float:left; margin-right:8px;}
+.newstxts{width:340px; border:1px solid #e0e0e0;}
+.newnav{height:38px;}
+.newnav a{display:inline-block; float:left; width:112px; background:#f6f6f6; text-align:center; line-height:38px; border-bottom:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
+.newnav a.on{background:#fff; line-height:38px; border-bottom:none;font-weight: bold;}
+.newbox{padding:10px 17px;}
+.newbox div{line-height:29px; position:relative; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dots_01.png) no-repeat left center; padding-left:15px;}
+.newbox div span{ position:absolute; right:0; top:0;}
+.newbox .more{display:block; text-align:right;}
+
+/*admin*/
+.admin{width:1100px; margin:0 auto; overflow:hidden;}
+.admin_lfet{width:670px; float:left; padding-right:20px;}
+.people{background:#fff; overflow: hidden; width:648px; padding:10px 0 0 10px; position:relative; height:449px; border:1px solid #ccc;}
+.people .prevs{width:30px; cursor:pointer; height:40px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/top.png) no-repeat center center #ccc; position:absolute; z-index:9; right:20px; top:183px; display:inline-block;}
+.people .prevs:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/top.png) no-repeat center center #f04848;}
+.people .nexts{width:30px; cursor:pointer; height:40px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/bottom.png) no-repeat center center #ccc; position:absolute; z-index:9; right:20px; top:232px; display:inline-block;}
+.people .nexts:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/bottom.png) no-repeat center center #f04848;}
+.peoplespic li,.peoplespic li dl{width:610px; clear:both; overflow:hidden;}
+/*.peoplespic li{padding-bottom:10px;}*/
+.peoplespic li dt{float:left; width:60px; padding-right:7px; position:relative;}
+.peoplespic .imgbg{position:absolute; left:0; top:0;}
+.peoplespic li dd{float:left; width:470px; position:relative;}
+.peoplespic h4{font-size:14px; line-height:30px; color:#000;}
+.peoplespic p{font-size:12px; color:#999;}
+.iconh3 .weiboa{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/weibo.jpg) no-repeat left center #fff; padding-left:30px; color:#333; width:159px;}
+
+.admin_right{width:410px; float:left;}
+.problem{width:368px; background:#fff; height:417px; padding:20px 20px 21px 20px; border:1px solid #ccc;}
+.problem .question{font-size:14px; line-height:28px; cursor:pointer; width:340px; height:30px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/questions.jpg) no-repeat left center; padding-left:30px;}
+.problem .answer{color:#999; display:none; width:370px; overflow:hidden; padding:10px 0;}
+
+.together{margin:0 auto; width:1100px; padding-top:33px;}
+.friend{background:#fff; padding:25px 0; width:1100px; min-height:53px; position:relative;}
+.friendhd{width:1100px; min-height:53px; overflow:hidden;}
+.friendhd li{width:155px; float:left; height:58px; text-align:center;}
+.icons{width:1100px; padding-top:40px; padding-bottom:35px; height:52px;}
+.icons ul{width:1100px; height:52px;}
+.icons ul li{float:left; width:220px; padding-right:70px;}
+.icons ul li dl{width:220px; height:52px;}
+.icons ul li dt{float:left; width:52px; padding-right:23px;}
+.icons ul li dd{float:left; width:140px;}
+.icons ul li dd h3{font-size:18px; font-weight:normal;}
+.icons ul li dd p{color:#999;}
+.icons ul li:last-child{padding-right:0;}
+/*footer*/
+.footer{min-height:290px; background:#e0e0e0; width:100%; padding-top:24px;}
+.footer_con{width:1100px; margin:0 auto;}
+.footer_top{width:1100px; min-height:174px; clear:both;}
+.footer_nav{width:537px; float:left; min-height:174px;}
+.footer_nav dl{float:left; width:130px;}
+.footer_nav dl:last-child{padding-right:0;}
+.footer_nav dt{font-size:18px; color:#666; height:30px;}
+.footer_nav dd{font-size:14px; color:#666; line-height:30px;}
+.code{width:250px; min-height:174px;/* padding-left:120px; */ padding-right:80px;float:left; text-align:center; color:#666; line-height:30px;}
+.code div{width:194px; text-align:left; margin-left:30px; font-size:18px; padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #ccc;}
+.code div a{padding-right:5px;}
+.code ul{width:250px; height:76px;}
+.code ul li{float:left; width:125px; text-align:center; line-height:20px; position:relative; cursor:pointer;}
+.code .ewm{position:absolute; right:-59px; top:-184px; display:none;}
+.code ul li:hover .ewm{display:block;}
+.address{width:220px; float:left; color:#666;}
+.address dl{width:220px; overflow:hidden;}
+.address dt{float:left; width:55px;}
+.address dd{float:left; width:165px;}
+.address h3{font-size:24px; font-weight:normal;}
+.address div{padding-top:20px; clear:both; width:220px;}
+.footer_bottom{width:1100px; clear:both; border-top:1px solid #ccc; overflow:hidden; padding:20px 0;}
+.footer_bottom p{text-align:center; color:#666; line-height:30px;}
+.footer_bottom div{margin:0 auto;}
+.footer_bottom div a{padding-right:10px; line-height:30px; display: inline-block;}
+.footer_bottom p img{padding-top:30px;}
+.authentication{height:36px; padding:15px 0; background:#545454;}
+.authentication .w1100{text-align:center;}
+.authentication .w1100 a{padding-right:10px;}
+.footer_bottom h5{position:relative; line-height: 30px; font-size: 16px;}
+.footer_bottom h5 span{position:absolute; right:0; top:0;}
+
+
+/*鏃ф墜鏈哄洖鏀�*/
+.deal{width:1100px; height:191px; margin:0 auto; padding:20px 0;}
+.dealslogo{width:850px; float:left;  padding-bottom: 20px;}
+.dealslogo ul{width:850px;  overflow: hidden; min-height:65px; border:1px solid #ccc; border-right:none; border-bottom:none;}
+.dealslogo ul li{float:left; width:105px; border-bottom:1px solid #ccc; border-right:1px solid #ccc; position:relative; overflow:hidden; height:62px; cursor:pointer;}
+.logoimg{display:block;}
+.dealright{width:230px; margin-left:10px; float:left; height:191px; }
+.logotxt{text-align:center; line-height:62px; width:105px; height:62px; display:none; background:#fff; color:#999;}
+.dealslogo ul li:hover .logotxt{display:block; color:#f04848;}
+.dealslogo ul li:hover .logoimg{display:none;}
+
+.main .hotuls li{width:201px; cursor:pointer; margin-bottom:10px; min-height:251px;}
+.main .hotuls{background:#fff; width:870px; overflow:hidden; padding-bottom:20px; margin-right:-20px;}
+.iconh3 span{font-size:16px; padding-left:10px;}
+.iconh3 i{color:#f04848; font-style:normal;}
+
+/*鍒嗛〉*/
+.page-public { width: 100%; text-align: center; line-height: 42px;  clear: both;}
+.page-wrap { padding: 15px 0 15px; margin:0 auto; }
+.page-num{}
+.page-num a,.page-num span,.page-num b{ margin:0 8px; padding:6px 14px; border:#efefef solid 1px;}
+.page-num a{ cursor:pointer;}
+.page-num b{ border:none;}
+.page-num a:hover,.page-num .current{ background:#ff9900; color:#fff;}
+.page-num span{ background:#efefef; color:#666;}
+.dealslogo .desc{width:101px; height:58px; position:absolute; left:-104px; top:-62px; border:2px solid #f04848;}
+
+/*404椤甸潰*/
+.error{width:1100px; background:#fff; padding-top:100px;}
+.error .dot5{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot5.png) no-repeat center top; height:52px; line-height:52px; padding-top:140px; display:inline-block; color:#f04848; margin-bottom:70px; font-size:18px;}
+.errors{text-align:center;width:1100px; height:192px;}
+.lookup{width:680px; margin:0 auto; padding-bottom:70px;}
+.lookup h4{font-size:18px; padding-bottom:18px; color:#333;}
+.lookup div input{margin-right:10px; width:205px; border:1px solid #ccc; line-height:38px; height:38px; color:#999; padding-left:5px; margin-bottom:35px;}
+.lookup p{text-align:center; color:#999; line-height:30px;}
+.lookup p input{width:140px; height:52px; text-align:center; color:#fff; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dotbg.png) repeat-x; border:none; line-height:52px;}
+
+/*浼颁环椤甸潰*/
+.judge .values.on{position:fixed; top:36px; left:50%; margin-left:-550px; z-index:999;}
+.judge .values.active{position:fixed; top:65px; left:50%; margin-left:-550px; z-index:999;}
+.f17{color:#333;}
+.f17 .color{font-size:17px;}
+.phone{width:1100px; margin:0 auto; overflow:hidden; margin-bottom:20px;}
+.phoneleft{width:689px; padding:20px 0; margin-right:15px; background:#fff; float:left; border:1px solid #ccc;}
+.phoneright{width:380px; float:left; padding-left:10px; background:#fff; border:1px solid #ccc;}
+.phoneleft dl{width:689px; overflow:hidden; min-height:212px; padding-top:26px;}
+.phoneleft dt{width:196px; text-align:center; float:left;}
+.phoneleft dd{width:493px; float:left;}
+.phoneleft dd span{display:block; font-size:16px; line-height:40px; color:#999;}
+.phoneleft dd h3{line-height:40px; padding-bottom:10px; font-size:18px;}
+.phoneleft dd div{color:#666; line-height:25px; background:#f8f8f8; padding:15px; margin-right:20px; margin-bottom:20px;}
+.phoneleft dd div strong{font-weight:normal; color:#e82e00;}
+.judge{width:1098px; margin:20px auto; border:1px solid #f0f0f0; padding: 0 0 20px;}
+.value{width:100%; background:#e0e0e0; height:30px;}
+.value span{width:30%; display:inline-block; text-align:right; background:#ff9c00; color:#fff; font-size:18px; line-height:30px;}
+.problems h3{font-size:18px; padding-top:20px; line-height:50px; font-weight: bold; color:#333; padding-left:10px;}
+.problems h3 img{float:left; margin-top:17px; margin-right:10px;}
+.problems div{width:1088px; overflow:hidden; padding-left:10px;}
+.problems div a{display:inline-block; color:#666; font-size:14px; background: #fffaf2; cursor:pointer; float:left; margin-right:6px; margin-bottom:10px; width:168px;line-height: 20px; padding:15px 20px; height:80px; border:1px solid #f0f0f0; text-align:center;}
+.problems div a:hover{border:1px solid #ff9c00; color:#ff9c00; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot6.jpg) no-repeat bottom right;}
+.problems div a.on{border:1px solid #ff9c00; color:#ff9c00; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot6.jpg) no-repeat bottom right;}
+.btn input{background:#f04848; position:absolute; cursor:pointer; right:14px; top:20px; color:#fff; text-align:center; line-height:60px; height:60px; font-size:20px; border:0; display:block; width:260px;}
+.btn{position:relative; min-height:60px; padding-top:20px; cursor:pointer;}
+.problems div a span{line-height:20px; display:block; padding-top:14px; font-size:16px;}
+.problems div a i{line-height:20px; font-size:12px; font-style:normal;}
+.problems div a em{display:block; font-size:12px; color:#999;}
+.problems .btn a{border:none; text-align:left; color:#f04848;background:#fff;}
+.problems .btn a:hover{border:none; background:none;}
+.phoneright h4{position:relative; font-size:18px; height:40px; color:#999; line-height:40px; padding-left:10px;}
+.phoneright h4 span{position:absolute; right:15px; top:5px; font-size:12px; color:#999;}
+
+.phoneright h2{  position: relative;font-size: 17px; height: 40px; width: 310px; color: #999; line-height: 40px;padding-left: 10px;display: inline-block;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;padding-right: 60px;}
+.phoneright h2 span{position:absolute; right:15px; top:5px; font-size:12px; color:#999;}
+
+/*浠ユ棫鎹㈡柊*/
+.phones{width:1100px; margin:0 auto; background:#fff; overflow:hidden;}
+.headertable td{text-align:center; border-right:1px solid #ccc;}
+.headertable{border:1px solid #ccc; margin:20px auto 0; font-size:14px; color:#666; background:#f5f5f5;}
+.headercon{border:1px solid #ccc;margin:0 auto 20px; border-top:none; font-size:12px;}
+.headercon div{padding:0 25px;}
+.headercon td{text-align:center; border-right:1px solid #ccc;}
+.headercon span{font-size:16px; color:#f04848;}
+.headercon p{text-align:left; line-height:25px;}
+.headercon strong{ font-weight:normal; color:#666;}
+.headercon i{display:inline-block; width:92px; font-style:normal; color:#999;}
+.headercon dl{width:174px; margin:0 auto; overflow:hidden;}
+.headercon dt{float:left; width:58px;}
+.headercon dd{width:116px; float:left; text-align:left;}
+.refer{margin-bottom:20px; color:#666; width:833px; overflow:hidden; padding-left:267px;}
+.refer div{display:inline-block; float:left; width:326px;}
+.btn1{width:220px; height:38px; line-height:50px; line-height:38px; border:1px solid #ccc; float:left; color:#999; padding-left:5px;}
+.refer span{display:inline-block; padding-top:10px; float:left; padding-right:20px;}
+.btn2{background:#f04848; color:#fff; height:50px; cursor:pointer; min-width:200px; display:inline-block; float:right; text-align:center; line-height:50px; border:none; margin-right:20px; font-size:20px;}
+
+/*浠ユ棫鎹㈡柊鏀粯*/
+.refersl b{float:left; font-size:16px; font-weight:normal;}
+.btn3{margin-left:50px; width:24px; height:24px; background:#fff; float:left; margin-top:14px; margin-right:10px;}
+.refers{width:1062px; overflow:hidden; margin:0 auto 20px; background:#f5f5f5; border:1px solid #f0f0f0; padding:28px 19px; }
+.refersl{float:left; line-height:50px;}
+.refersl span{font-size:18px; float:left;}
+.refersl a{float:left; display:inline-block; width:128px; height:38px; background:#fff; text-align:center; padding-top:5px; margin-top:5px; margin-left:34px; border:2px solid #f5f5f5; position:relative;}
+.refersl a img{border:1px solid #ccc;}
+.refersl a:hover{border:2px solid #f04848;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot9.png) no-repeat right bottom #fff;}
+.refersl a:hover .refersl a img{border:1px solid #fff;}
+.refersl a:hover .refersl a em{display:block;}
+.refersl a.on{border:2px solid #f04848;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot9.png) no-repeat right bottom #fff;}
+.refersl a.on .refersl a img{border:1px solid #fff;}
+.refersl a.on .refersl a em{display:block;}
+.refersr{float:right;}
+.refersr span{font-size:18px; color:#666; line-height:50px; padding-right:20px;}
+
+/*鎻愪氦鎴愬姛*/
+.success{width:1080px; margin:0 auto 20px; background:#fff; padding:60px 0 20px 0; overflow:hidden;}
+
+/*鎭枩璁㈠崟鎻愪氦瀹屾垚*/
+.dot6 dl{margin:0 auto; width:365px; overflow:hidden; min-height:90px;}
+.dot6 dt{float:left; width:120px;}
+.dot6 dd{float:left; width:245px;}
+.dot6 dd h4{padding-top:30px; padding-bottom:10px; line-height:20px; font-size:18px; color:#4bb191; font-weight:normal;}
+.dot6 dd p{color:#999; font-size:12px;}
+.dot6 a{text-decoration:underline; color:#f04848;}
+.dothis{width:977px; margin:50px auto 50px; overflow:hidden;}
+.success .dothi{width:912px; margin:50px auto 50px; overflow:hidden;}
+.dothis a{display:inline-block; background:#f7f7f7; width:158px; float:left; height:168px;  border:1px solid #ccc; font-size:14px; margin-top:14px; height:38px; line-height:20px; padding:10px 15px 10px 15px;}
+.dothis div{font-size:16px; color:#666; padding-bottom:20px;}
+.dothis span{float:left; padding:0 10px; display:inline-block; margin-top:11px;}
+.mailaddress{width:960px; border:1px solid #eae9e9; line-height:25px; margin:20px auto; padding:15px 0 20px 40px; text-align:left; background:#4bb191; color:#fff;}
+.mailaddress p{font-size:16px; color:#fff;}
+.mailaddress div{font-size:14px; color:#fff;}
+
+/*绔嬮┈鍥炴敹*/
+.w200{width:200px; margin:0 auto;}
+.fashion{width:1100px; margin:0 auto 20px; overflow:hidden; clear:both;}
+.fashion h3{line-height:65px; font-size:18px; font-weight:normal; color:#333;}
+.fashioncons{ background:#f7f7f7;}
+.fashionav{width:1098px; height:101px;background: #ffffff}
+
+/* 淇敼閮ㄥ垎 */
+.fashionav a{display:inline-block; float:left; width:359px;  cursor: pointer; background:#f7f7f7; border-bottom: 7px solid #a6a6a6; border-right:1px solid #e7e7e7;}
+.fashionav a dl{ padding-left:18px;overflow: hidden }
+.fashionav a dt{width:86px; float:left;padding-top: 5px;}
+.fashionav a dd{padding: 20px 5px 0 10px}
+.fashionav a dd div{font-size: 20px;line-height: 30px}
+.fashionav a dd span{font-size: 14px}
+.fashionav a.on{ color:#fff; border-bottom: none;height: 98px}
+.fashionav .on.on_01{background: #bfeafb; }
+.fashionav .on.on_02{background: #598fc6; }
+.fashionav .on.on_03{background: #deedd8; }
+.fashionav .on.on_04{background:#ffd2bf; }
+.fashionav .on.on_04 dd{color: #ff4c00}
+.fashionav .on.on_01 dd{color: #00aaef}
+.fashionav a.on dl{}
+.fashionav a.on .logo_02{display:block;}
+.fashionav a.on .logo_01{display:none;}
+/* 淇敼閮ㄥ垎缁撴潫 */
+.logo_02{display:none;}
+.fashionavs a{width:548px;}
+.fashionavs a dl{margin:0 auto;}
+.btn_error{margin-top:-25px;}
+.btn4{width:315px; border:1px solid #ccc; background:#fff; height:38px; padding-left:5px;}
+.fashionbox table tr{margin-bottom:20px; font-size:16px; color:#696969;}
+.fashionbox table{margin-top:10px;}
+.img{text-align:center;background: #fff;padding-top: 30px;padding-bottom: 30px}
+.shangmentxt input
+.fashionbox select{font-size:12px; color:#999; width:110px; height:40px;}
+.img .btn2{margin-bottom:30px; margin-top:10px;}
+.fashionbox table td{position:relative;}
+.fashionbox table .btn8{width:80px; height:38px; position:absolute; right:-76px; border:1px solid #ccc; line-height:38px; background:#fff; padding-left:5px; top:10px;}
+.fashionbox table .btn9{position:absolute; left:422px; top:14px; font-weight:bold; height:30px; line-height:30px; color:#000; border:1px solid #a6a6a6; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/s_line.jpg) repeat-x #fff; border-radius:5px; padding:0 10px; font-size:12px;}.border_01{border-top:1px dashed #ccc; margin:20px auto; width:1020px;}
+.shangmen{width:700px; margin:0 auto;}
+.shangmen_01{width:100%; overflow:hidden;}
+.shangmen_01 span{display:inline-block; float:left; padding-right:10px;}
+.shangmen_01 div{float:left; display:inline-block;}
+.shangmentxt{padding-left:20px;}
+
+
+.usecode{padding-bottom:20px; overflow:hidden;}
+.usecode_01{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/y03.png) no-repeat left center; font-weight:bold; padding-left:30px; height:22px; font-size:16px; color:#476dba; line-height:22px; margin-bottom:10px;}
+.usecode_02,.usecode_03{}
+.usecode_open{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/y04.png) no-repeat left top; font-weight:bold; padding-left:30px; font-size:16px; color:#476dba; line-height:22px; margin-bottom:10px;}
+.usecodetxt{width:200px; border:1px solid #ccc; height:38px; background:#fff; padding-left:5px;}
+.usecode_02 div.landes{position:relative; left:0; top:10px;}
+
+
+
+/*璇勪及缁撴灉*/
+.phone_height{height:36px;}
+.buybox{position:relative;}
+.buybox p i{ text-decoration:line-through;}
+.buybox p{position:relative;}
+.buybox p em{position:absolute; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/gao.png) no-repeat; width:72px; height:31px; top:-17px; left:209px; text-align:center; display:inline-block; color:#fff;}
+.buytop .buybox_right{background:url(../image/timers.png) no-repeat left center; height:27px; color:#ff9c00; line-height:27px; padding-left:30px; position:absolute; left:340px; top:0;}
+
+.buy{width:1100px; min-height:665px; clear:both; margin:20px 0;}
+.buyl{width:448px; float:left; margin-right:14px; border:1px solid #ccc; background:#fff; padding-top:54px; position:relative;}
+.huangou{position:absolute; top:-27px; left:10px;}
+.buyl div{text-align:center; margin-bottom:38px;}
+
+.buyr{width:635px; float:left;}
+.buytop{min-height:312px; margin-bottom:10px; background:#fff;}
+.buytop div{color:#666; line-height:25px; background:#f0f0f0; padding:15px; margin-bottom:10px; margin-top:10px;}
+.buytop h4{font-size:18px; line-height:50px; padding-top:10px; color:#333;}
+.buytop p{line-height:30px; font-size:14px;}
+.buytop p strong{font-size:34px;}
+.buytop .btn2{margin-left:0; padding:0 30px;}
+
+.buybottom{height:324px; background:#f4f4f4; padding-left:45px; position:relative; border:1px solid #ccc;}
+.buybottom ul{width:590px; overflow:hidden;}
+.buybottom li{width:160px; padding:18px 0 0; cursor:pointer; text-align:center;  background:#fff; border:2px solid #e0e0e0; float:left; margin-left:19px;}
+.buybottom li:hover{border:2px solid #ff5858;}
+.buybottom li.on{border:2px solid #ff5858;}
+.buybottom li.on .dotright{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dotright.png) no-repeat 140px center #f04848;}
+.buybottom h3 a{position:absolute; right:38px; top:5px; color:#f04848; text-decoration:underline;}
+.buybottom h3{line-height:48px; color:#666; font-weight:normal; position:relative;}
+.buybottom li strong{color:#ff0000; font-size:21px; padding-top:10px;}
+.btn5{background:#f04848; cursor:pointer; color:#fff; height:30px; position:absolute; right:30px; bottom:20px; text-align:center; line-height:30px; padding:0 30px; margin-left:20px; border:none; margin-right:8px; font-size:16px;}
+.buybottom li p{padding-top:10px;}
+.dotright{background:#b7b7b7; height:18px; margin-top:10px;}
+.buybottom li:hover .dotright{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dotright.png) no-repeat 140px center #f04848;}
+.buyl h4{position:relative; font-size:18px; height:40px; color:#999; line-height:40px; padding-left:10px;}
+.buyl h4 span{position:absolute; right:25px; top:5px; font-size:12px; color:#999;}
+
+.flowwater{width:1100px; overflow:hidden; margin-bottom:30px;}
+.flowwaterl{width:826px; margin-right:38px; background:#fff; float:left;}
+.flowwaterlnav{width:830px; overflow:hidden;}
+.flowwater .flowwatertitile{width:100%; line-height:40px; font-size: 16px; text-align:center; color:#fff; background:#ea5353; padding-top:0;}
+.flowwaterlnav a{display:block; width:163px; height:64px; border:1px solid #ccc; border-right:none; float:left; text-align:center;}
+.flowwaterlnav a span{display:block; height:58px; border-top:6px solid #fff; line-height:40px; font-size:18px;}
+.flowwaterlnav a:last-child{width:166px; border-right:1px solid #ccc;}
+.flowwaterlnav a.on span{color:#f04848; border-top:6px solid #f04848;}
+.flowwaterlnav a.on{border-top:1px solid #fff;}
+.flowwaterlcons{padding:15px 0 30px 0; color:#666; border:1px solid #ccc; border-top:none; margin-right:2px;}
+.flowwaterlcons h3{padding-top:25px; font-weight:normal; font-size:16px; }
+
+.flowwaters{width:232px; float:left;}
+.flowwaters h5{height:183px; background:#fff; margin-bottom:20px; text-align:center; line-height:183px; font-size:16px; font-weight:normal; color:#666; width:240px;}
+.flowwaters h4{font-size:16px; color:#fff; background:#ff9c00; padding-left:7px; height:60px; line-height:60px;}
+.flowwaterscon{width:230px; background:#fff; overflow:hidden; position:relative; min-height:530px;}
+.flowwaterscon{width:230px; overflow:hidden; position:relative; border: 1px solid #ccc;}
+.flowwatersconul h3{color:#ff9c00; font-size:16px; line-height:20px; padding:15px 7px;}
+.flowwatersconul div{padding-left:7px; color:#888; line-height:20px;}
+.flowwatersconul p{text-align:center; padding:10px 0;}
+.top_01{position:absolute; width:120px; height:40px; bottom:0; left:0; z-index:10; display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/top_01.png) no-repeat left top;}
+.bottom_01{position:absolute; width:120px; height:40px; bottom:0; right:0; z-index:10; display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/bottom_01.png) no-repeat left top;}
+.top_01:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/top_11.png) no-repeat left top;}
+.bottom_01:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/bottom_11.png) no-repeat left top;}
+.flowwatersconul li{min-height:241px;}
+
+.w575{width:576px; min-height:50px; margin:0 auto;}
+.box1{width:575px; margin:20px auto; background:#fafafa; overflow:hidden;}
+.box1 span{display:inline-block; float:left; width:110px; height:130px; color:#fff; background:#f04848; text-align:center; line-height:130px; font-size:20px;}
+.box1 h2{text-indent:24px; line-height:30px; padding-top:10px;}
+.box1 p{text-align:center; padding-bottom:6px;}
+.b_ul{width:575px; margin:0 auto; overflow:hidden;}
+.b_ul li{float:left; margin-right:12px;}
+.box2{overflow:hidden; position:relative; height:191px; width:579px;}
+.box2ul,.box2 ul{width:100%; overflow:hidden; position:relative;}
+.box2 ul li{float:left; width:144px;}
+.box3 h6{font-size:15px; color:#000;}
+.box3 div{color:#ff9c00; padding:10px 0 20px 0;}
+.box4 ul{width:100%; height:190px;}
+.box4 ul li{float:left; position:relative; width:50%; text-align:center;}
+.box4 ul li span,.box4 ul li strong{position:absolute; top:20px; display:inline-block;width:48px; padding-left:18px; text-align:left; height:55px; color:#fff; padding-top:8px;}
+.box4 ul li span{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/b_14.png) no-repeat;  left:-10px;}
+.box4 ul li strong{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/b_16.png) no-repeat; right:-10px; font-weight:normal;}
+.box1dl{width:100%; overflow:hidden;}
+.box1dl dt{width:65px; float:left;}
+.box1dl dd{float:left; width:500px; padding-top:10px;}
+.txt2{text-align:right;}
+.bq_1 span,.bq_1 strong,.bq_2 span,.bq_2 strong{display:inline-block; float:left; margin-right:10px; font-weight:normal;}
+.bq_1 span{background:#f04848; color:#fff; text-align:center; line-height:20px; width:20px; margin-top:2px; border-radius:10px;}
+.bq_1,.bq_2{width:100%; overflow:hidden; margin-bottom:10px;}
+.bq_2 span{background:#999; color:#fff; text-align:center; line-height:20px; margin-top:2px; width:20px; border-radius:10px;}
+.bq_2 strong{width:500px;}
+.bq{margin-bottom:20px;}
+.flowwaterlcon .business,.flowwaterlcon .businessul{width:575px; margin:0 auto; min-height:400px;}
+.flowwaterlcon .businessul{margin-bottom:20px;}
+.flowwaterlcon .businessul li{width:575px; overflow:hidden;}
+.flowwaterlcon .businessul dd div span{left:10px;}
+.flowwaterlcon .businessul dd div{padding-left:10px;}
+.flowwaterlcon .businessul dd{padding-top:10px;}
+.flowwaterlcon .businessul dl{float:left;}
+.flowwaterlcon .appraise{width:350px; float:left; padding-right:13px; padding-top:10px;}
+
+/*鐢ㄦ埛涓績*/
+.admins{width:1100px; margin:0 auto; padding-top:40px; padding-bottom:60px; height:80px;}
+.admins dt{float:left; width:100px; height:80px;}
+.admins dd{float:left; width:500px; padding-top:15px;}
+.admins dd h3{font-size:18px; line-height:30px;}
+.admins dd p{font-size:14px;}
+.box{width:869px; float:left; margin-bottom:20px;}
+.orderform{height:50px; line-height:50px; border:1px solid #ededed; border-bottom:none; background:#fffaf1; font-size:16px; width:867px; top:-51px; left:0;}
+.orderform em{font-style:normal; padding-left:20px;}
+.orderform .ordernav{display:inline-block; float:left; color:#333; width:120px; height:50px; text-align:center; border-right:1px solid #ededed;}
+.ordernav span{display:inline-block; width:120px; height:48px; border-top:2px solid #f0f0f0; line-height:48px;}
+.orderform .ordernav.on{background:#fff; height:51px;}
+.orderform .ordernav.on span{border-top:2px solid #ff4900; font-weight:bold;}
+.yellow{background:#ff9c00; color:#fff; height:30px;cursor: pointer; text-align:center; line-height:30px; width:100px; margin-bottom:10px; border:none;font-size:14px;}
+.gray{background:#bdbdbd; color:#fff; height:30px; text-align:center; line-height:30px; width:100px; border:none;font-size:14px;}
+.dot_08{width:144px; height:47px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot8.jpg) no-repeat left top;}
+
+.boxleft{width:208px; float:left; border:1px solid #ccc; margin-right:20px;margin-bottom: 20px;}
+.vip{height:132px; background:#fffaf1; padding:25px 0;}
+.vip h3{color:#ffbc52; text-align:center; font-size:20px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/icon_66.png) no-repeat 10px center;}
+.vip p{color:#999; font-size:12px; line-height:20px; text-align:center;}
+.vip strong{text-align:center; font-weight:normal; display:block; line-height:30px;}
+.vip a{display:block; text-decoration:underline; text-align:center; line-height:30px;}
+.vipnav>a{display:block; font-size:14px; height:61px; color:#666; line-height:60px; border-bottom:1px solid #e0e0e0;}
+.c_01{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_01.png) no-repeat 20px center; padding-left:64px;}
+.c_01.on,.c_01:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_11.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.c_02{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_02.png) no-repeat 20px center; padding-left:64px;}
+.c_02.on,.c_02:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_22.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.c_03{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_03.png) no-repeat 20px center; padding-left:64px;}
+.c_03.on,.c_03:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_33.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.orderformcons{width:867px; border:1px solid #ededed;}
+.orderformcons p{padding:0 5px; color:#999;}
+.headercon a{color:#ff9c00;}
+.tables table{border:1px solid #ccc; border-bottom:none; border-right:none; margin-bottom:20px;}
+.tables{padding:20px 0;}
+.tablehead{background:#f7f7f7; padding-left:20px; height:48px; font-weight:normal; width:826px; position:relative; border-bottom:1px solid #ccc; line-height:48px; text-align:left;}
+.tablehead span{display: inline-block; width: 234px;}
+.tablehead a{position:absolute; right:60px; color:#fff;cursor: pointer; display:inline-block; background:#f04848; text-align:center; height:23px; line-height:23px; width:76px; top:13px;}
+.tinge{background:#fffaf1; height:28px; line-height:28px; border-bottom:1px solid #ccc;}
+.tables table td{border-bottom:1px solid #ccc; text-align:center; border-right:1px solid #ccc;}
+.tables table th{border-right:1px solid #ccc;}
+.h129{height:129px;}
+.dl_01{width:135px; height:79px; margin:0 auto;}
+.dl_01 dt{float:left; width:47px;}
+.dl_01 dd{float:left; width:88px; padding-top:19px;}
+.nead{padding-top:40px; height:88px;}
+.dl_02{width:190px; margin:0 auto; height:80px; padding-top:20px;}
+.dl_02 dt{float:left; width:47px; float:left;}
+.dl_02 dd{float:left; width:143px; text-align:left;}
+.phonelist{display:block; width:80%; margin:0 auto; text-align:left;}
+.phonelist i{display:inline-block; font-style:normal; width:80px;}
+.addresstable strong,.phonelist strong{font-weight:normal;}
+.addresstable{padding:0 10px; width:80%; text-align:left; margin:0 auto;}
+.addresstable h4{font-size:12px; font-weight:normal; height:30px;}
+.addresstable i{display:inline-block; width:145px; font-style:normal;}
+
+/*===========鍚庡姞 ================*/
+/* 璐︽埛棣栭〉 */
+
+.vipnav>a{display:block; font-size:14px; height:61px; color:#666; line-height:60px; border-bottom:1px solid #e0e0e0;}
+.c_00{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/yh5.png) no-repeat 20px center; padding-left:64px;cursor: pointer}
+.c_00.on,.c_00:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/yh1.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.c_00_item{width: 135px;margin-left: 70px}
+.c_00_a{color: #666666;font-size: 14px;line-height: 35px;border: none;padding-left: 20px}
+.c_00_item ul li{margin-left: 20px;height: 30px;line-height: 30px;color: #666666}
+.c_00_item h2{line-height: 35px;color: #999999;font-size: 14px}
+.bn{display: none}
+.yh-head{height: 158px;width: 100%}
+.yh-main{padding-bottom: 80px;}
+.yh-main h2{line-height: 50px;border: 1px solid #e0e0e0;font-size: 16px;font-weight: 600}
+.yh-main h2 span{display: block;height: 50px;width: 175px;text-align: center;border-top: 2px solid #ff4900;border-right: 1px solid #e0e0e0}
+.yh-table{border: 1px solid #e0e0e0}
+.yh-table td{border: 1px solid #e0e0e0;height: 158px}
+.yh-table-a{height: 40px;}
+.yh-table-p{height: 75px;line-height: 75px;padding-left: 30px;font-size: 16px;color: #666666}
+.yh-table-p b,.yh-td p b{color: #ff9c00;font-size: 18px}
+.yh-table-sm{display: block;height: 30px;padding-left: 30px;line-height: 30px;color: #f04848}
+.yh-table-a a{display: block;width: 80px;height: 30px;border: 1px solid #e0e0e0; text-align: center;font-size: 14px;float: left;border-radius: 5px; margin-left: 30px;line-height: 30px}
+.yh-a1{background: #f04847;color: #ffffff}
+.yh-td p{text-align: center;font-size: 16px;line-height: 30px;color: #666666}
+.yh-td1-ul{padding: 0 25px}
+.yh-td1-li1{font-size: 16px;line-height: 25px;  }
+.yh-td1-li2{font-size: 14px;line-height: 55px;padding-left: 50px}
+.yh-td1-li3{font-size: 12px;color: #999999}
+.yh-active{color: #f04848}
+.yh-table1{width: 100%; text-align: center;margin-top: -1px}
+.yh-table1 tr{border: 1px solid #e0e0e0;color: #333333;font-size: 14px;height: 68px;line-height: 68px}
+.yh-table1 td{width: 20%}
+.yh-t1-td{color: #ff9c00}
+.pr{position: relative}
+.yh-more{width: 165px;height: 45px;line-height: 45px;margin:20px auto;font-size: 16px;text-align: center; color: #666666;cursor: pointer;border: 1px #e0e0e0 solid;}
+.c_00_ul li{cursor: pointer}
+.yh-active1{color: #ff9c00}
+/* 鎻愮幇 */
+.tx{    border-left: 1px #e0e0e0 solid;
+    border-right: 1px #e0e0e0 solid;
+    border-top: 1px #e0e0e0 solid;}
+.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}
+.tx1-ul,.gl-ul{border-bottom: 1px solid #e0e0e0}
+.tx1-ul li,.gl-ul li{float: left;width: 173px;height: 50px;border-right: 1px solid #e0e0e0;text-align: center;line-height: 50px;font-size: 16px;color: #000000;cursor: pointer}
+.tx-active{border-top: 2px #ff4900 solid}
+.tx-active1{border-top: 2px #e0e0e0 solid}
+.tx-main{padding: 20px 30px}
+.tx-main h2{font-size: 16px;color: #666666;padding-left: 60px}
+.tx-main h2 b{ font-size: 18px;color: #ff9c00;}
+.tx-m-a{padding-left: 150px;padding-top: 30px}
+.gl-m-a,.ban-a{margin-left: 150px}
+.tx-m-a a,.gl-m-a a,.ban-a a{display: block; width: 238px;height: 98px;text-align: center;float: left;margin-left: 20px;cursor: pointer}
+.tx-ma1 img,.tx-ma2 img,.gl-ma1 img,.gl-ma2 img{display: inline-block; margin-top: 27px}
+.tx-active2{border: 1px solid #e0e0e0;background: #f0f0f0}
+.tx-active3{border: 1px solid #7db764}
+.tx-form1{padding-left: 60px}
+.tx-m-item1{margin-top: 20px}
+.tx-form1 label{font-size: 16px;color: #666666;display: block;line-height: 40px;float: left}
+.tx-span{margin-left: 40px;display: block;float: left;line-height: 40px}
+.tx-f-l{width: 125px}
+.tx-f-btn1{display: block; width: 140px;height: 30px;border: none; border-radius: 5px;background: #f04848;text-align: center;line-height:28px;color: #ffffff;margin-top: 15px;font-size: 14px;cursor: pointer}
+.cb{clear: both}
+.h10{height: 10px}
+.tx-line{margin-top: 20px}
+.h20{height: 20px}
+.h30{height: 30px}
+.mt10{margin-top: 10px}
+#txb{width: 370px}
+.tx-f-tx1{height: 40px;border: 1px solid #e0e0e0;border-radius: 5px;width: 238px;position: relative}
+.tx-f-tx1 span{position:absolute;display: block;right: -30px;top: 0;line-height: 40px;font-size: 16px;color: #666666}
+.tx-f-tx1 input{border: none;background: none;height: 30px;padding-top: 5px;line-height: 30px;padding-left: 10px;  width: 80%}
+.tx-f-tx1-btn input{width: 240px;background: #ff9c00;height: 40px;border: none;border-radius: 5px;text-align: center;line-height: 40px;font-size: 16px;color: #ffffff;cursor: pointer}
+.tx-f-btn2{width: 120px;border: none;border-radius: 5px;background: #f0f0f0;text-align: center;line-height: 40px;color: #666666;font-size: 14px;cursor: pointer}
+.tx-dl{display: block; padding-left: 30px;font-size: 12px;color: #999999;line-height: 20px;padding-top: 30px;padding-bottom: 20px}
+.tx-table{width: 100%;}
+.tx-table tr{border-bottom: 1px #e0e0e0 solid;text-align: center;height: 65px;line-height: 65px}
+.tx-table thead tr td{color: #333333}
+.tx-table tbody tr td{color: #666666}
+.tx-cor{color: #f04848}
+.tx-fy{width: 750px; margin: 0 auto;height: 50px; padding-top: 20px}
+.tx-fy a{display: block;width: 30px;height: 30px;line-height: 30px;float: left;text-align: center;border: 1px solid #e0e0e0;margin-left: 20px;font-size: 14px}
+.tx-fy a:hover{background: #ff9c00;color: #ffffff}
+.tx-fx-a1{background: #e0e0e0;}
+.tx-fy span{line-height: 30px;display: block;float: right;color: #666666;font-size: 14px}
+
+
+/* 寮圭獥 */
+.tc{width: 470px;height: 150px;position: absolute;left: 50%;top: 50%;margin-top: -75px;margin-left:-235px;border: 1px solid #ff9c00;background: #fffcf8;overflow: hidden}
+.tc h2,.gl-alt h2{height: 40px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/%E9%90%A2%E3%84%A6%E5%9F%9B%E6%B6%93%EE%85%9E%E7%B8%BE/img/yh4.png") no-repeat 0 40px ;padding-left: 40px;width: 290px;margin: 0 auto;line-height: 40px;font-size: 20px;color: #333333;padding-top: 40px}
+.tc-a{color: #f04848;font-size: 14px;display: block;margin-left: 355px; margin-top: 40px}
+.tc-x{display: block;width: 20px;height: 20px;font-size: 16px; position: absolute;right: 0;top: 0;color: #999999}
+
+/* 閾惰鍗″強鏀粯瀹濈粦瀹� */
+.gl{border: 1px solid #e0e0e0;position: relative;min-height: 600px}
+
+.gl-s-item{padding-left: 30px}
+.gl-s-item>li{float: left;height: 40px;line-height: 40px;margin-left: 10px}
+.gl-s-item>li span{font-size: 16px;color: #666666}
+.divselect{width: 135px;height: 29px;border: 1px solid #e0e0e0; padding-left: 5px;margin-top: 5px}
+.divselect cite{display: block; width: 100%;line-height: 29px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/%E9%90%A2%E3%84%A6%E5%9F%9B%E6%B6%93%EE%85%9E%E7%B8%BE/img/ban1.png") no-repeat right;cursor: pointer;color: #999999}
+.divselect ul{display: none;width: 135px;}
+.divselect ul li{background: #ffffff;z-index: 100;text-align: center}
+.divselect ul li:hover{background: #e0e0e0;}
+.divselect ul li:hover .nexts{color: #ffffff}
+.divselect ul li a{display: block;line-height: 35px}
+
+
+
+
+select{outline:none;}
+ul{list-style:none;}
+a{text-decoration:none;}
+select{display: none;}
+.select_box{font-family: "瀹嬩綋"; font-size: 12px;color: #999999;width: 178px;line-height: 30px;}
+.select_showbox{border: 1px solid #b0a296;height: 30px;padding-left: 5px;background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/%E9%90%A2%E3%84%A6%E5%9F%9B%E6%B6%93%EE%85%9E%E7%B8%BE/img/ban1.png) no-repeat 156px 0;}
+.select_option{border: 1px solid #b0a296;border-top: none;display: none;}
+.select_option li{padding-left: 5px;}
+.select_option li.selected{background-color: #F3F3F3;color: #999;}
+.select_option li.hover{background: #7b6959; color: #fff;}
+
+
+.gl-text1{width: 240px;height: 40px;border: 1px solid #e0e0e0;border-radius: 5px}
+.gl-text1 input{width: 180px;padding-left: 10px}
+#glsn,#glsn2{color: #f26a6a;font-size: 14px}
+.gl-txt{padding-left: 170px;color: #f04848;line-height: 40px;}
+.glban,.glban2{width: 240px;height: 40px;line-height: 40px;border: none;background: #ff9c00;margin-left: 170px;border-radius: 5px;font-size: 18px;color: #ffffff;cursor: pointer}
+.glban{margin-left:303px}
+.glban2{margin-top:20px}
+.gl-s-lin{height: 50px}
+.gl-s-b{padding: 20px 60px}
+.gl-s-m{width: 555px;height: 190px;margin-left:200px}
+
+/* 缁戝畾鎴愬姛 */
+.gl-alt{width: 330px;height: 135px;position: absolute;left: 50%;top: 50%;margin-top: -67px;margin-left: -175px;}
+.gl-a{color: #f04848;font-size: 14px;display: block;margin-left: 210px; margin-top: 24px}
+.unionInfo1,.s11,.s21,.s31{display:block;float:left;height:40px}
+.s11,.s21,.s31{margin-left:10px}
+/* 鎻愮幇璐︽埛绠＄悊 */
+.ban{padding: 0 20px}
+.ban-p a{display: block;text-align: center;line-height: 30px; border: none;width: 140px;height: 30px;background: #f04848;border-radius: 5px;color: #ffffff;font-size: 14px}
+.ban-table{width: 100%}
+.ban-table thead{background: #f2f2f2;}
+.ban-table thead tr td{font-size: 14px;color: #333333}
+.ban-table tr td{border: 1px solid #e0e0e0;height: 50px;text-align: center;font-size: 14px}
+.ban-table tbody tr td a{display: inline-block;width:50px}
+.bana{color: #879cce}
+
+/* 璧勯噾璁板綍 */
+.zjjl{}
+.zj-main table{width: 100%;text-align: center;font-size: 14px;color: #333333}
+.zj-main table tr{ border: 1px solid #e0e0e0;height: 70px}
+.h45{height: 45px}
+.zh-cor{color: #ff9c00}
+.zj-main-mc{width: 750px;margin: 0 auto}
+.zj-ul{border-left: 1px solid #e0e0e0}
+.zj-ul li{float: left;width: 173px;height: 50px;border-right: 1px solid #e0e0e0;text-align: center;line-height: 50px;font-size: 16px;color: #000000;cursor: pointer}
+
+/*=========鍚庡姞缁撴潫=============*/
+
+/*闄愭椂楂樹环*/
+.timers{height:361px; width:100%; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/timers_02.jpg) repeat-x;}
+.timers div{width:1328px; margin:0 auto; position:relative; }
+.timers img{ position:absolute; top:0; left:50%; margin-left:-664px;}
+.w1100 .speciar{border-top:2px solid #6e6e6e; width:234px; float:left; margin-top: 82px;}
+.special{width:858px; float:left;}
+.special h4{font-size:20px;  margin-bottom:20px;}
+.special h4 strong{display:inline-block; width:110px; float:left;line-height:55px}
+.special h4 div{display:inline-block; float:left;}
+.special h4 div span{display:inline-block;  margin-right:3px; text-align:center;}
+.special h4 div span a{line-height:55px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/timer.png) no-repeat; display:inline-block; width:47px; height:55px; font-size:34px; color:#fff; font-family:"寰蒋闆呴粦";float:left;margin-right:5px;}
+.special h4 div span i{line-height:55px;float:left;}
+.special ul{width:858px; overflow:hidden;}
+.special ul li{float:left; width:259px; cursor:pointer; margin-bottom:20px; border:3px solid #e0e0e0; background:#fff; margin-right:20px; position:relative;}
+.special ul li:hover{border:3px solid #f04848;}
+.special li p{text-align:center; padding-top:20px; height:172px;}
+.special li h3{ padding-left:30px; padding-right:8px; height:40px; font-weight:normal; color:#666;}
+.j_01{height:38px; background:#ff7e7e; color:#fff;position:relative; line-height:30px; padding-left:18px;}
+.j_01 span i{font-size:18px;}
+.special .j_01 strong{position:absolute; width:105px; height:38px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/j_01.png) no-repeat; line-height:38px; color:#fff; font-size:16px; text-align:center; margin:0; padding:0; right:0; top:0;}
+.j_02{background:#f5f5f5;padding-left:18px; padding-bottom:10px;}
+.j_02 div{position:relative; height:40px; line-height:40px;}
+.j_02 strong{display:block; font-weight:normal; height:24px; line-height:24px;}
+.j_02 strong i{text-decoration:line-through;}
+.j_02 a{position:absolute; right:0; top:0; background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_022.png) no-repeat 90px center #ff7e7e; height:38px; border-bottom:2px solid #f04848; display:inline-block; width:104px; text-align:center; line-height:38px; font-size:14px; color:#fff;}
+
+.speciar h3{height:50px; line-height:50px; color:#666; margin-bottom:20px; border-bottom:1px solid #ccc; padding-left:30px; font-size:16px;}
+.speciar .business{border:1px solid #ccc; margin-bottom:20px;}
+
+/*鐧婚檰*/
+.list_logo{min-height:80px; color:#999; padding-top:40px; margin-top: 36px; border-bottom:2px solid #f04848; overflow:hidden; position:relative;}
+.list_logo p span{padding:0 20px; float:left;}
+.list_logo p{ font-size:33px;}
+.list_logo strong{float:left;}
+.landing{width:1100px; background:#fff; margin:0 auto 20px; position:relative; padding:50px 0 120px 0;}
+.landing a.on{color:#f04848;}
+.landing a:hover{color:#f04848;}
+.landing a{font-size:20px;}
+.txt_01{width:350px; margin-top:20px; border:1px solid #999; line-height:38px; height:38px; padding-left:5px;}
+
+.txt_02{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/key.png) no-repeat 320px center;}
+.alignright{text-align:right; color:#999;}
+.red{background:#f04848; text-align:center; cursor:pointer; margin-top:20px; line-height:60px; height:60px; display:inline-block; font-size:20px; width:200px; color:#fff;}
+.qq{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/qq.png) no-repeat center center; width:36px; height:36px; display:inline-block; float:left; margin-left:30px;}
+.weibo{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/weibo.png) no-repeat left center;width:36px; height:36px; display:inline-block; float:left; margin-left:30px;}
+.landings{line-height:23px;}
+.landings td span.fl{line-height:40px;}
+.landings .alignright a{font-size:12px;}
+.lands{position:relative;}
+.lands b{line-height:27px; float:left; margin-right:10px;}
+.lands .color2{position:absolute; top:-10px; left:138px; color:#ff0000; font-family:"瀹嬩綋";}
+.landes{position:absolute; right:-297px; top:19px; min-width:260px; border:1px solid #d00000; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/jian.png) no-repeat 5px center #ffebeb; color:#d00000; padding-left:30px; height:38px; line-height:38px;}
+.landd{position:absolute; right:-297px; top:80px; min-width:260px; border:1px solid #d00000; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/jian.png) no-repeat 5px center #ffebeb; color:#d00000; padding-left:30px; height:38px; line-height:38px;}
+.txtred{position:absolute; top:-10px; left:140px; color:#ff0000; font-family:"瀹嬩綋";}
+.landings .more{font-size:12px; color:#f04848; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/more.jpg) no-repeat left center; padding-left:20px;}
+.ture{position:absolute; right:-25px; top:28px;}
+/*娉ㄥ唽*/
+.mainbg{width: 100%;background: #f0f0f0; padding-top: 43px; overflow:hidden;}
+.picbg{position:absolute; left:41%; top:-10px; width:195px; height:85px;}
+.picbg span{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/admins.png) no-repeat; margin-bottom:10px; display:inline-block; width:195px; height:50px; text-align:center; line-height:50px; font-size:20px; color:#fff;}
+.picbg p{text-align:center; color:#999; line-height:20px;}
+.landings span{width:138px; display:inline-block; font-size:14px; padding-top:30px; float:left; color:#666; }
+.landings .fl{padding-top:0;}
+.landings i{font-style:normal; font-size:12px; color:#999;}
+
+
+/*蹇樿瀵嗙爜*/
+.txt1{margin-top:20px; border:1px solid #999; line-height:38px; height:38px; padding-left:5px; width:224px;}
+.txt_01.txt2{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/p_01.png) no-repeat 322px center;}
+.txt3{width:116px; height:39px; border:1px solid #ccc; margin-left:8px; margin-top:20px; cursor:pointer; background:#f0f0f0; text-align:center; line-height:39px;}
+.usernav{width:434px; margin:0 auto; height:100px;}
+.usernav a{display:inline-block; text-align:center; margin:50px 30px 0; line-height:50px; font-size:16px; color:#666;}
+.usernav a.on{color:#f04848; border-bottom:2px solid #f04848;}
+.landing .color{font-size:14px;}
+
+/*鍜ㄨ涓績*/
+.list_nav{line-height:40px;}
+.list_nav span{padding:0 5px;}
+.center{overflow:hidden; width:1100px; margin:10px auto;}
+.centerleft{width:252px; border:1px solid #e0e0e0; float:left; margin-right:20px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_02.jpg) repeat-y #f7f7f7; border-bottom:none;}
+.centerleft h3 span{padding-left:20px; height:67px; line-height:67px; }
+.centerleft h3{font-size:20px; font-weight:bold; color:#666;border-bottom:1px solid #e0e0e0;}
+.centerleft h3 a{display:block; height:61px; font-size:14px; color:#666; line-height:60px; position:relative;}
+.centerleft h3 a img{position:absolute; right:-13px; top:0; display:none;}
+.centerleft h3 a.on img{display:block;}
+.centerleft h3 a:hover img{display:block;}
+
+.q_01{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_01.png) no-repeat 20px center; padding-left:64px;}
+.q_01.on,.q_01:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_11.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_02{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_02.png) no-repeat 20px center; padding-left:64px;}
+.q_02.on,.q_02:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_22.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_03{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_03.png) no-repeat 20px center; padding-left:64px;}
+.q_03.on,.q_03:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_33.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_04{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_04.png) no-repeat 20px center; padding-left:64px;}
+.q_04.on,.q_04:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_44.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_05{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_05.png) no-repeat 20px center; padding-left:64px;}
+.q_05.on,.q_05:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_55.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_06{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_06.png) no-repeat 20px center; padding-left:64px;}
+.q_06.on,.q_06:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_66.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_07{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_07.png) no-repeat 20px center; padding-left:64px;}
+.q_07.on,.q_07:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_77.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_08{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_08.png) no-repeat 20px center; padding-left:64px;}
+.q_08.on,.q_08:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_88.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+.q_09{background:url(../image/q_09.png) no-repeat 20px center; padding-left:64px;}
+.q_09.on,.q_09:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/q_099.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+
+/*鐪熶吉鏌ヨ*/
+.gif{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/loading_spinner.gif) no-repeat center center; height:50px;}
+.inquiryl{width:521px; margin:0 auto;}
+.sousus img{float:left;}
+.inquiryl .sousus{width:521px; margin:0 auto 10px; height:48px;position:relative;}
+.sousus i{position:absolute; left:50px; top:-46px;}
+.sousus em{position:absolute; right:25px; top:-46px;}
+.listsousu{border:3px solid #74bfbf; float:left; color:#ccc; background:#fff; padding-left:5px; height:42px; line-height:42px; width:264px; margin-right:4px;}
+.listsousu_01{border:3px solid #74bfbf; float:left; color:#ccc; background:#fff; padding-left:5px; height:42px; line-height:42px; width:82px; margin-left:4px;}
+.glass{float:left; width:48px; height:48px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/magnifier.png) no-repeat center center #74bfbf; cursor:pointer;}
+.valuation{background:#fff; margin:20px auto; border:1px solid #eee;
+    -moz-box-shadow:0 5px 10px #ccc;
+    -webkit-box-shadow:0 5px 10px #ccc;
+    box-shadow:0 5px 10px #ccc;
+}
+.valuation p{height:38px; text-align:center; padding-bottom:11px; position:relative; line-height:38px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/line1.jpg) no-repeat center bottom;}
+.valuation p a{background:#43adad; color:#fff; position:absolute; right:23px; top:8px; text-align:center; border-bottom:2px solid #175050; font-size:12px; height:22px; line-height:22px; width:80px;}
+.valuation dl{width:521px; overflow:hidden;}
+.valuation dt{float:left; width:260px;text-align:center; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/line2.jpg) no-repeat right center; padding:20px 0;}
+.valuation dd{float:left;}
+.valuation dd td{padding-left:25px;}
+.valuation dd td h3{font-size:16px; line-height:40px; color:#666;}
+.inquiryl h4{font-size:18px; height:50px; line-height:50px; text-align:center; padding:15px 0;}
+.inquiryl h4 span{font-size:24px; color:#fd6a01;}
+
+
+.centeright{width:784px; float:left; border:1px solid #e0e0e0; padding:10px 20px;}
+.centeright h3{font-size:20px; color:#ff9c00; border-bottom:1px solid #e0e0e0; line-height:65px; margin-bottom:10px;}
+.centeright div{margin-bottom:15px; line-height:25px;}
+.fuwu div{padding:0 52px; color:#999;}
+.centeright .fuwu h3{margin:0 52px;}
+.list_logo .sousu{position:absolute; right:0; height:50px; top:0; width:224px; padding:0;}
+.list_logo .w1100{position:relative;}
+.inquiry{width:901px; margin:-20px auto 20px; overflow:hidden;}
+
+
+
+.inquiryr{width:352px; float:left;}
+.number{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    background:#fff; color:#848484;
+    -moz-box-shadow:0 5px 10px #ccc;
+    -webkit-box-shadow:0 5px 10px #ccc;
+    box-shadow:0 5px 10px #ccc;
+    line-height:20px;
+    border:1px solid #eee;
+}
+.number p{text-indent:24px; padding-bottom:15px;}
+.number div{padding-bottom:15px;}
+.number div strong{display:block; text-align:center;}
+.inquiryrbox{width:900px; margin:0 auto 20px; clear: both; border:1px solid #eee; overflow:hidden;
+    -moz-box-shadow:0 5px 10px #ccc;
+    -webkit-box-shadow:0 5px 10px #ccc;
+    box-shadow:0 5px 10px #ccc;
+}
+.inquiryrbox h3{font-size:14px; color:#fff; background:#43adad; clear:both; height:32px; line-height:32px; padding-left:20px;}
+.inquiryrbox div{padding-bottom:20px; width:300px; float:left; padding:10px 0;}
+.inquiryrbox div a{padding-left:20px; display:block; color:#999; line-height:20px;}
+.mainbgs{width:100%; background:#fff; overflow:hidden;}
+
+/*浜屾墜鑹搧*/
+.goodslnavcon .txt4{width:180px; overflow:hidden;background:#f3f3f3;  color:#999; height:25px; margin-top:-10px; line-height:25px; font-size:12px;}
+.goodslnavcon .txt4 span{font-size:12px; text-decoration:line-through;}
+.list_banner{width:100%; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/listbg.jpg) repeat-x; height:360px;}
+.list_bannercon{width:1100px; margin:0 auto; height:360px;}
+.list_bannerl{width: 252px; float: left;z-index: 100; height: 358px;  overflow:hidden; border:1px solid #ccc; border-right:none;}
+.list_bannerl td{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/opcity9.png) repeat; text-align:center; position:relative;}
+.list_bannerl h4{border-top:1px solid #e0e0e0; margin-top:11px; height:42px; background:#f7f7f7; line-height:42px; color:#666;}
+.list_bannerl h5 a{color:#fff; display:block; background:#f04848; text-align:center; line-height:50px; height:50px; font-size:20px;}
+.list_bannerl span{display:block; line-height:25px; font-size:14px; text-align:left; padding-left:30px;}
+.list_bannerl i{font-size:20px; color:#f04848;}
+.list_bannerl h3{font-size:16px; line-height:30px; text-align:left; padding-left:30px;}
+.list_bannerr{ width:846px; float:left;}
+
+.searchWrap{margin:20px 0; border:1px solid #ccc; margin:20px auto; background:#fff;}
+.searchWrap div{height:50px; border-bottom:1px dashed #ccc; line-height:50px;}
+.searchWrap strong{font-size:16px; width:90px; padding-left:28px; display:inline-block; float:left;}
+.searchWrap span{display:inline-block; padding:0 8px; height:23px; float: left; line-height:23px; margin-top:15px; margin-right:53px;color:#fff; background:#f07048; }
+.searchWrap a{display:inline-block; width:96px;}
+.searchWrap a:hover{color:#ff9c00;}
+.searchWrap div:hover span{display:inline-block; padding:0 8px; height:23px; float: left; line-height:23px; margin-top:15px; margin-right:53px; background:none; color:#666;}
+
+.goods{width:1100px; margin:20px auto; overflow:hidden;}
+.goodsl{width:860px; float:left;}
+.goodsr{width:240px; float:left;}
+.goodslnav{height:48px; width:818px; line-height:48px; border:1px solid #e0e0e0; background:#fff; padding-left:20px; color:#666;}
+.goodslnav span{padding:0 10px;}
+.goodslnav a.on{ color:#ff9c00;}
+.goodslnavcon ul{width:860px; overflow:hidden;}
+.goodslnavcon li{width:194px; min-height:275px; cursor:pointer; border:1px solid #e0e0e0; float:left; margin-bottom:20px; margin-right:19px; background:#fff;}
+.goodslnavcon li p{padding-top:25px; height:213px; text-align:center; position:relative; }
+.goodslnavcon li p strong{font-size:12px; color:#333; height:49px; width:180px; display:block; padding:5px 7px 0; }
+.goodslnavcon li p i{position:absolute; left:7px; top:7px;}
+.goodslnavcon li div{height:44px; color:#ff0000; background:#f3f3f3; padding:0 7px; line-height:44px; position:relative;}
+.goodslnavcon li div span{font-size:20px;}
+.goodslnavcon li div a{position:absolute; right:3px; top:4px; height:30px; color:#fff; padding:0 15px; font-size:16px; background:#f04848; line-height:30px;}
+.goodsr h4{font-size:18px; color:#fff; background:#ff9c00; height:50px; line-height:50px; text-align:center;}
+.goodsrtop{border:1px solid #e0e0e0; background:#f7f7f7; padding:9px; margin-bottom:20px;}
+.goodsrtop li{background:#fff; margin-bottom:15px; cursor:pointer;}
+.goodsrtop i{font-style:normal; color:#fff; font-size:14px; text-align:center; line-height:25px; background:#f04848; display:block; width:77px; height:25px; border-radius:0 5px 5px 0;}
+.goodslnavcon li p em{position:absolute; right:0; top:0;}
+.goodsrtop p{padding-top:20px; height:170px; text-align:center;}
+.goodsrtop span{display:block; padding:0 7px; height:40px;}
+.goodsrtop div{height:36px; line-height:36px; background:#e8ae51; color:#fff; padding-left:7px; position:relative;}
+.goodsrtop div a{position:absolute; right:0; top:0; width:88px; background:#ff9c00; text-align:center; color:#fff; font-size:16px;}
+.goodsrtop div em{font-style:normal; font-size:20px; font-weight:normal;}
+.goodsrtop div strong{font-weight:normal;}
+
+.goodsrbottom{border:1px solid #e0e0e0; margin-bottom:20px;}
+.goodsrbottom div{background:#fff; text-align:center;}
+.goodsrbottom h5{height:55px; line-height:55px; background:#e6e6e6; color:#f07048; text-align:center; font-size:20px;}
+.goodsrbottom h6{height:55px; line-height:55px; background:#e6e6e6; color:#666; text-align:center; font-size:15px;}
+.goodsrbottom p{text-align:center; text-align:center; height:60px; line-height:60px; color:#666; font-size:14px;}
+.goodsrbottom input{width:185px; height:34px; line-height:34px; padding-left:5px; border:1px solid #e0e0e0; margin-top:15px;}
+.goodsrbottom .btn6{background:#f07048; color:#fff; width:88px; height:32px; text-align:center; line-height:32px; margin:15px auto; display:block; border:none; cursor:pointer; font-size:16px;}
+.goodsrbottom.goodsrbottom_ll {  width: 226px;  position: absolute;  top: 491px;}
+
+
+.progression{background:#f7f7f7; padding:15px 0; width:1080px; overflow:hidden; margin:20px auto; padding-left:20px;}
+.progression dl{width:264px; float:left; overflow:hidden; min-height:50px;}
+.progression dt{float:left; width:60px;}
+.progression dd{float:left; width:117px; padding-top:5px;}
+
+.servicebox{text-align:center; padding-bottom:20px;}
+.servicebox>strong{  display: block;line-height: 40px;font-size: 26px;font-weight: 500;color: #333333;}
+.servicebox .serviceboxtxt{width:220px; margin:0 auto; text-align:left;}
+.servicebox .serviceboxtxt strong{display: block;line-height: 40px;}
+.servicebox span{line-height:30px;}}
+.qun {border: 1px solid #e0e0e0;overflow: hidden;padding: 20px 30px;}
+.qun div {margin-bottom: 20px;}
+.qun div img{display:block;margin:0 auto}
+.qun p {background: #f0f0f0 none repeat scroll 0 0;color: #000;line-height: 20px;padding: 0 5px;}
+/*绉掓潃*/
+.proDet{width:1100px; margin:20px auto 0; overflow:hidden;}
+.proDetleft{width:430px; float:left; padding-right:70px;}
+.proDetright{width:600px; float:left;}
+.magnifiers{position:absolute; left:5px; top:5px;}
+.tabset_con{margin-top:20px; width:420px;}
+.tabbox{width:428px; overflow:hidden; cursor:pointer; border:1px solid #e0e0e0;}
+.tabset_con li{float:left; width:58px; cursor:pointer; height:48px;  margin-bottom: 10px; padding-top: 10px; text-align: center; border:2px solid #e0e0e0; margin-right:10px;}
+.tabset_con li.active{border:2px solid #ff9c00;}
+.tabset_con{margin-bottom:30px; width:430px; height:60px;}
+.proDetright h4{font-size:18px; height:30px;}
+.proDetright h1{font-size:18px; height:30px;}
+.nice span{display:inline-block; margin-right:10px; background:#ff9c00; color:#fff; padding:0 16px; line-height:20px; border-radius:5px;}
+.proDetright table{border:1px dashed #e0e0e0; border-bottom:none; margin:45px auto 30px;}
+.proDetright table td{border-bottom:1px dashed #e0e0e0; font-size:14px; line-height:50px; padding-left:20px;}
+.proDetright p{position:relative; width:530px; min-height:40px;}
+.proDetright p i{display:inline-block; font-style:normal;}
+.proDetright p strong{position:absolute; right:0; font-weight:normal; color:#999;}
+.price{width:582px; height:47px; background:#f04848; padding:15px 0 15px 18px; color:#fff; line-height:47px; position:relative;}
+.price span{font-size:40px; color:#fff; padding-right:10px; font-weight:bold;}
+.prices div em,.price em{text-decoration:line-through; font-size:20px; padding-left:20px;}
+.price input{color:#f04848; background:#ffecb4; text-align:center; line-height:50px; width:170px; border-radius:5px; height:50px; position:absolute; right:15px; top:15px; font-size:14px; cursor:pointer;}
+.advent{width:1100px; margin-bottom:20px; overflow:hidden;}
+.period{ border:1px solid #e0e0e0; width:218px; height:284px; position:relative;}
+.periodul,.period ul{width:218px; height:284px; position:relative;}
+.period ul li{float:left; width:218px; height:284px;}
+.period span{font-style:normal; color:#fff; font-size:14px; text-align:center;  background:#b0b0b0; display:block; width:77px; border-radius:0 5px 5px 0; padding-top:7px; height:43px;}
+.period p{text-align:center; height:169px; padding-top:2px;}
+.periodul li div{background:#f0f0f0; text-align:center; margin-top:10px;}
+.period em{font-size:20px; color:#f04848;}
+.period h3{font-size:14px; color:#333; line-height:23px;}
+.periodl,.periodr{position:absolute; top:104px; width:30px; height:60px; display:inline-block; z-index:10;}
+.periodl{left:0; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/left.png) no-repeat;}
+.periodl:hover{ background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/left_01.png) no-repeat;}
+.periodr{right:0; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/right.png) no-repeat;}
+.periodr:hover{background:url(../image/right_01.png) no-repeat;}
+
+.adventl{width:818px; float:left; margin-right:20px;}
+.adventr{width:258px; float:left;}
+.advent h4{height:50px; font-size:20px; position:relative; font-weight:normal; color:#666;}
+.advent h4 span{font-size:12px; font-weight:normal; padding-left:20px;}
+.adventdl{border:1px solid #ccc; padding:25px 0;}
+.adventdl dl{width:675px; padding-left:70px; overflow:hidden;}
+.adventdl dt{float:left; width:257px; border-right:1px solid #ccc;}
+.adventdl dd{padding-left:40px; width:375px; float:left;}
+.adventdl dd h3{font-size:16px; color:#333; font-weight:bold; line-height:30px;}
+.adventdl dd h5{font-size:14px; color:#666; line-height:30px;}
+.adventdl dd div{background:#f5f5f5; border:1px solid #ccc; padding:15px 7px; line-height:20px; color:#888;}
+
+
+/*璐墿椤甸潰*/
+.price_right{position:absolute; right:0; top:20px; width:235px;}
+.price_right dl{width:235px; height:60px;}
+.price_right dt{float:left; width:60px;}
+.price_right dd{float:left; width:155px;font-size:12px; }
+.prices{width:582px; height:70px; background:#f5f5f5; padding:5px 0 20px 18px; position:relative; margin-bottom:15px;}
+.prices div{font-size:14px;}
+.prices div span{font-size:34px; color:#f04848; padding-right:30px;}
+.prices div strong{position:absolute; right:20px; width:30px; text-align:center; font-weight:normal; top:25px;}
+.prices div i{position:absolute; right:20px; font-style:normal;}
+.promise span,.proDetright p span{display:inline-block; width:68px; height:29px; float:left; font-size:14px; margin-bottom:12px; line-height:29px;}
+.proDetright p a{display:inline-block;padding: 0 15px; float:left; text-align:center; line-height:28px; height:28px; border:1px solid #e0e0e0; margin-right:10px;}
+.proDetright p a:hover{height:26px; line-height:26px; border:2px solid #f04848; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_01.jpg) no-repeat right bottom;}
+.proDetright p a.on{height:26px; line-height:26px; border:2px solid #f04848; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_01.jpg) no-repeat right bottom;}
+.proDetright p{clear:both;}
+.proDetright p input{float:left; cursor:pointer;}
+.add,.reduce{/*background:#f0f0f0; border:1px solid #e0e0e0;*/ width:28px; height:28px; text-align:center; line-height:28px;}
+.txt_03{height:26px; border:1px solid #e0e0e0; border-left:none; width:68px; border-right:none; text-align:center;}
+.promise{width:600px; overflow:hidden; line-height:26px;}
+.promise strong{float:left; margin-top:3px; margin-left:20px; margin-right:5px;}
+.promise i{font-style:normal; float:left;}
+.proDetright div .btn6{color:#fff; background:#f04848; text-align:center; line-height:60px; width:200px; height:60px; font-size:24px; cursor:pointer;}
+.jqzoom img{margin:10px 0;}
+.proDetright h4 span{display:block; font-size:12px; color:#999;}
+.proDetright h1 span{display:block; font-size:12px; color:#999;}
+
+.shopping{width:1100px; margin:0 auto 20px; overflow:hidden;}
+.shoppingl{width:240px; float:left; margin-right:20px;}
+.shoppingl ul{border:1px solid #e0e0e0;}
+.shoppingl h3{font-size:16px;border:1px solid #e0e0e0; text-align:center; color:#333; background:#f7f7f7; font-weight:normal; height:48px; line-height:48px; border-bottom:none;}
+.shoppingl li{width:224px; cursor:pointer; border-bottom:1px solid #e0e0e0; padding:30px 7px;}
+.shoppingl li p{height:174px; text-align:center;}
+.shoppingl li span{display:block; padding:0 30px; height:40px;}
+.shoppingl li div{height:36px; width:217px; padding-left:7px; background:#e8ae51; color:#fff; line-height:36px; position:relative;}
+.shoppingl li div strong{font-size:20px;}
+.shoppingl li div a{position:absolute; right:0; top:0; color:#fff; text-align:center; height:36px; line-height:36px; width:88px; font-size:16px; background:#ff9c00;}
+.shoppingr{width:838px; border:1px solid #e0e0e0; float:left;}
+.shoppingnav{height:50px; width:838px;}
+.shoppingnav a{width:138px; height:48px; text-align:center; line-height:48px; border-right:1px solid #e0e0e0; display:inline-block; border-bottom:1px solid #e0e0e0; float:left; font-size:16px;}
+.shoppingnav a.on{height:46px; border-bottom:1px solid #fff; border-top:2px solid #f04848;}
+.shoppingcons{}
+.shoppingcon{padding:20px 17px;}
+.shoppingcon a{color:#396f9f;}
+.shoppingcon .txt_04,.shoppingcon .txt_05{color:#000; line-height:20px; font-family:"瀹嬩綋"; font-weight:bold;}
+/*.shoppingcon .txt_04{padding-top:20px;}*/
+.shoppingcon .tables_01{border:1px solid #ccc; border-bottom:none; border-right:none;}
+.shoppingcon .tables_01 td{border-right:1px solid #ccc;border-bottom:1px solid #ccc; line-height:20px; padding:10px 30px;}
+.shoppingcon h4{line-height:30px; font-size:12px; font-weight:bold;}
+.shoppingcon-t p{line-height: 30px;color: #666666;font-size: 12px}
+.shoppingcon-t table{width: 100%}
+.shoppingcon-t table tr td{ border: 1px solid #cccccc;line-height: 30px;padding-left: 15px}
+.shoppin-line{height: 15px}
+.shoppingcon-t p span{color: #000000;font-weight: bold;}
+
+/*鏀粯宸茬櫥褰�*/
+.message{background:#fff; width:1098px; overflow:hidden; position:relative; border:1px solid #ccc;}
+.message span{display:block; padding-left:42px; height:50px; font-size:20px; margin-bottom:42px; background:#dfdfdf; line-height:50px; color:#666;}
+.message div{clear:both; width:1058px; padding-left:40px; overflow:hidden; margin-bottom:20px; height:23px; font-size:14px;}
+.message div input{float:left; margin-top:4px; margin-right:10px;}
+.message select{border:0; margin-right:20px; border:1px solid #ccc;float:left;}
+.message dl{width:660; overflow:hidden; line-height:40px; padding-left:40px; font-size:14px; margin-bottom:15px;}
+.message dt{float:left; width:140px;}
+.message dd{width:520px;}
+.message dd input{width:340px; height:38px; border:1px solid #e0e0e0; padding-left:5px; line-height:38px;}
+.message .btn6{color:#fff; background:#f04848; text-align:center; line-height:50px; width:170px; height:50px; font-size:14px; cursor:pointer; margin-left:220px; margin-bottom:25px;}
+.tijiao{width:1100px; overflow:hidden; padding-bottom:20px;}
+.message .tip{position:absolute; width:350px; height:90px; margin:0; line-height:20px; color:#999; left:541px; top:318px;}
+
+.register a{font-size:12px; color:#f04848; text-decoration:underline;}
+.landings .register .color{color:#f04848; clear:both; padding:0; margin:0; width:10px;}
+.landings dl{width:240px; margin:0 auto; height:98px;}
+.landings dt{float:left; width:75px;}
+.landings dd p{color:#ff9c00; font-size:18px; padding-left:80px; text-align:left;}
+.landings dd h4{font-weight:normal; font-size:16px; padding-left:80px; text-align:left;}
+
+/*缁戝畾閭娉ㄥ唽*/
+.txt_06{width:116px; height:39px; border:1px solid #ccc; margin-left:60px; margin-top:20px; cursor:pointer; background:#f0f0f0; display:block; clear:both; text-align:center; line-height:39px;}
+.w60 span{width:60px;}
+.txt_07{  margin-top: 20px; width:90px; border: 1px solid #999;color: #ccc;line-height: 38px;height: 38px;padding-left: 5px;}
+
+/*浠樻*/
+.boxs{width:1058px; margin:0 auto 20px; border:1px solid #ccc; overflow:hidden; padding:20px;}
+.boxsdl{width:600px; overflow:hidden;}
+.boxsdl dt{float:left; width:73px;}
+.boxsdl dd{float:left; width:500px;}
+.boxsdl dd h3{color:#1a975e; font-size:18px; line-height:25px;}
+.boxsdl dd span{font-size:16px; display:block;}
+.txt{padding-top:30px; clear:both; width:1058px; font-size:16px;}
+.txt span{font-size:22px; color:#f04848;}
+.pay{width:1058px; border:1px solid #ccc; margin:20px auto 0;}
+.paytop{height:38px; border-bottom:1px solid #ccc; font-size:16px; line-height:38px; padding-left:20px; background:#fffaf1;}
+.paybottom ul{padding:20px 0; width:1058px; overflow:hidden;}
+.paybottom ul li{float:left; width:240px; padding-left:20px; height:36px; margin-bottom:24px;}
+.paybottom ul li input{float:left; margin-top:12px; margin-right:15px;}
+.paybottom h4{font-size:14px; padding-top:25px; border-bottom:1px solid #ccc; margin:0 20px; width:1010px; line-height:40px;}
+.cyberbank{width:530px; margin:0 auto; background:#fff; border:6px solid #767576; margin-top:15%; padding:20px; position:relative;}
+.cyberbank h3{font-size:16px; line-height:40px; border-bottom:1px solid #ccc;}
+.cyberbank span{line-height:40px;}
+.cyberbank p{font-size:14px; width:530px; overflow:hidden; padding-top:20px;}
+.cyberbank p img{float:left; margin-top:4px; margin-right:10px;}
+.cyberbank p i{padding:0 10px;}
+.cyberbank p a{color:#2197d2;}
+.cyberbank .close{right:20px; top:15px;}
+.bigbg1{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/cartbg.png) repeat; z-index:9999; width:100%; height:100%; min-height:600px; display:none; position:fixed; top:0; left:0; right:0;}
+
+/*鍦板潃绠＄悊*/
+.site{height:73px; border:1px solid #ccc; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/location.png) no-repeat 23px center; line-height:73px; padding-left:60px; border-radius:5px; width:785px; margin:0 auto 20px; font-size:14px;}
+.site input{border:1px solid #ccc; min-height:28px;  padding-left:5px; color: #ccc;}
+.site .name{text-align:left;}
+.newly{width:134px; height:46px; line-height:46px; text-align:center; border:1px solid #e0e0e0; background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/z_04.png) no-repeat 13px center #fffaf1; color:#ff9c00; float:right; margin-right:10px; margin-bottom:20px; font-size:14px; cursor:pointer;}
+.site td{text-align:center;}
+.site span{padding:0 10px; color:#999;}
+.w349{width:280px; text-align:left; margin:0 auto;}
+.w612{width:612px;}
+.site a{color:#999;}
+.vipnav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_02.jpg) repeat-y right top;}
+
+/*鎹㈡満鍙戣揣*/
+.state{padding:14px; overflow:hidden;}
+.state h4{font-size:14px; color:#333; line-height:30px; border-bottom:1px solid #ccc;}
+.txt_08{line-height:30px; color:#999;}
+.shu select{margin-right:20px; height:30px; color:#bdbdbd;float.left;}
+.shu{ padding-top:20px;}
+.shu .btn_01{border:1px solid #ccc; height:30px; border-right:none; padding-left:5px; color:#bdbdbd;}
+.shu .btn_02{background:#ff9c00; color:#fff; height:32px; text-align:center; line-height:32px; width:100px; cursor:pointer;}
+.spanw183 span{display:inline-block; width: 265px; float:left;}
+.spanw183{width:800px; padding-left:14px; line-height:25px; overflow:hidden;}
+
+/*瀹㈡湇宸﹁竟*/
+.cart{width:120px;position: fixed; height:325px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/cart_icon1.png) no-repeat; z-index:9999;}
+#qR{display: block; margin-top:9px;position: relative;height: 63px;cursor: pointer;}
+.qR{width: 150px;background: #ef2e2f;position: absolute; left: -150px;border-radius: 5px;top: -10px}
+.qR p{ width: 100px;margin: 0 auto;font-size: 14px;color: #fff;padding-top: 5px;line-height: 20px;text-align: center;}
+.qR img{padding: 0 13px 13px;}
+.qR .tips{position: absolute;right: -10px;top:50px; width: 10px;height: 18px;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/code_jt.png) no-repeat;}
+.qR.on{display: none;}
+#qR:hover .qR{display: block;}
+.cart a{display:block; width:89px; height:65px; cursor:pointer; position:relative; margin-left: 20px;}
+
+.bigbg{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/cartbg.png) repeat; z-index:9999; width:100%; height:100%; min-height:600px; display:none; position:fixed; top:0; left:0; right:0;}
+.cart_con{width:500px; margin:0 auto; background:#fff; margin-top:15%; padding-top:30px; position:relative;}
+.close{position:absolute; right:10px; top:10px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/close.jpg) no-repeat; width:16px; height:16px; cursor:pointer;}
+.cart_nav{height:30px; border-bottom:1px solid #47ba81; width:450px; padding-top:10px; margin:0 25px;}
+.cart_nav a{width:88px; display:inline-block; float:left; height:30px; text-align:center; line-height:30px; font-size:14px; color:#5a5a5a; margin-right:32px;}
+.cart_nav a.on{background:#47ba81; color:#fff;}
+.cart_nav a:hover{background:#47ba81; color:#fff;}
+.cart_Box{width:450px; overflow:hidden; clear:both; padding-top:25px; margin:0 25px; padding-bottom: 20px;}
+.cart_bottom{background:#f6f0ed; border-top:1px solid #ffae85;}
+.cart_bottom dl{width:200px; margin:0 auto; padding-top:5px; overflow:hidden;}
+.cart_bottom dt{width:50px; float:left;}
+.cart_bottom dd{float:left; width:150px; padding-top:10px;}
+.cartdiv{width:270px; overflow:hidden;}
+.cartdiv a{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/qqcart.png) no-repeat; height:34px; width:70px; padding-left:39px; display:inline-block; float:left; color:#fff; line-height:27px; margin-right:25px; font-size:16px; margin-bottom:10px;}
+.cartdivs{width:270px; overflow:hidden;}
+.cartdivs a{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/wwcart.png) no-repeat; height:34px; width:60px; padding-left:49px; display:inline-block; float:left; color:#fff; line-height:27px; margin-right:25px; font-size:16px; margin-bottom:10px;}
+
+/*娑堟伅涓績*/
+.xiaoxi table tr{border-bottom:1px solid #f0f0f0;}
+.xiaoxi .btn7{border:1px solid #ccc; background:#eee; padding:0 5px; cursor:pointer;}
+.xiaoxi div{width:815px; padding-left:23px; line-height:30px;}
+.xiaoxi div a{color:#5b97e7;}
+.xiaoxi p{width:100%; line-height:38px; border-bottom:1px solid #f0f0f0; padding:0;}
+.xiaoxi p span{display:inline-block; float:left; width:87px; padding-right:17px; text-align:right; background:#f9f9f9;}
+.xiaoxi p strong{font-weight:normal; padding-left:20px;}
+.xiaoxi p .title{font-weight:bold; color:#333;}
+
+/*鏂伴椈鍔ㄦ€�*/
+.news{width:700px; margin:20px auto 0;}
+.news ul{width:700px; overflow:hidden;}
+.news ul li{position:relative;}
+.news ul li a{color: #396f9f;}
+.news ul li strong{font-weight:normal; font-size:16px; line-height:45px;}
+.news ul li span{position:absolute; right:0; top:0; line-height:45px;}
+
+.newstitle h4{text-align:center; font-size:20px; }
+.newstitle span{text-align: center; display:inline-block; margin-right:10px; font-size:12px; color:#999;}
+.newstitle p{text-align:center;}
+.newscenter h4{font-weight:bold;}
+.newscenter{border-bottom:1px solid #ccc; padding-bottom:15px;}
+.newscenter table td a{color: #396f9f}
+.newscenter table td span strong{color: #fff;}
+.newspage a{display:block;color: #396f9f;}
+.newspage a span{color:#999;}
+/*鍏充簬鎴戜滑*/
+.aboutus{margin:20px auto; background:#f7f7f7;}
+.aboutus .aboutustitle{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/titlebg.png) no-repeat left top; height:40px; color:#fff; padding-left:20px; font-size:18px; line-height:40px;}
+.aboutuscon{padding-left:20px;}
+.aboutuscon h4{font-weight:bold;}
+.aboutuscon p{padding-bottom:20px;}
+/*鑱旂郴鎴戜滑*/
+.lianxi{width:100%; overflow:hidden; margin-bottom:20px;}
+.lianxi li{float:left; margin-right:15px; border:1px solid #e8e8e8; background:#f7f7f7; padding:10px; width:228px;}
+.lianxi li dl{width:228px; overflow:hidden;}
+.lianxi li dt{float:left; width:60px;}
+.lianxi li dd{float:left; width:168px;}
+.relations{background:#f7f7f7; border:1px solid #e8e8e8; padding:10px 20px;}
+.relation{width:100%;}
+.relation td{line-height:20px;}
+.relation td img{float:left; padding-right:10px;}
+.relation td span{background:#2db55d; color:#fff; line-height:20px; padding:0 10px;}
+.relation td i{background:#f04848; color:#fff; width:88px; line-height:20px; padding:0 10px; display:block;}
+/*鏈嶅姟鏉℃*/
+.centeright h4{font-size:14px; color:#666;font-weight:bold;}
+
+/*daniel Duan add start 渚織杈�*/
+.border{border:1px solid #ccc;}
+.problems div .uncomment{width:220px !important;line-height: 20px;}
+.check-item-on{border:1px solid #ff9c00 !important; color:#ff9c00;  background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot6.jpg) no-repeat bottom right !important;}
+.nocheckerror{color: #FF283C !important; background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dots1.jpg) no-repeat 10px 36px;padding-left: 35px !important;}
+.navchekced{color:#ff4900 !important;}
+.buyli{background:#585858}
+.sale_property_a{width:66px; height:26px; line-height:26px; border:2px solid #f04848; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/dot_01.jpg) no-repeat right bottom;}
+.password{
+    line-height: 27px;
+    position: absolute;
+    float: left;
+    margin-right: 10px;
+    color: #ccc;
+    left: 6px;
+    bottom: 6px;
+    font-weight: normal;
+}
+
+/*end*/
+/*澶у鎴峰叆鍙�*/
+.custom img{width:100%; float:left;}
+.custom1{overflow:hidden; position:relative; background-size:100% 100%; max-height: 887px;}
+.custom3{overflow:hidden; position:relative;  background-size:100% 100%; max-height:887px;}
+.custom1 a{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/Btn3.png) no-repeat; width:126px; height:48px; display:inline-block; position:absolute; left:23%; top:43%;}
+.custom2{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/custom3.jpg) no-repeat; background-size:100% 100%; overflow:hidden; width:100%; max-height:879px;}
+.custoncon{width:670px; padding:60px 0; margin:0 auto; overflow:hidden; height:759px;}
+.custoncon h3{font-size:54px; text-align:center; color:#fff; font-weight:normal; line-height:70px;}
+.custoncon h4,.custoncon p{font-size:24px; color:#fff; font-weight:normal; line-height:50px;}
+.customnav{line-height:40px; color:#fff; margin-bottom:20px;}
+.customnav input{float:left; margin-top:13px; margin-right:10px;}
+.customnav span{display:inline-block; margin-right:20px; font-size:24px;}
+.Btn1{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/Btn1.png) no-repeat; width:660px; height:70px;  margin-bottom:20px; line-height:70px; padding-left:20px; font-size:24px; color:#86818c;}
+.custoncon textarea{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/Btn2.png) no-repeat; width:660px; font-size:24px; border:none; height:135px; margin-bottom:20px; color:#86818c; line-height:50px; padding-left:20px;}
+.submit{display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/Btn4.png) no-repeat; width:126px; height:48px; display:inline-block; color:#53be94; font-size:20px; line-height:48px; text-align:center; margin:0 auto; cursor:pointer;}
+.custoncon dd{text-align:center;}
+.custoncon dl{position:relative;}
+.custoncon dt{position:absolute; font-size:24px; color:#86818c; left:15px; top:0; line-height:70px;}
+/*浼颁环閫佽瘽璐�*/
+.imgpic{width:100%; float:left; overflow:hidden;}
+.imgpic img{width:100%; float:left;}
+.imgpic a{display:block; width:100%;}
+.imgpics{width:100%; overflow:hidden;}
+.imgpic{position:relative;}
+.imgpic .a_1{position:absolute; left:44%; top:45%; width:12%; _height:72px; *height:72px; height:3.5%; display:inline-block; cursor:pointer;}
+.imgpic .a_2{position:absolute; left:44%; bottom:7%; width:12%; _height:72px; *height:72px; height:3.5%; display:inline-block; cursor:pointer;}
+.imgpic .a_3{position:absolute; left:55%; bottom:67%; width:11%; _height:73px; *height:73px; height:10%; display:inline-block; cursor:pointer;}
+/*璁㈤槄*/
+.dingyues{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/cartbg.png) repeat; z-index:9999; width:100%; height:100%; min-height:600px; position:fixed; top:0; left:0; right:0;}
+.dingyue{width:344px; height:134px; background:#fff; position:absolute; top:50%; left:50%; margin-left:-172px; margin-top:-67px;}
+.dingyue h6{text-align:center; font-size:18px; line-height:76px; position:relative;}
+.dingyue div{width:250px; margin:0 auto; height:40px;}
+.btn_03{width:177px; float:left; height:38px; border:1px solid #ccc; border-right:none; text-indent:12px; line-height:38px; color:#666;}
+.btn_04{height:40px; width:71px; text-align:center; line-height:40px; color:#fff; background:#47ba81; float:left;}
+.dingyue .dingyueclose{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/close.jpg) no-repeat; width:16px; height:16px; position:absolute; right:10px; top:10px;}
+/*鎺ㄥ箍*/
+.imgpic .a_3{position:absolute; left:55%; bottom:67%; width:11%; _height:73px; *height:73px; height:10%; display:inline-block; cursor:pointer;}
+.imgpic .a_4{position:absolute; left:26%; top:28%; width:12.5%; _height:301px; *height:301px; height:11%; display:inline-block; cursor:pointer;}
+.tuiguang{background:#ffae00; padding:45px 0; height:68px; width:100%; float:left;}
+.tui_1{width:1100px; margin:0 auto; background:#f28d00; color:#fff; height:68px;}
+.tui_1 span{font-size:24px; line-height:68px; font-weight:bold; padding-left:24px; float:left;}
+.tui_1 .tuibtn_1{width:670px; margin:2px 0 2px 10px; background:#fff; font-size:16px; line-height:64px; padding-left:10px; float:left;}
+.tui_1 .tuibtn_2{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/magnifier.png) no-repeat center center #f04848; width:92px; height:68px;}
+.tui_phone{background:#ffcc00; padding-top:77px; width:100%; float:left; height:793px;}
+.tui_phonecon{width:1366px; margin:0 auto;}
+.tui_phoneconr ul{width:832px;}
+.tui_phoneconl{float:left; width:459px;}
+.tui_phoneconr{float:left; width:907px; position:relative;}
+.tui_phoneconr .more{width:75px;}
+.tui_phoneconr ul li{width:198px; background:#fff; padding:20px 0 10px 0; margin-left:10px; margin-bottom:10px; float:left;}
+.tui_phoneconr ul li p{text-align:center; height:175px;}
+.tui_gujia{border-top:2px solid #ffcc00;}
+.tui_title{text-indent:12px; height:47px;}
+.tui_con{text-indent:12px; padding-bottom:10px;}
+.tui_gujia a{width:110px; height:36px; background:#f04848; color:#fff; text-align:center; line-height:36px; display:inline-block; border-radius:3px;}
+.tui_gujia{text-align:center; padding-top:10px;}
+.more_tui{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/more_tui.png) no-repeat; width:74px; height:300px; position:absolute; right:0; top:180px; cursor:pointer;}
+
+/*鏄惁dingyue鎻愮ず妗�*/
+.dingyue_01{width:344px; height:170px; background:#fff; position:fixed; z-index:99999; top:50%; left:50%; margin-left:-172px; margin-top:-85px;}
+.dingyue_01 h6{font-size:14px; text-indent:24px; border-bottom:1px solid #ccc; line-height:45px; position:relative;}
+.dingyue_01 .dingyueclose{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/close.jpg) no-repeat; width:16px; height:16px; position:absolute; right:10px; top:10px;}
+.dingyue_01 p{line-height:60px; text-align:center;}
+.dingyue_01 div input{background:#31c66a; color:#fff; text-align:center; width:100px; height:30px; line-height:30px; border-radius:5px; margin-right:10px;}
+.dingyue_01 div input.on{background:#fff; color:#666;}
+.dingyue_01 div{text-align:center;}
+
+/*鐢ㄦ埛璇勪环*/
+.speakbox{width:744px; margin:10px auto;}
+.speak_title{line-height:30px; font-size:14px;}
+.speak_con textarea{width:720px; border:1px solid #ccc; height:180px; border-radius:5px; padding:5px; line-height:20px; color:#999; font-size:14px;}
+.speaks{width:730px; overflow:hidden; padding:5px 0; margin-bottom:10px;}
+.speaksl{float:left; width:600px; overflow:hidden; font-size:14px; }
+.speaksl div{width:600px; overflow:hidden;}
+.speaksl div span{float:left;}
+.speaksl div strong{float:left;}
+.speaksr{float:left; width:130px;}
+.speaksr input{width:130px; background:#f04848; height:50px; line-height:50px; font-size:14px; cursor:pointer; color:#fff; display:inline-block;}
+/*娣诲姞鍦板潃*/
+.receiver{border:1px solid #e0e0e0;}
+.receiver_head{background:#fffaf1; padding-left:20px; border-bottom:1px solid #e0e0e0; line-height:44px; font-size:16px;}
+.receiver_con{padding:20px;}
+.apendin a{background:#f04848; width:130px; height:40px; line-height:40px; display:inline-block; text-align:center; color:#fff; cursor:pointer;}
+.apendin input{background:#f04848; width:130px; height:40px; line-height:40px; text-align:center; color:#fff; cursor:pointer;}
+.apendinbox1{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/location.png) no-repeat 10px center; border:1px solid #f04848; padding:10px 10px 10px 40px; position:relative;}
+.apendinbox2{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/locations.png) no-repeat 10px center; border:1px solid #e0e0e0; padding:10px 10px 10px 40px; position:relative;}
+.bianji{position:absolute; right:10px; top:10px;}
+.bianji span{padding:0 10px;}
+.receiver_con .message{border:none; width:70%;}
+.receiver_con .message dl{padding-left:0;}
+.box .receiver_con{border:1px solid #e0e0e0;}
+
+/**鏂囩珷鏍囬鏀规垚h1**/
+.newstitle h1 {
+    text-align: center;
+    font-size: 20px;
+}
+.centeright h1 {
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+}
+
+.h1{width:100%; overflow:hidden;}
+.h1 h1{display:inline-block;}
+.h1 span{font-size:16px; padding-left:10px;}
+.h1 i{color:#f04848; font-style:normal;}
+
+/*浼颁环椤甸潰鏈哄瀷鍚嶇О鍔爃1鏍囩*/
+.phoneleft dd h1 {
+    line-height: 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.buytop h1 {
+    line-height: 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+/*浜屾墜鑹搧鏌ョ湅鏇村鎸夐挳*/
+.page-num .a_more{width:300px; height:40px; line-height:40px; text-align:center;display: inline-block; font-size:16px;}
+.page-num .a_null{width:300px; height:40px; line-height:40px; text-align:center;display: inline-block; font-size:16px;}
+
+/*璐ㄦ鍗曢〉*/
+.qualitychecking{width:1100px; overflow:hidden; margin:0 auto 20px auto;}
+.qualitycheckingnav{padding:20px 0 20px 0; overflow:hidden;}
+.qualitycheckingnav a{display:inline-block; float:left; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/zhi_01.jpg) no-repeat; width:160px; margin-right:111px; height:69px; color:#666; line-height:56px; text-align:center; font-size:18px;}
+.qualitycheckingnav a.on{display:inline-block; float:left; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/zhi.png) no-repeat; color:#fff;}
+
+.qualitycon{width:1100px; position:relative; overflow:hidden;}
+.qualitbgimg{width:1100px; height:500px; position:relative;}
+.qualitbgimg ul{width:1100px; overflow:hidden;}
+.qualitbgimg ul li{width:1100px; height:500px; float:left;}
+.qualitbgimg dl{width:1100px; height:500px;}
+.qualitbgimg dt{float:left; width:800px; position:relative;}
+.qualitbgimg dt span{position:absolute; right:0; top:50px;}
+.qualitbgimg dd{width:240px; padding:30px; float:left; height:440px; position:relative;}
+.qualitbgimg dd h3{font-size:22px; border-bottom:1px solid #e0e0e0; line-height:60px;}
+.qualitbgimg dd p{padding-top:16px; line-height:20px;}
+.qualitbgimg dd div{position:absolute; bottom:30px; left:30px;}
+.qualitbgimg dd div span{display:inline-block; float:left; line-height:24px; border:1px solid #e0e0e0; padding:0 20px; margin-right:10px; margin-bottom:10px;}
+.qualitbgimg dd div span.active{border:1px solid #f04848; background:#f04848; color:#fff;}
+.qualitsimg{height:148px; width:1006px;margin-left:55px; position:relative; overflow:hidden; margin-top:20px;}
+.qualitsimg ul{position:relative;}
+.qualitsimg ul li{float:left; width:240px; margin-right:10px; position:relative;}
+.qualitsimg ul li p{position:absolute; left:0; bottom:0; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/cartbg.png) repeat; width:240px; text-align:center; line-height:30px; color:#fff;}
+.qualitsimg ul li.on p{background:#f04848; color:#fff;}
+.left_01{position:absolute; display:inline-block; left:0; bottom:0; cursor:pointer; z-index:222; display:inline-block; width:40px; height:148px; background:url(../image/left_02.png) no-repeat center center #dcdcdc;}
+.right_01{position:absolute; display:inline-block; right:0; bottom:0; cursor:pointer; display:inline-block; width:40px; height:148px; background:url(../image/right_02.png) no-repeat center center #dcdcdc;}
+
+
+/*娴佺▼鎸囧紩*/
+.zhiyincon{ position:fixed; right:20px; bottom:20px;width:137px; height:162px;}
+.zhiyin{width:137px; height:162px; position:relative;}
+.close_01{position:absolute; width:20px; height:20px; right:0; top:0; cursor:pointer;}
+
+/*浜ゆ槗娴佺▼鎸囧紩鍥�*/
+.liuzhi{ text-align:center; float:left; padding:50px 0; text-align:center; background:#00579a; width:100%;}
+.liuzhitxt{width:100%; float:left; padding:60px 0; background:#222231;}
+.liuztxts{width:1100px; margin:0 auto; overflow:hidden;}
+.liuztxts h1{position:relative;}
+.liuztxts h1 a{position:absolute; right:0; top:0; line-height:40px; font-size:22px; padding-right:20px; color:#a0a0bd; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/l_08.png) no-repeat right center;}
+.liuzquestion{background:#303045; border-radius:10px; padding:30px 20px; color:#a0a0bd; font-size:14px; line-height:20px;}
+.liuzquestion p{color:#a0a0bd;}
+
+
+/*鐩稿叧闃呰*/
+.reading{clear:both; margin:20px auto; border:1px solid #ccc;}
+.reading h4{background:#e6e6e6; height:48px; line-height:48px; border-bottom:1px solid #ccc; text-align:center; font-size:14px;}
+.readings{padding:10px 15px;}
+.readings a{display:block; line-height:25px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/images/reading.png) no-repeat left center; padding-left:10px;}
+.readings .more{background:none; text-align:right; line-height:40px;}
+
+/*鍖哄煙浠ｇ悊*/
+.centeright .quyu{width:682px; margin:20px auto;}
+.quyutxt{border-bottom:1px solid #ccc;}
+.quyu h1{font-size:20px; color:#ff9c00; height:40px;}
+.quyutxt p{font-size:14px; color:#000;}
+.quyutxt div{color:#666; font-size:14px; line-height:30px;}
+.quyu .message{width:682px; border:none;}
+.quyu .message dl{padding-left:0;}
+.quyu .message dl dt{color:#000; width:110px;}
+.quyu .message textarea{border:1px solid #e0e0e0; width:335px; padding:5px; min-height:50px;}
+
+/*浜屾墜鑹搧涓婃灦*/
+.groundhead{width:100%; height:80px; border-bottom:1px solid #ededed; background:#f7f7f7;}
+.groundhead span{display:inline-block; font-size:30px; float:left; line-height:80px; width:660px;}
+.groundhead table{display:inline-block; float:left; width:385px; margin-left:50px;}
+.groundcon{width:1100px; margin:20px auto; overflow:hidden;}
+.groundcon li{width:350px; float:left; margin-right:25px;}
+.groundbox{border:1px solid #e0e0e0;}
+.groundbox p{position:relative; width:348px;}
+.groundbox p i{display:block; text-align:center; padding-top:20px; height:346px;}
+.groundbox p em{position:absolute; left:10px; top:10px;}
+.groundbox p span{display:block; position:absolute; left:0; bottom:0; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/cartbg.png) repeat; padding:10px 5px; color:#fff; width:338px; height:40px;}
+.grountxt{height:72px; background:#ff7e7e; position:relative; color:#fff;}
+.grountxt a{position:absolute; right:0; top:0; height:72px; background:#f04848; color:#fff; padding:0 20px; line-height:72px; font-size:24px; font-weight:bold;}
+.grountxt span{display:block; font-size:24px; padding-left:10px; line-height:40px;}
+.grountxt strong{display:block; padding-left:10px; font-size:14px; font-weight:normal;}
+.grountxt i{text-decoration: line-through;}
+.interest span{color:#888; font-size:12px;}
+.interest{position:relative; line-height:30px;}
+.interest strong{font-size:12px; color:#f04848; position:absolute; right:0; top:0; line-height:30px; font-weight:normal;}
+.page-num .a_more{width:300px; height:40px; line-height:40px; text-align:center;display: inline-block; font-size:16px;}
+
+/*鍝佺墝鎵嬫満骞虫澘鏉′欢*/
+.allnav .phonenav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_02.png) no-repeat 0 center; height:44px; padding-left:20px; display:inline-block; line-height:44px; text-align:center; font-size:14px;}
+.allnav .pinbannav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_03.png) no-repeat 0 center; height:44px; padding-left:20px; display:inline-block; line-height:44px; text-align:center; font-size:14px;}
+
+.banner{position:relative;}
+.pinpai{width:254px; height:46px; border-top:4px solid #f04848; background:#f0484; display:inline-block; position:absolute; top:-50px;}
+.pinpai a{display:inline-block; width:127px; line-height:46px; float:left; text-align:center; font-size:18px; color:#fff; cursor:pointer;}
+
+.pinpai .phonenav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_04.png) no-repeat 20px center #f04848;}
+.pinpai .phonenav.on{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_04.png) no-repeat 20px center #2b2b2b;}
+.pinpai .pinbannav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_05.png) no-repeat 10px center #f04848;}
+.pinpai .pinbannav.on{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_05.png) no-repeat 10px center #2b2b2b;}
+
+.all{width:122px; border:2px solid #f04848; height:44px; float:left;z-index:999;  border-right:none; position:relative;}
+.allnav span{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_01.png) no-repeat 0 center; height:44px; padding-left:20px; display:inline-block; line-height:44px; text-align:center; font-size:14px;}
+.allnav{text-align:center; cursor:pointer;}
+.allcon{width:120px; border:1px solid #ccc; position:absolute; display:none; top:49px; left:0; z-index:999; background:#fff;}
+.allcon span{display:inline-block; height:33px; line-height:33px;}
+.allcon a{display:block; padding-left:20px; cursor:pointer; background:#fff;}
+.allcon a:hover{background:#f5f5f5;}
+.allcon .phonenav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_02.png) no-repeat 0 center; padding-left:20px;}
+.allcon .phonenav.on{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_02.png) no-repeat 0 center;}
+.allcon .pinbannav{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_03.png) no-repeat 0 center; padding-left:20px;}
+.allcon .pinbannav.on{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_03.png) no-repeat 0 center;}
+
+.pinpais{background:#f0f0f0; line-height:49px; padding-left:20px; font-size:14px; color:#333; font-weight:bold; border:1px solid #ccc; border-bottom:none;}
+.pinpais span{padding-left:20px;}
+.centerights{width:850px; float:left;}
+.centerights .h1{}
+.centerights .hotul h4{height:40px;}
+.centerights .hotul h4 a{background:none;font-weight: bold;}
+.centerights .hotul li:hover a{color: #f04848;}
+.main .centerleft{width:228px; margin-right:10px; margin-bottom:20px;}
+.orange{color:#ff9c00;}
+.q_10{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_06.png) no-repeat 20px center; padding-left:42px;}
+.q_10.on,.q_10:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_04.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:40px;}
+.q_11{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_07.png) no-repeat 20px center; padding-left:42px;}
+.q_11.on,.q_11:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/all_05.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:42px;}
+.centerlefts{width:230px; float:left; padding-right:10px;}
+#nav{padding-left:254px;}
+#nav a{text-align:center;}
+#p_form{float:left;}
+#nav{padding-left:254px; width:846px;}
+/*鏍″洯鎶ュ悕*/
+.home{width:89px; position:fixed; z-index:9999;}
+.home a{display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/home.png) no-repeat; width:80px; height:78px;}
+.home{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/home.png) no-repeat left center; padding-left:20px;}
+.imgpic .baoming{position:absolute; bottom:4%; left:50%; margin-left:-129px; width:258px; height:87px;}
+.imgpic .baoming img{ width:258px; height:87px;}
+.baom{width:100%; background:#29c78c; padding-bottom:20px;}
+.baomcon{width:980px; margin:0 auto 20px; padding:0 60px; background:#fff;}
+.baomcon dl{padding-bottom:30px;}
+.baomcon h5{font-size:30px; font-weight:bold; color:#00a165; text-align:center;}
+.baomcon dl dt{width:100%; font-size:16px; min-height:45px;}
+.baomcon dl dt span{font-size:16px; width:25px; height:25px; border-radius:15px; color:#fff; background:#29c78c; display:inline-block; margin-right:10px; line-height:25px; text-align:center;}
+.baomcon dl dd{padding-left:40px;}
+.baomcon dl dd input{width:635px; height:38px; line-height:38px; padding-left:5px; border:1px solid #29c78c; border-radius:5px;}
+.hopo{padding-left:40px; font-size:14px; line-height:30px; padding-bottom:20px;}
+.baomcon dl dd textarea{width:635px; min-height:104px; line-height:38px; padding-left:5px; border:1px solid #29c78c; border-radius:5px;}
+.baomcon .man{width:19px; height:19px; float:left; margin-right:5px;}
+.baomcon dl dd em{float:left; margin-right:20px;}
+.baomcon .centers{overflow:hidden; padding-bottom:40px; }
+.baomcon .centers input{background:#ff6d14; color:#fff; text-align:center; line-height:50px; width:100px; font-size:30px; font-weight:bold; border-radius:10px;}
+
+.judge .values.on{position:fixed; top:36px; left:50%; margin-left:-550px; z-index:999;}
+
+/*涔愭*/
+.le_01{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/l_01.jpg) no-repeat; background-size:100% 100%; width:100%; max-height:790px; margin-top:36px; text-align:center;}
+.lemenga{height:150px; width:650px; margin:50px auto 0; overflow:hidden;}
+.lemenga a{display:inline-block; float:left; width:264px; cursor:pointer; height:65px; font-size:20px; margin-left:30px; text-align:center; line-height:65px; border-radius:10px; border:1px solid #00a8ff; color:#00a8ff;}
+.lemenga a.on{background:#00a8ff; color:#fff;}
+.le_02{background:#f2f2f2; max-height:700px; width:100%; text-align:center;}
+.le_03{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/l_09.jpg) no-repeat; width:100%; background-size:100% 100%; text-align:center; max-height:1000px;}
+.le_04{width:100%; text-align:center; overflow:hidden; padding:20px 0 0;}
+.le_05{width:100%; text-align:center; max-height:533px; background:#f2f2f2;}
+.le_06{width:100%; background:#02c0fe; text-align:center; padding:20px 0; margin-top:-4px;}
+.le_07{width:100%; background:#f2f2f2; text-align:center; margin-top:-4px;}
+.le_07con{position:relative; width:1036px; margin:0 auto;}
+.le_07con a{text-align:center; display:inline-block; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/l_11.png) no-repeat; width:310px; height:87px; position: absolute; left:50%; top:252px; cursor:pointer; margin-left:-155px;}
+
+.lemengtop{background:#0aabfe; padding:50px 0; width:100%; overflow:hidden; margin-top:36px;}
+.lemengtopcon{width:1200px; margin:0 auto; overflow:hidden;}
+.lemengtopcon p{z-index:1; text-align:center;}
+.lemengtopcon a{display:inline-block; width:400px; position:relative; text-align:center; float:left; height:412px; padding-top:60px;}
+.lemengtopcon a span{display:inline-block; margin-top:40px; border-radius:10px; width:159px; height:52px; line-height:52px; text-align:center; border:1px solid #fff; color:#fff;}
+.lemengnav span{display:inline-block; float:left; line-height:45px; font-size:18px; padding:0 20px; border-radius:5px; margin-right:30px;}
+.lemengtopcon a:hover span{border:1px solid #00a8ff; color:#00a8ff;}
+.lemengtopcon a:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/bg.png) no-repeat center center;}
+.lemengtopcon a:on span{border:1px solid #00a8ff; color:#00a8ff;}
+.lemengtopcon a:on{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/bg.png) no-repeat center center;}
+
+.lemengnav{width:1100px; margin:0 auto; overflow:hidden; padding:30px 0;}
+.lemengnav span.on{background:#00a8ff; color:#fff;}
+.lemengnav span:hover{background:#00a8ff; color:#fff;}
+
+.lemengBox{width:1100px; margin:0 auto 30px; border-top:1px solid #e0e0e0; }
+.lemengbox div{width:1100px; overflow:hidden; line-height:48px; font-size:14px;}
+.lemengbox div span{display:inline-block; float:left; width:153px; background:#00a8ff; border-top:none; color:#fff; border:1px solid #5ac7ff;padding-right:50px; text-align:right;}
+.lemengbox div strong{float:left; width:843px; padding-left:50px; text-align:left; font-weight:normal; display:inline-block; border:1px solid #e0e0e0; border-left:none; border-top:none;}
+
+/*涔愭鎵嬫満椤甸潰*/
+.site-header .nav{width:786px; float:left; padding-top:35px;}
+.site-header .nav .fr{top:35px;}
+.site-header .nav strong i{top:39px; right:222px;}
+.site-header .icon5{padding-left:25px; width:60px;}
+.lemengliucheng{width:100%; background:#00a8ff; text-align:center;}
+.lsousu{height:46px; width:1098px; margin:30px auto; border:1px solid #00a8ff; border-radius:5px;}
+.lsousu .sousucon{overflow:hidden; width:100%;}
+.lsousu .sousucon span{line-height:46px; text-align:center; font-size:16px; width:256px; background:#00a8ff; border-radius:5px 0 0 5px; color:#fff; display:inline-block; float:left;}
+.lsousu .sousubox{width:842px; float:left; overflow:hidden;}
+.lsousu .btn1{float:left; width:786px; border:none; background:#fff; font-size:14px; color:#999; height:46px; line-height:46px; padding-left:5px;}
+.lsousu .btn2{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/le_012.png) no-repeat center center #fff; margin:0; line-height:46px; max-width:49px; min-width:49px; height:46px; float:left; cursor:pointer;}
+
+.centersss{width:1100px; margin:0 auto;}
+.centersss .title span{display:inline-block; margin-top:10px; background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/pic/lemeng/bottom.png) no-repeat right center; color:#000; line-height:43px; width:161px; height:48px; font-size:20px;}
+.centersss .logos{width:1025px; margin-left:-25px; padding-top:24px;}
+.centersss .logos a{width:178px; height:78px; display:inline-block; border-radius:5px; border:1px solid #ccc; float:left; margin-left:25px; margin-bottom:25px;}
+.centersss .logos a td{text-align:center;}
+
+/*鎴戠殑浼樻儬鍒�*/
+.coupon{width:640px; float:left; overflow:hidden;}
+.coupon .orderform{width:638px;}
+.coupon .orderformcons{width:638px;}
+.coupon table th{text-align:left; font-weight:bold; line-height:68px; font-size:14px;}
+.coupon table tr{border-bottom:1px solid #ededed; line-height:68px; font-size:14px;}
+.couponright{width:228px; float:left; border:1px solid #ededed;   margin-left: -1px;}
+.couponright h1{font-size:18px; color:#f04848; font-weight:bold; line-height:50px; border-bottom:1px solid #ededed; text-align:center;}
+.couponright div{padding:15px 20px 0 20px;}
+.couponright{padding-bottom:20px;}
+.quan{ background: #fff; overflow:hidden; padding-top:20px;}
+.quan dl{ float: right; overflow:hidden;}
+.quan dt{width:68px; float:left; line-height:25px; font-size:16px;}
+.quan dd{float:left;   font-size:14px; line-height:25px;}
+.quan dd div input{float:left; margin-top:7px; margin-right:10px;}
+.quan dd div{ overflow:hidden;}
+.c_04{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_04.png) no-repeat 20px center; padding-left:64px;}
+.c_04.on,.c_04:hover{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/c_044.png) no-repeat 20px center #ff9c00; color:#fff; padding-left:64px;}
+
+/*涓婇棬鍥炴敹鍗曢〉*/
+.dropinimg{width:100%; float:left;}
+.dropinimgcon{width:1102px; margin:0 auto;}
+.bgcolorfff{background:#fff;}
+.borderbottom{border-bottom:1px solid #ccc;}
+.bgcolorblue{background:#3e82f7;}
+.bgcolorhui{background:#f2f2f2;}
+.bgcolordblue{background:#292d4c;}
+.dropinimgcon .people,.dropinimgcon .admin_lfet{width:1100px; padding:0;}
+.dropinimgcon .peoplespic li,.dropinimgcon .peoplespic li dl{width:1100px;}
+.dropinimgcon .peoplespic li dd{width:1010px;}
+.dropinimgcon .peoplespic li{height:135px;}
+.dropinimgcon .iconh3{margin:0; background:#161a36; height:33px;}
+.dropinimgcon .weiboa{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/weibo.jpg) no-repeat left center; color:#fff; top:5px;}
+.dropinimgcon h5{font-size:46px; line-height:140px; font-weight:normal; color:#fff;}
+
+/* 澶撮儴鎻愮ず*/
+.admonition{width:1100px; border:1px solid #ccc; background:#fff; color:#fc0303; text-align:center; position:relative; height:30px; line-height:30px; margin:0 auto;}
+.admonition span{background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/close1.gif) no-repeat; width:20px; height:20px; display:inline-block; position:absolute; right:5px; top:5px; cursor:pointer;}
+
+/* 棣栭〉浼樻儬鍒告诞鍔ㄦ*/
+#qlf{display:block;  height: 105px;width: 110px;cursor: pointer;}
+.lq_tc{background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/tm_i.png");width: 100%;height: 100%;top: 0; position: fixed;display: block;z-index:99999}
+.lq_i,.lq_m,.lq_cg{overflow: hidden}
+.lq_i{width: 390px;height: 360px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/tc_1.png") no-repeat;position: absolute;left: 50%;top: 50%;margin-left: -185px;margin-top: -180px;}
+#lq_cls{display: block;cursor: pointer;  width: 46px;height: 46px;  margin-left: 350px; }
+#lq_bt{display: block;cursor: pointer; width: 300px;  height: 63px; margin-top: 252px;margin-left: 35px;font-size: 20px;color: #c90302;text-align: center;line-height: 60px;}
+#lq_bt:hover,#lq:hover,#c_btn:hover{font-size: 22px;}
+.lq_m{width: 521px;height:648px; background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/tc_h.png") no-repeat;position: absolute;left: 50%;top: 50%;  margin-left: -280px;  margin-top: -324px;}
+.lq_phon{  width: 250px;  height: 140px;   margin-top: 290px;  margin-left: 125px;}
+.lq_ipt{font-size: 20px;height: 30px;padding: 9px 0;}
+.lq_ipt input{display:block;margin:0 auto; border: none;background: none;text-align: center;color: #333;}
+.lq_phon a{display: block;height: 55px;margin-top: 15px;}
+.lq_wen{margin-top: 10px; padding:50px 45px 0 25px;}
+.lq_wen p{font-size: 12px;color: #2e0000;line-height: 19px}
+.lq_wen p strong{color:#ff4546}
+.lq_cg{width: 521px;height:648px;position: absolute;left: 50%;top: 50%;margin-left: -280px;  margin-top: -324px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/tc_c.png") no-repeat}
+.lq_c_h1{padding-top:34px;}
+.lq_c_w h2{font-size:28px;color:#000;text-align:center}
+.lq_c_w h2 span{color:#ff1f1f;font-size:36px;}
+.lq_c_h p{color: #000;font-size: 28px;line-height: 40px;text-align:center}
+#c_btn{height: 68px; width: 260px;position:absolute;left:120px;bottom:20px;}
+.lq_c_btn{}
+.lq_c_btn p{color: #2e0000;font-size: 16px;line-height: 30px;text-align:center}
+.lq_c_btn p a{color: #ff461f;font-size:18px; text-decoration: underline}
+.lq_c_h1 .lq_c_w img{margin-left: 95px}
+.lq_ch{margin-top: 200px;width:500px;position: relative;height:225px;}
+.dn{display: none}
+.lq_cls1{display: block;cursor: pointer;  width: 46px;height: 46px;float: right;}
+
+/* 缁戝畾鎵嬫満鍙� */
+.lan_txc{    display: block;  font-size: 14px;  line-height: 62px;  width: 60px;}
+.lan_td{position: relative;}
+.lan_tx{margin-top: 18px;}
+.lan_tj{ width:100%;border-radius: 5px; background: #f04848 none repeat scroll 0 0;  color: #fff;  cursor: pointer;  display: inline-block;  font-size: 20px;  height: 45px;  line-height: 45px;  margin-top: 20px;  text-align: center;  }
+
+/* 瀹樻柟鎷呬繚鍗曢〉*/
+.gf_s1_bg{height: 390px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/gf_01.jpg") no-repeat top center}
+.gf_s1{height: 250px;background: #ffc600;z-index: -1}
+.gf_s1_bg h1,.gf_s1_bg p{color: #fff;text-align: center}
+.gf_s1_bg h1{font-size: 48px;line-height: 80px;letter-spacing: 2px}
+.gf_s1_bg p{font-size: 30px}
+.gf_s2_h{width: 122px;height: 122px;margin: auto}
+.gf_js{height: 194px;}
+.gf_s2 ul{width: 905px;text-align: justify;margin: auto}
+.gf_s2 ul li{display:inline-block;width: 225px;}
+.gf_s2_m{font-size: 24px;color: #999;padding-top: 35px;text-align: center}
+.gf_js1{height: 60px}
+.gf_s3{background: #f9f8ea;}
+.gf_s3_m{height: 400px; background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/gf_05.jpg") no-repeat 750px 75px}
+.gf_s3_m{padding-left: 15px}
+.gf_s3_m h2{margin-top: 120px}
+.gf_s3_m h2,.gf_s4_m h2,.gf_s5_m h2{font-size: 36px;color: #f04848;line-height: 80px}
+.gf_s3_m p{width: 300px}
+.gf_s3_m p,.gf_s4_m p,.gf_s5_m p{font-size: 24px;color: #333;}
+.gf_s4_m h2{padding-top: 140px}
+.gf_s4_m h2,.gf_s4_m p{text-align: right;padding-right: 80px}
+.gf_s4_m{height: 400px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/gf_06.jpg") no-repeat 0 100px}
+.gf_s5{background: #ecf9ea}
+.gf_s5_m{height: 400px;background: url("https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/gf_07.jpg") no-repeat right 60px}
+.gf_s5_m h2{margin-top: 120px}
+.gf_bto{height: 280px;}
+.gf_bto h2{font-size: 24px;color: #666;padding-top: 80px;line-height: 45px}
+.gf_bto p{font-size: 20px;color: #999;line-height: 35px}
+/* 浜屾墜鑹搧寮圭獥 */
+#er_pop{  width: 100%; height: 100%;background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/tm_i.png);position: fixed;top: 0;left: 0;z-index:99999}
+.er_pop_main{display:table;height:100%;width:100%}
+.er_pop_main_cell{  display: table-cell;vertical-align: middle;text-align:center;}
+#er_popup{display:inline-block;background:#fff;position: relative;padding:30px 95px;text-align:center;box-shadow: 0px 0px 10px #2b2b2b;}
+#er_popup_p{color:#333;font-size:20px}
+#er_popup_p span{color:#ef2e2f}
+#er_popup .a1{display:inline-block;padding:10px 45px;  font-size:16px;color:#fff;background:#ef2e2f;border-radus:6px;  border-radius: 6px;}
+#er_popup .er_a1{display:inline-block;padding:10px 45px;  font-size:16px;color:#fff;background:#ff9c00;border-radus:6px;  border-radius: 6px;}
+#er_popup .ercol{  position: absolute;right: -15px;top: -20px;  cursor: pointer;}
+.height_30{height:30px;}
+#qiao-wrap{display:none !important;}
+
+.sucess_tb,.suChag_bto p s{background-image:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/orderSucess.png);background-position:0 0;position:absolute;}
+.sucess_tb.tre{width:72px;height:72px;left:-70px;top:10px;background-position: -37px 0;}
+.sucess_h{width:280px;margin:50px auto 0;position:relative;padding-left:30px;}
+.sucess_h h3{font-size:20px;color:#ff9c00;font-weight:bold;line-height:30px;letter-spacing:1px;}
+.sucess_h h3.dn{display:none;}
+.sucess_h p{color:#999;font-size:14px;line-height:25px;}
+.sucess_h p span{letter-spacing:1px;}
+.sucess_h a{display:inline-block;font-size:18px;color:#f04848;line-height:50px;text-decoration:underline;}
+.sucess_h .ml45{margin-left:45px;}
+.sucess_m{margin:10px 0 20px;}
+.sucess_m .qr_code{position:relative;width:180px;margin:0 auto;text-align:center;padding:5px;}
+.sucess_m .qr_code s{width:13px;height:13px;position:absolute; }
+.sucess_m .ico1{border-top:1px solid #000000;border-left:1px solid #000;}
+.sucess_m .ico2{border-left:1px solid #000000;border-bottom:1px solid #000;}
+.sucess_m .ico3{border-right:1px solid #000000;border-top:1px solid #000;}
+.sucess_m .ico4{border-right:1px solid #000000;border-bottom:1px solid #000;}
+.sucess_m .ico1{left:0;top:0}
+.sucess_m .ico2{left:0;bottom:0}
+.sucess_m .ico3{right:0;top:0}
+.sucess_m .ico4{right:0;bottom:0}
+.qr_code .qr_ico{position:absolute;left:80px;bottom:-20px; width:21px;height:11px;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/orderSucess.png) no-repeat 0 0;}
+.sucess_m .qr_dec{text-align:center;padding-top:30px;font-size:16px;line-height:30px;color:#666;}
+.suDecor{height:30px;position:relative;padding:0 27px;}
+.suDecor .su_line{height:1px;background:#ff9c00;position:absolute;top:16px;width:1030px;}
+.suDecor_pr{position:relative;left:50%;float:left;}
+.suDecor h3{float:left; position:relative;right:50%;line-height:30px;color:#ff9c00;font-size:18px;font-weight:bold;background:#fff;padding:0 10px;letter-spacing:2px}
+.suChag ul{text-align: justify;padding:20px 25px;}
+.suChag ul li.last{height:0;width:200px;}
+.suChag ul li{display:inline-block;text-align：left;}
+.suChag1 .suDecor{padding:0 95px;}
+.suChag1 .suDecor .su_line{width:900px;}
+.suChag1 ul{text-align: justify;padding:20px 95px;}
+.suChag1 ul li.last{height:0;width:300px;}
+.suChag1 ul li{display:inline-block;text-align：left;}
+.suChag_item{height:90px;position:relative;}
+.suChag_item s{width:90px;height:90px;}
+.suChag_item s.su_car{background-position:-28px -96px;}
+.suChag_item s.su_gr{background-position:-129px -93px;}
+.suChag_item s.su_dl{background-position:-228px -93px;}
+.suChag_item s.su_js{background-position:-207px -186px;}
+.suChag_item s.su_hm{background-position:-113px -186px;}
+.suChag_item h3{line-height:30px;font-size:16px;color:#666;padding-left:110px;padding-top:20px;font-weight:bold;}
+.suChag_item p{font-size:14px;line-height:25px;padding-left:110px;}
+.suChag1 .suChag_item h3{padding-top:10px;}
+.suChag_bto{line-height:42px;background:#ececec;height:42px;margin:0 95px;padding:0 45px;}
+.suChag_bto h4{display:inline-block;font-size:18px;color:#666666;overflow:hidden;padding-right:5px;}
+.suChag_bto p s{left:4px;width:26px;height:26px;top:9px;}
+.suChag_bto p s.suBt_ico1{background-position:0 -18px;}
+.suChag_bto p s.suBt_ico2{background-position:0 -49px;}
+.suChag_bto p s.suBt_ico3{background-position:0 -84px;}
+.suChag_bto p{display:inline-block;position:relative;padding-left:35px;font-size:16px;overflow:hidden;}
+.sucess_bto{background:#22a378;padding:5px 95px 10px;}
+.sucess_bto h4{line-height:35px;color:#fff;font-size:18px;}
+.sucess_bto p{line-height:25px;color:#fff;font-size:14px;}
+
+.express_t{border-bottom: 1px solid #ccc;}
+.express_t li{display:inline-block;margin-right:60px;line-height:40px;font-size:12px;color:#999;}
+.express_m{padding:10px;position:relative;}
+.express_m li{padding-top:10px;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/express.png) no-repeat top left;padding-left:15px;height:15px;}
+.express_m li.on{background:none;padding-bottom:0;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/ys.png) left center no-repeat;padding-top:0;}
+.express_m li span{line-height:15px;color:#999;margin-right:25px;}
+.express_m ul li{display:none;}
+.express.on .express_m ul li{display:block;}
+.express_m ul li.on{display:block;}
+.express_m p{line-height:20px;color:#999;padding-left:15px;padding-top:10px;font-size:12px;background:url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/ys_1.png) no-repeat left 18px;}
+.express_m p span{color:#ff9c00;cursor: pointer;}
+.express.on .express_m p{display:none;}
+.express.on .express_m{background:#fffaf1;}
+.express_sq{background:#fffaf1;padding-left:20px;padding-right:40px; cursor:pointer;display:none; margin-left:50px;position:relative;}
+.express_sq s{width:0;height:0;position:absolute; right:13px;top:9px;border-bottom:10px solid #ff9c00;border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 6px solid transparent;}
+.express_sq.cor{color:#ff9c00;display:none;}
+.express.on .express_sq.cor{display:inline-block;}
+.express.on .express_t{border:0;}
+.express_m ul li.on span{color:#ff4900;}
+
+
+/*订单提交成功结果页面填写取件地址*/
+.sucessAddress{height:228px;border-top:1px #cecece solid;border-bottom:1px #cecece solid;}
+.sucessAddress h2{    color: #ff9c00;
+    line-height: 65px;
+    height: 65px;
+    font-size: 18px;
+    padding-left: 10px;
+    text-align: center;}
+.sucessSelect{height:40px;}
+.selectTip{ text-align: center; float: left;border: 1px solid #ccc; border-radius: 4px;margin-left:75px;}
+.cityTip{width: 159px;float: left;position: relative;z-index: 10;}
+.cityTip span{    display: block;color: #999;background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/sela.gif) 120px center no-repeat; display: block;cursor: pointer;padding-right: 40px;line-height: 40px;}
+.cityTip ul{background: #f0f3f7;border: 1px solid #ccc;position: absolute; top: 40px;left: 0;max-height: 300px;overflow-y: auto;display: none;max-height: 200px;overflow-y: auto;overflow-x: hidden;}
+.cityTip ul li{line-height: 25px;width: 158px;cursor:pointer;}
+.cityTip ul li:hover{background: #e6e6e6;}
+.cityDr{float: left;width: 447px;padding: 0 5px;border-left: 1px solid #ccc; height: 40px;}
+.cityDr input{ height: 20px;padding: 10px 0; width: 100%;border: none;}
+.cityTip.bor_l{border-left:1px solid #ccc;}
+.addrConfirm{clear:both;height:50px;padding-top:40px;}
+.addrConfirm a{width:200px;line-height:50px;background:#f04848;color:#fff;text-align:center;float:right;font-size:16px;}
+
+
+/*品牌 */
+.dealslogo.before_more{overflow: hidden;  height: 107px; margin-bottom: 20px;}
+.dealslogo.before_more .more_ll{display:block; text-align: center; line-height: 62px;}
+.dealslogo.after_more{height: 336px;}
+.dealslogo.after_more .more_ll{display:none;}
+.dealslogo.after_more_pb {height: 190px;}
+
+
+
+
+/**
+* 易机网
+* 2016.11.15
+* user-米启点
+*/
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+body { font: 12px/1.5 "\5FAE\8F6F\96C5\9ED1", Arial, HELVETICA; min-width: 1024px; background: #fff; _background-attachment: fixed; _background-image: url(https://web.archive.org/web/20190714102131im_/about:blank); }
+img { border: 0; }
+ol, ul { list-style: none; }
+:link, :visited, ins { text-decoration: none; }
+table { border-spacing: 0; border-collapse: collapse; }
+sub, sup { font-size: 100%; vertical-align: baseline; }
+blockquote, q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-weight: inherit; font-style: inherit; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; }
+button::-moz-focus-inner, input::-moz-focus-inner { padding: 0; border: 0; }
+textarea { overflow: auto; resize: vertical; vertical-align: top; }
+i, cite, em, address { font-style: normal; }
+a { text-decoration: none; color: #333; }
+a { outline: none; star: expression_r(this.onFocus=this.blur()); }
+a:hover { text-decoration: none; color: #09f; }
+a.disabled, a.disabled:hover { cursor: default; pointer-events: none; }
+.clearfix:before, .clearfix:after { display: block; height: 0; content: "\200b"; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.hide, .tmpl { display: none; }
+.error-hint { font-size: 14px; color: #f14848; }
+
+/*login_module*/
+#login_module { position: fixed; z-index: 1000; top: 50%; left: 50%; width: 382px; height: 406px; margin: -248px 0 0 -226px; padding: 54px 35px 35px; background-color: #fff; }
+#login_module .login-way { line-height: 46px; overflow: hidden; width: 100%; height: 46px; margin-bottom: 18px; border-radius: 3px; }
+#login_module .login-way span { font-size: 18px; float: left; width: 50%; height: 100%; cursor: pointer; text-align: center; color: #000; background-color: #e9e9e9; }
+#login_module .login-way span.active { color: #fff; background-color: #6b6b6b; }
+#login_module .quick-way ul li { font-size: 14px; line-height: 60px; width: 100%; height: 60px; margin-bottom: 16px; color: #000; }
+#login_module .quick-way ul li a { display: block; width: 380px; height: 100%; border: solid 1px #b6b6b6; border-radius: 3px; }
+#login_module .quick-way ul li a:hover { border: solid 1px #09f; }
+#login_module .quick-way i { display: inline-block; width: 22px; height: 22px; margin: 0 15px 0 126px; vertical-align: middle; background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/newLogin/sprite.png) no-repeat; }
+#login_module .quick-way i.wechart { background-position: 0 0; }
+#login_module .quick-way i.newQQ { background-position: -22px 0; }
+#login_module .quick-way i.sina { background-position: -44px 0; }
+#login_module .quick-way i.weiphone { background-position: -66px 0; }
+#login_module .iphone-way ul li { font-size: 16px; width: 100%; height: 64px; margin-bottom: 10px; }
+#login_module .iphone-way p { padding: 5px 0; }
+#login_module .iphone-way .telNum { line-height: 30px; width: 360px; height: 30px; padding: 15px 10px; border: solid 1px #aaa; border-radius: 3px; }
+#login_module .login-btn { font-size: 24px; line-height: 64px; width: 100%; cursor: pointer; text-align: center; color: #fff; margin-top: 50px; border: none; background-color: #f14848; }
+#login_module .login-btn:hover { opacity: .8; }
+#login_module .dynic-code, #login_module .verify-code { line-height: 30px; display: inline-block; width: 218px; height: 30px; padding: 15px 10px; border: solid 1px #aaa; border-radius: 3px; }
+#login_module .iphone-way .get-dy-code, #login_module .iphone-way .get-img-code { font-size: 14px; line-height: 62px; float: right; width: 136px; height: 62px; cursor: pointer; text-align: center; color: #fff; border-radius: 3px; background-color: #3776dd; }
+#login_module .iphone-way .get-img-code { background: none; }
+#login_module .iphone-way .get-dy-code em { display: inline-block; width: 18px; text-align: center; }
+#login_module .iphone-way .get-dy-code.disabled { pointer-events: none; color: #333; background-color: #e9e9e9; }
+.ds_dialog { font: 12px/1.5 "Microsoft Yahei", Arial; position: absolute; z-index: 1999; top: 44%; left: 44%; color: #999; outline: 0; }
+.ds_dialog, .ds_dialog_border, .ds_dialog_panel .ds_dialog_title, .ds_dialog_title h3 { margin: 0; padding: 0; }
+.ds_dialog_border, .ds_dialog_panel { width: 100%; margin: 0; padding: 0; border-collapse: collapse; }
+.ds_dialog_tl, .ds_dialog_tr, .ds_dialog_bl, .ds_dialog_br { width: 8px; height: 8px; }
+.ds_dialog_inner { position: relative; min-width: 400px; background: #fff; }
+.ds_dialog_header { vertical-align: top; }
+.ds_dialog_title { font-size: 20px; font-weight: 400; line-height: 48px; position: relative; height: 48px; padding-left: 28px; color: #333; background-color: #fff; }
+.ds_dialog_title h3 { font-size: 12px; font-weight: normal; line-height: 34px; height: 29px; padding: 0 30px 0 16px; cursor: default; white-space: nowrap; color: #999; }
+.ds_dialog_active .ds_dialog_title h3 { font-size: 16px; line-height: 49px; height: 49px; color: #333; border-bottom: 1px solid #f0f0f0; }
+.ds_dialog_close { font-size: 0; position: absolute; top: 0; right: 0; display: inline-block; width: 49px; height: 49px; text-indent: -999em; background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/newLogin/sprite/gift-close-btn.png) no-repeat left top; }
+.ds_dialog_close a { font-size: 0; display: block; width: 100%; height: 100%; text-indent: -999em; }
+.ds_dialog_close a:hover { background: url(https://web.archive.org/web/20190714102131im_/http://www.58yiji.com/resources/images/newLogin/sprite/gift-close-btn-hover.png) no-repeat left top; }
+.ds_dialog_icon { padding: 10px 0 10px 10px; vertical-align: middle; }
+.ds_dialog_icon .ds_dialog_icon_bg { display: block; width: 40px; height: 40px; background: none no-repeat 50% 50%; }
+.ds_dialog_main { vertical-align: middle; }
+.ds_dialog_footer { vertical-align: bottom; }
+.ds_dialog .ds_dialog_buttons { font-size: 0; padding: 8px; text-align: right; white-space: nowrap; border-top: 1px solid #f0f0f0; }
+.ds_dialog_buttons button { font-size: 13px; line-height: 26px; display: inline-block; height: 30px; margin: 0 5px 0 10px; padding: 0 15px; cursor: pointer; vertical-align: top; letter-spacing: 1px; color: #333; border: 1px solid #b4b4b4; border-radius: 3px; border-radius: 0\9; background: #d6d6d6; background: -moz-linear-gradient(top, #e8e8e8 0%, #d6d6d6 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e8e8), color-stop(100%, #d6d6d6)); background: -webkit-linear-gradient(top, #e8e8e8 0%, #d6d6d6 100%); background: -o-linear-gradient(top, #e8e8e8 0%, #d6d6d6 100%); background: -ms-linear-gradient(top, #e8e8e8 0%, #d6d6d6 100%); background: linear-gradient(to bottom, #e8e8e8 0%, #d6d6d6 100%); box-shadow: inset 0 1px 0 #fff; text-shadow: 0 1px 0 #fff; *line-height: 24px; *padding: 0 11px; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E8E8E8', endColorstr='#D6D6D6', GradientType=0); }
+.ds_dialog_buttons button::-moz-focus-inner { margin: 0; padding: 0; border: 0; }
+.ds_dialog_buttons button:hover { background: #f3f3f3; background: -moz-linear-gradient(top, #eee 0%, #f3f3f3 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #f3f3f3)); background: -webkit-linear-gradient(top, #eee 0%, #f3f3f3 100%); background: -o-linear-gradient(top, #eee 0%, #f3f3f3 100%); background: -ms-linear-gradient(top, #eee 0%, #f3f3f3 100%); background: linear-gradient(to bottom, #eee 0%, #f3f3f3 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#F3F3F3', GradientType=0); }
+.ds_dialog_buttons button:focus { border-color: #426dc9; box-shadow: 0 0 5px #ffba08; }
+.ds_dialog_buttons button:active { border-color: #b4b4b4; background: -moz-linear-gradient(top, #ddd 0%, #fff 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ddd), color-stop(100%, #fff)); background: -webkit-linear-gradient(top, #ddd 0%, #fff 100%); background: -o-linear-gradient(top, #ddd 0%, #fff 100%); background: -ms-linear-gradient(top, #ddd 0%, #fff 100%); background: linear-gradient(to bottom, #ddd 0%, #fff 100%); box-shadow: inset 0 1px 5px #fff; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DDDDDD', endColorstr='#FFFFFF', GradientType=0); }
+.ds_dialog_buttons .ds_dialog_yes { color: #fff; border-color: #5378c3; background: #6089dc; background: -moz-linear-gradient(top, #6089dc 0%, #496eba 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6089dc), color-stop(100%, #496eba)); background: -webkit-linear-gradient(top, #6089dc 0%, #496eba 100%); background: -o-linear-gradient(top, #6089dc 0%, #496eba 100%); background: -ms-linear-gradient(top, #6089dc 0%, #496eba 100%); background: linear-gradient(to bottom, #6089dc 0%, #496eba 100%); box-shadow: inset 0 1px 0 #90b3fb; text-shadow: 0 -1px 0 #5378c3; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6089dc', endColorstr='#496eba', GradientType=0); }
+.ds_dialog_buttons .ds_dialog_yes:hover { background: #6f9cf5; background: -moz-linear-gradient(top, #6f9cf5 0%, #5880d0 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6f9cf5), color-stop(100%, #5880d0)); background: -webkit-linear-gradient(top, #6f9cf5 0%, #5880d0 100%); background: -o-linear-gradient(top, #6f9cf5 0%, #5880d0 100%); background: -ms-linear-gradient(top, #6f9cf5 0%, #5880d0 100%); background: linear-gradient(to bottom, #6f9cf5 0%, #5880d0 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6f9cf5', endColorstr='#5880d0', GradientType=0); }
+.ds_dialog_buttons .ds_dialog_yes:active { border-color: #1c6a9e; background: -moz-linear-gradient(top, #2288cc 0%, #33bbee 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2288cc), color-stop(100%, #33bbee)); background: -webkit-linear-gradient(top, #2288cc 0%, #33bbee 100%); background: -o-linear-gradient(top, #2288cc 0%, #33bbee 100%); background: -ms-linear-gradient(top, #2288cc 0%, #33bbee 100%); background: linear-gradient(to bottom, #2288cc 0%, #33bbee 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2288CC', endColorstr='#33BBEE', GradientType=0); }
+.ds_dialog_buttons button:disabled, .ds_dialog_buttons .disabled, .ds_dialog_buttons .disabled:hover, .ds_dialog_buttons .disabled:focus, .ds_dialog_buttons .disabled:active { cursor: default; pointer-events: none; color: #aaa; border-color: #c6c6c6; outline: 0; background: #e9e9e9; box-shadow: inset 0 0 1px #fcfcfc; text-shadow: 0 1px 0 #fff; filter: none; }
+.ds_dialog_tips_content { font-size: 15px; text-align: center; border: solid 5px rgba(0, 0, 0, .6); }
+/*
+     FILE ARCHIVED ON 10:21:31 Jul 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:15:35 Feb 18, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.324
+  CDXLines.iter: 27.08 (3)
+  load_resource: 209.825 (2)
+  captures_list: 139.726
+  PetaboxLoader3.datanode: 79.893 (5)
+  RedisCDXSource: 1.646
+  PetaboxLoader3.resolve: 165.059 (3)
+  LoadShardBlock: 107.135 (3)
+  esindex: 0.014
+  exclusion.robots: 0.336
+*/

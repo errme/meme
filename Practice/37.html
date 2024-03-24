@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        var n = 0;
+        for(var i in document){
+            n++;
+            console.log(i);
+        }
+        console.log(n)
+
+        console.log(document.getElementsByTagName)
+    </script> -->
+</head>
+<body>
+    <div id="nian"></div>
+    <div class="ehco"></div>
+    <div class="ehco"></div>
+    <div class="ehco"></div>
+    <div class="ehco"></div>
+    <script>
+        console.log(document.getElementsByTagName("body")) //通过标签名获取元素节点 nodelist(不可操作 可枚举 可继续查找)
+        console.log(document.getElementById("nian")) //ID node(可以具体操作HTML节点)
+        console.log(document.getElementsByClassName("ehco")) //class nodelist
+        console.log(document.querySelectorAll(".ehco")) //通过选择器获取元素 写全选择器  nodelist
+    </script>
+</body>
+</html>
